@@ -1,0 +1,414 @@
+{
+ "module": "anglais",
+ "title": "Anglais professionnel",
+ "items": [
+  {
+   "id": "E01",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "The audit team ___ the inventory count last Friday.",
+   "answer": "attended",
+   "distractors": [
+    "has attended",
+    "attends",
+    "was attending to"
+   ],
+   "explain": "Événement daté et terminé (« last Friday ») : prétérit simple. Le present perfect est incompatible avec une date passée précise.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E02",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "We ___ the client for the bank confirmation three times since Monday.",
+   "answer": "have chased",
+   "distractors": [
+    "chased",
+    "are chasing",
+    "had chased"
+   ],
+   "explain": "« Since Monday » : action commencée dans le passé et liée au présent → present perfect.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E03",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "If the client ___ the documents tomorrow, we will finish on time.",
+   "answer": "sends",
+   "distractors": [
+    "will send",
+    "sent",
+    "would send"
+   ],
+   "explain": "Conditionnel de type 1 : « if » + présent simple, puis « will » dans la principale.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E04",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "The financial statements ___ by the board next week.",
+   "answer": "will be approved",
+   "distractors": [
+    "will approve",
+    "are approving",
+    "have been approved"
+   ],
+   "explain": "Voix passive au futur : les comptes sont approuvés PAR le conseil.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E05",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "Neither the CFO nor the controllers ___ aware of the issue.",
+   "answer": "were",
+   "distractors": [
+    "was",
+    "is",
+    "has been"
+   ],
+   "explain": "Avec « neither… nor », le verbe s'accorde avec le sujet le plus proche (« the controllers », pluriel).",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E06",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "I look forward to ___ from you.",
+   "answer": "hearing",
+   "distractors": [
+    "hear",
+    "heard",
+    "be hearing"
+   ],
+   "explain": "« Look forward to » est suivi d'un verbe en -ing : « to » est ici une préposition.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E07",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "Which word means « créances clients » in a balance sheet?",
+   "answer": "Trade receivables",
+   "distractors": [
+    "Trade payables",
+    "Accrued expenses",
+    "Retained earnings"
+   ],
+   "explain": "Trade receivables = créances clients ; trade payables = dettes fournisseurs ; accrued expenses = charges à payer ; retained earnings = réserves / résultats non distribués.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E08",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Commissaire aux comptes » is best translated as:",
+   "answer": "Statutory auditor",
+   "distractors": [
+    "Chartered accountant",
+    "Comptroller",
+    "Internal auditor"
+   ],
+   "explain": "Le commissaire aux comptes est le « statutory auditor » (audit légal). « Chartered accountant » désigne l'expert-comptable britannique.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E09",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "An « anomalie significative » is called a:",
+   "answer": "Material misstatement",
+   "distractors": [
+    "Significant anomaly",
+    "Major mistake",
+    "Relevant error"
+   ],
+   "explain": "Le terme normalisé (ISA) est « material misstatement ».",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E10",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Provision pour risques » in IFRS English is:",
+   "answer": "Provision",
+   "distractors": [
+    "Allowance",
+    "Reserve",
+    "Depreciation"
+   ],
+   "explain": "En IFRS, « provision » désigne un passif (IAS 37). « Allowance » s'emploie pour une dépréciation d'actif (créances), « reserve » pour des réserves en capitaux propres.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E11",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Charges constatées d'avance » are called:",
+   "answer": "Prepaid expenses",
+   "distractors": [
+    "Accrued expenses",
+    "Deferred income",
+    "Payables"
+   ],
+   "explain": "Prepaid expenses = charges constatées d'avance (actif) ; accrued expenses = charges à payer ; deferred income = produits constatés d'avance.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E12",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Seuil de signification » in audit English is:",
+   "answer": "Materiality",
+   "distractors": [
+    "Threshold of meaning",
+    "Significance level",
+    "Tolerance"
+   ],
+   "explain": "« Materiality » (ISA 320). « Performance materiality » correspond au seuil de planification.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E13",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "The word « deadline » means:",
+   "answer": "The latest time by which something must be done",
+   "distractors": [
+    "A line in a spreadsheet that has been deleted",
+    "A meeting that has been cancelled",
+    "The end of a financial year"
+   ],
+   "explain": "Deadline = date ou heure limite.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E14",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "To « follow up » with a client means to:",
+   "answer": "Contact them again about a pending request",
+   "distractors": [
+    "End the relationship",
+    "Audit them a second time",
+    "Send them an invoice"
+   ],
+   "explain": "« Follow up » = relancer, faire le suivi d'une demande en attente.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E15",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "A « going concern » uncertainty relates to:",
+   "answer": "The entity's ability to continue operating in the foreseeable future",
+   "distractors": [
+    "A pending lawsuit against the auditor",
+    "The entity's tax position",
+    "The rotation of the audit partner"
+   ],
+   "explain": "Going concern = continuité d'exploitation.",
+   "difficulty": 3,
+   "time": 30
+  },
+  {
+   "id": "E16",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "comprehension",
+   "q": "« Please find attached the revised schedule. » What does the sender mean?",
+   "answer": "The updated schedule is enclosed with the email",
+   "distractors": [
+    "The schedule will be sent later",
+    "The schedule has been cancelled",
+    "The schedule needs to be revised by you"
+   ],
+   "explain": "« Please find attached » introduit une pièce jointe ; « revised » = mis à jour, révisé.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E17",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "comprehension",
+   "q": "« We are unable to sign off until the outstanding items are cleared. » This means:",
+   "answer": "The report cannot be finalised before the open points are resolved",
+   "distractors": [
+    "The report has been signed",
+    "The outstanding items are not important",
+    "The client must sign the report"
+   ],
+   "explain": "Sign off = valider, signer ; outstanding items = points en suspens.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E18",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "comprehension",
+   "q": "« The variance is immaterial, so no adjustment is proposed. » What does the auditor conclude?",
+   "answer": "The difference is too small to require a correction",
+   "distractors": [
+    "The difference must be corrected",
+    "The difference cannot be explained",
+    "The figures are missing"
+   ],
+   "explain": "Immaterial = non significatif ; no adjustment proposed = aucune correction demandée.",
+   "difficulty": 3,
+   "time": 30
+  },
+  {
+   "id": "E19",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "The manager asked me ___ the file before the meeting.",
+   "answer": "to review",
+   "distractors": [
+    "reviewing",
+    "review",
+    "that I review it"
+   ],
+   "explain": "« Ask someone to do something » : infinitif avec « to ».",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E20",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "By the time the partner arrived, we ___ all the tests.",
+   "answer": "had completed",
+   "distractors": [
+    "completed",
+    "have completed",
+    "were completing"
+   ],
+   "explain": "Action achevée avant un autre moment du passé : past perfect.",
+   "difficulty": 3,
+   "time": 30
+  },
+  {
+   "id": "E21",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Rapprochement bancaire » is called a:",
+   "answer": "Bank reconciliation",
+   "distractors": [
+    "Bank statement",
+    "Bank confirmation",
+    "Bank transfer"
+   ],
+   "explain": "Bank reconciliation = rapprochement ; bank statement = relevé ; bank confirmation = confirmation (circularisation) bancaire.",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "E22",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "vocabulaire",
+   "q": "« Amortissement » of a machine (IFRS) is called:",
+   "answer": "Depreciation",
+   "distractors": [
+    "Amortisation of a loan",
+    "Impairment",
+    "Write-off"
+   ],
+   "explain": "Pour les immobilisations corporelles : depreciation ; « amortisation » s'emploie pour les incorporelles. Impairment = dépréciation exceptionnelle (perte de valeur).",
+   "difficulty": 3,
+   "time": 30
+  },
+  {
+   "id": "E23",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "comprehension",
+   "q": "« Could you get back to me by EOD? » means:",
+   "answer": "Please reply before the end of the day",
+   "distractors": [
+    "Please call me tomorrow morning",
+    "Please send the document by post",
+    "Please end the discussion"
+   ],
+   "explain": "EOD = end of day, avant la fin de la journée.",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "E24",
+   "module": "anglais",
+   "lang": "en",
+   "type": "qcm",
+   "theme": "grammaire",
+   "q": "The number of errors ___ decreased since last year.",
+   "answer": "has",
+   "distractors": [
+    "have",
+    "are",
+    "were"
+   ],
+   "explain": "« The number of » + verbe au singulier ; « since » appelle le present perfect.",
+   "difficulty": 2,
+   "time": 30
+  }
+ ]
+}

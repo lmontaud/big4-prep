@@ -1,0 +1,906 @@
+{
+ "module": "technique",
+ "title": "Comptabilité générale (PCG)",
+ "items": [
+  {
+   "id": "T001",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Quel principe impose de constater les pertes probables mais interdit d'enregistrer les gains seulement latents ?",
+   "answer": "Le principe de prudence",
+   "distractors": [
+    "Le principe de permanence des méthodes",
+    "Le principe d'indépendance des exercices",
+    "Le principe de non-compensation"
+   ],
+   "explain": "La prudence conduit à une appréciation raisonnable des faits pour éviter de transférer sur l'avenir des incertitudes présentes : les pertes probables sont provisionnées, les gains latents ne sont pas comptabilisés (seuls les bénéfices réalisés peuvent être inscrits).",
+   "ref": "Code de commerce, art. L.123-20 et L.123-21",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T002",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Une société détient une créance de 10 000 € sur un client qui est aussi son fournisseur (dette de 4 000 €). Aucun accord de compensation n'existe. Comment présenter ces montants au bilan ?",
+   "answer": "Créance de 10 000 € à l'actif et dette de 4 000 € au passif",
+   "distractors": [
+    "Créance nette de 6 000 € à l'actif",
+    "Dette nette de 6 000 € au passif",
+    "Aucun montant : les deux s'annulent partiellement"
+   ],
+   "explain": "Le principe de non-compensation interdit de compenser des postes d'actif et de passif (ou de charges et de produits). Chaque élément est évalué et présenté séparément.",
+   "ref": "Code de commerce, art. L.123-19",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T003",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Que signifie le principe de permanence des méthodes ?",
+   "answer": "Les méthodes d'évaluation et de présentation ne changent pas d'un exercice à l'autre, sauf changement justifié",
+   "distractors": [
+    "Les immobilisations sont conservées à leur coût historique",
+    "Les comptes sont établis en supposant la poursuite de l'activité",
+    "Chaque exercice supporte les charges et produits qui le concernent"
+   ],
+   "explain": "La permanence des méthodes assure la comparabilité des comptes dans le temps. Un changement n'est possible que s'il est justifié (changement exceptionnel ou meilleure information) et doit être expliqué en annexe.",
+   "ref": "Code de commerce, art. L.123-17",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T004",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Pendant combien de temps les documents comptables et les pièces justificatives doivent-ils être conservés selon le Code de commerce ?",
+   "answer": "10 ans",
+   "distractors": [
+    "3 ans",
+    "6 ans",
+    "5 ans"
+   ],
+   "explain": "Le Code de commerce impose de conserver les documents comptables et les pièces justificatives pendant dix ans. Ne pas confondre avec le délai de reprise fiscal, en principe plus court.",
+   "ref": "Code de commerce, art. L.123-22",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T005",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Les comptes annuels doivent être réguliers, sincères et donner une image fidèle. De quoi ?",
+   "answer": "Du patrimoine, de la situation financière et du résultat de l'entreprise",
+   "distractors": [
+    "Du chiffre d'affaires et de la trésorerie",
+    "De la valeur de marché de l'entreprise",
+    "Des prévisions de l'exercice suivant"
+   ],
+   "explain": "L'objectif d'image fidèle porte sur le patrimoine, la situation financière et le résultat. C'est aussi ce que le commissaire aux comptes certifie.",
+   "ref": "Code de commerce, art. L.123-14",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T006",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Quel principe suppose que l'entreprise poursuivra son activité dans un avenir prévisible ?",
+   "answer": "La continuité d'exploitation",
+   "distractors": [
+    "La prudence",
+    "L'importance relative",
+    "Le coût historique"
+   ],
+   "explain": "Les comptes sont établis dans une hypothèse de continuité d'exploitation. Si elle est compromise, les méthodes d'évaluation (valeurs liquidatives) et l'information en annexe changent, et l'auditeur doit l'apprécier.",
+   "ref": "Code de commerce, art. L.123-20 ; NEP 570 / ISA 570",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T007",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "À leur date d'entrée dans le patrimoine, les biens acquis à titre onéreux sont enregistrés :",
+   "answer": "À leur coût d'acquisition",
+   "distractors": [
+    "À leur valeur de marché à la clôture",
+    "À leur valeur d'usage",
+    "À leur valeur de remplacement"
+   ],
+   "explain": "C'est le principe du coût historique : l'entrée se fait au coût d'acquisition (biens acquis à titre onéreux), au coût de production (biens produits) ou à la valeur vénale (biens reçus à titre gratuit).",
+   "ref": "Code de commerce, art. L.123-18",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T008",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Achat de marchandises à crédit : 1 000 € HT, TVA 20 %. Quelle écriture ?",
+   "answer": "Débit 607 : 1 000 ; débit 44566 : 200 ; crédit 401 : 1 200",
+   "distractors": [
+    "Débit 401 : 1 200 ; crédit 607 : 1 000 ; crédit 44566 : 200",
+    "Débit 607 : 1 200 ; crédit 401 : 1 200",
+    "Débit 607 : 1 000 ; débit 44571 : 200 ; crédit 401 : 1 200"
+   ],
+   "explain": "L'achat est une charge (607) au HT, la TVA payée au fournisseur est déductible (44566), et la dette fournisseur (401) est enregistrée TTC. Le compte 44571 est la TVA collectée sur les ventes.",
+   "ref": "PCG, liste des comptes (classes 4 et 6)",
+   "difficulty": 1,
+   "time": 45
+  },
+  {
+   "id": "T009",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Facturation d'une prestation de services à crédit : 5 000 € HT, TVA 20 %. Quelle écriture ?",
+   "answer": "Débit 411 : 6 000 ; crédit 706 : 5 000 ; crédit 44571 : 1 000",
+   "distractors": [
+    "Débit 706 : 5 000 ; débit 44571 : 1 000 ; crédit 411 : 6 000",
+    "Débit 411 : 5 000 ; crédit 706 : 5 000",
+    "Débit 512 : 6 000 ; crédit 706 : 6 000"
+   ],
+   "explain": "Le client (411) est débité du TTC ; le produit (706, prestations de services) est crédité du HT ; la TVA collectée (44571) est une dette envers l'État.",
+   "ref": "PCG, liste des comptes (classes 4 et 7)",
+   "difficulty": 1,
+   "time": 45
+  },
+  {
+   "id": "T010",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Un client règle sa facture par virement. Quelle écriture ?",
+   "answer": "Débit 512 ; crédit 411",
+   "distractors": [
+    "Débit 411 ; crédit 512",
+    "Débit 512 ; crédit 706",
+    "Débit 401 ; crédit 512"
+   ],
+   "explain": "La banque augmente (débit 512) et la créance client s'éteint (crédit 411). Le produit a déjà été comptabilisé lors de la facturation.",
+   "ref": "PCG, liste des comptes (classes 4 et 5)",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T011",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "regularisations",
+   "q": "À la clôture, une facture d'honoraires de décembre (2 400 € HT, TVA 20 %) n'est pas encore reçue. Quelle écriture ?",
+   "answer": "Débit 6226 : 2 400 ; débit 44586 : 480 ; crédit 408 : 2 880",
+   "distractors": [
+    "Débit 408 : 2 880 ; crédit 6226 : 2 400 ; crédit 44586 : 480",
+    "Débit 6226 : 2 400 ; crédit 401 : 2 400",
+    "Débit 486 : 2 400 ; crédit 6226 : 2 400"
+   ],
+   "explain": "La charge appartient à l'exercice : on la rattache via une facture non parvenue (408, fournisseurs – factures non parvenues). La TVA correspondante transite par le 44586 (TVA sur factures non parvenues) en attendant la facture.",
+   "ref": "PCG, comptes 408 et 4458 ; principe de séparation des exercices",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T012",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "regularisations",
+   "q": "À la clôture, une prestation réalisée en décembre n'a pas encore été facturée au client. Quel compte de tiers utilise-t-on ?",
+   "answer": "418 – Clients, produits non encore facturés",
+   "distractors": [
+    "408 – Fournisseurs, factures non parvenues",
+    "487 – Produits constatés d'avance",
+    "416 – Clients douteux"
+   ],
+   "explain": "Le produit est acquis sur l'exercice : on débite le 418 (factures à établir) par le crédit du compte de produit et de la TVA sur factures à établir (44587).",
+   "ref": "PCG, compte 418",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T013",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "regularisations",
+   "q": "Une prime d'assurance annuelle de 12 000 € couvrant la période du 1er octobre N au 30 septembre N+1 a été payée et comptabilisée en charge. Exercice clos au 31/12/N. Quel montant de charge constatée d'avance ?",
+   "answer": "9 000 €",
+   "distractors": [
+    "3 000 €",
+    "12 000 €",
+    "6 000 €"
+   ],
+   "explain": "Seuls 3 mois (octobre à décembre) concernent N, soit 3 000 €. Les 9 mois de N+1 (9 000 €) sont sortis des charges : débit 486, crédit 616.",
+   "ref": "PCG, compte 486 ; principe de séparation des exercices",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T014",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "regularisations",
+   "q": "Un abonnement de 6 mois (1er décembre N au 31 mai N+1) a été facturé et comptabilisé en produit pour 3 600 € HT. Clôture au 31/12/N. Quel produit constaté d'avance ?",
+   "answer": "3 000 €",
+   "distractors": [
+    "600 €",
+    "3 600 €",
+    "1 800 €"
+   ],
+   "explain": "Le produit est de 600 € par mois. Seul décembre concerne N (600 €) ; les 5 mois de N+1 (3 000 €) sont reportés : débit 706, crédit 487.",
+   "ref": "PCG, compte 487 ; principe de séparation des exercices",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T015",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "regularisations",
+   "q": "Quel compte enregistre la dette relative aux congés payés acquis mais non pris à la clôture ?",
+   "answer": "4282 – Dettes provisionnées pour congés à payer",
+   "distractors": [
+    "421 – Personnel, rémunérations dues",
+    "151 – Provisions pour risques",
+    "4286 – Autres charges à payer"
+   ],
+   "explain": "Les congés acquis et non pris constituent une dette certaine dans son principe et estimée de façon fiable : on la constate au 4282 (avec les charges sociales correspondantes au 4382). Ce n'est pas une provision pour risque.",
+   "ref": "PCG, compte 4282",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T016",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "regularisations",
+   "q": "Comment comptabiliser à la clôture les intérêts d'emprunt courus mais non encore échus ?",
+   "answer": "Débit 661 ; crédit 1688",
+   "distractors": [
+    "Débit 1688 ; crédit 661",
+    "Débit 661 ; crédit 164",
+    "Débit 486 ; crédit 661"
+   ],
+   "explain": "Les intérêts courus sont une charge de l'exercice (661) et une dette rattachée à l'emprunt (1688, intérêts courus). Le compte 164 enregistre le seul capital emprunté.",
+   "ref": "PCG, comptes 1688 et 661",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T017",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "rapprochement",
+   "q": "Rapprochement bancaire au 31/12. Compte 512 : solde débiteur de 12 500 €. Relevé : 15 280 € en faveur de l'entreprise. Un chèque émis de 2 100 € n'est pas encore débité ; un virement client de 800 € et des frais bancaires de 120 € figurent sur le relevé mais pas en comptabilité. Quel est le solde rapproché ?",
+   "answer": "13 180 €",
+   "distractors": [
+    "15 280 €",
+    "12 500 €",
+    "13 420 €"
+   ],
+   "explain": "Côté banque : 15 280 − 2 100 (chèque non débité) = 13 180. Côté entreprise : 12 500 + 800 (virement reçu) − 120 (frais) = 13 180. Les deux soldes rectifiés concordent.",
+   "ref": "Procédure de rapprochement bancaire",
+   "difficulty": 2,
+   "time": 75
+  },
+  {
+   "id": "T018",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "rapprochement",
+   "q": "Dans un rapprochement bancaire, quelles opérations donnent lieu à une écriture dans la comptabilité de l'entreprise ?",
+   "answer": "Celles qui figurent sur le relevé mais pas encore en comptabilité (frais, virements reçus…)",
+   "distractors": [
+    "Les chèques émis non encore débités par la banque",
+    "Toutes les différences, quel que soit leur côté",
+    "Aucune : le rapprochement est un simple contrôle"
+   ],
+   "explain": "Les opérations connues de la banque mais pas de l'entreprise (frais, agios, virements reçus, prélèvements) sont à comptabiliser. Les décalages côté banque (chèques non encore débités, remises non créditées) se résorbent seuls.",
+   "ref": "Procédure de rapprochement bancaire",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T019",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "tva",
+   "q": "Sur le mois, la TVA collectée s'élève à 18 000 € et la TVA déductible à 11 500 €. Quel est le montant de TVA à décaisser ?",
+   "answer": "6 500 €",
+   "distractors": [
+    "29 500 €",
+    "11 500 €",
+    "18 000 €"
+   ],
+   "explain": "TVA due = TVA collectée − TVA déductible = 18 000 − 11 500 = 6 500 € (compte 44551, TVA à décaisser).",
+   "ref": "CGI, art. 271 (droit à déduction) ; PCG, compte 44551",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T020",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "tva",
+   "q": "La TVA déductible du mois (6 500 €) dépasse la TVA collectée (4 000 €). Où enregistre-t-on la différence ?",
+   "answer": "44567 – Crédit de TVA à reporter",
+   "distractors": [
+    "44551 – TVA à décaisser",
+    "44571 – TVA collectée",
+    "4456 – TVA déductible"
+   ],
+   "explain": "Un excédent de TVA déductible constitue un crédit de TVA (2 500 €), imputable sur les déclarations suivantes ou remboursable sous conditions.",
+   "ref": "PCG, compte 44567",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T021",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "capitaux",
+   "q": "Bénéfice de l'exercice : 80 000 € (pas de pertes antérieures). Capital : 200 000 €. Réserve légale déjà constituée : 15 000 €. Quelle dotation minimale à la réserve légale ?",
+   "answer": "4 000 €",
+   "distractors": [
+    "5 000 €",
+    "8 000 €",
+    "0 €"
+   ],
+   "explain": "Il faut prélever au moins 5 % du bénéfice (4 000 €) jusqu'à ce que la réserve atteigne 10 % du capital (20 000 €). Il reste 5 000 € avant le plafond : la dotation minimale est donc de 4 000 €.",
+   "ref": "Code de commerce, art. L.232-10",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T022",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "bilan",
+   "q": "Dans quelle rubrique du bilan figure le résultat de l'exercice ?",
+   "answer": "Les capitaux propres",
+   "distractors": [
+    "Les dettes",
+    "Les provisions",
+    "L'actif circulant"
+   ],
+   "explain": "Le résultat (bénéfice ou perte) appartient aux associés tant qu'il n'est pas affecté : il figure dans les capitaux propres, au passif.",
+   "ref": "PCG, modèle de bilan",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T023",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "stocks",
+   "q": "Achats de marchandises : 300 000 €. Stock initial : 40 000 €. Stock final : 52 000 €. Quel est le coût d'achat des marchandises vendues ?",
+   "answer": "288 000 €",
+   "distractors": [
+    "312 000 €",
+    "300 000 €",
+    "352 000 €"
+   ],
+   "explain": "Coût d'achat des marchandises vendues = achats + stock initial − stock final = 300 000 + 40 000 − 52 000 = 288 000 €. La variation de stock (6037) vaut ici −12 000 € (stockage).",
+   "ref": "PCG, compte 6037 (variation des stocks de marchandises)",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T024",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "stocks",
+   "q": "Ventes de marchandises : 420 000 €. Achats : 300 000 €. Stock initial : 40 000 €. Stock final : 52 000 €. Quelle est la marge commerciale ?",
+   "answer": "132 000 €",
+   "distractors": [
+    "120 000 €",
+    "108 000 €",
+    "80 000 €"
+   ],
+   "explain": "Coût d'achat des marchandises vendues = 300 000 + 40 000 − 52 000 = 288 000 €. Marge commerciale = 420 000 − 288 000 = 132 000 €. Oublier la variation de stock donne 120 000 €.",
+   "ref": "PCG, soldes intermédiaires de gestion",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T025",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "bilan",
+   "q": "Lequel de ces éléments ne fait PAS partie des capitaux propres ?",
+   "answer": "Les provisions pour risques",
+   "distractors": [
+    "Le capital social",
+    "Les réserves",
+    "Le report à nouveau"
+   ],
+   "explain": "Les provisions pour risques et charges forment une rubrique distincte, entre les capitaux propres et les dettes. Capital, réserves, report à nouveau et résultat composent les capitaux propres.",
+   "ref": "PCG, modèle de bilan",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T026",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "creances",
+   "q": "Un client en redressement judiciaire doit 12 000 € TTC (TVA 20 %). La perte probable est estimée à 60 %. Quel montant de dépréciation ?",
+   "answer": "6 000 €",
+   "distractors": [
+    "7 200 €",
+    "12 000 €",
+    "4 800 €"
+   ],
+   "explain": "La dépréciation se calcule sur le HT (10 000 €), car la TVA collectée pourra être récupérée si la créance devient définitivement irrécouvrable : 10 000 × 60 % = 6 000 €.",
+   "ref": "PCG (dépréciation des créances) ; pratique comptable et fiscale constante",
+   "difficulty": 2,
+   "time": 70
+  },
+  {
+   "id": "T027",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "creances",
+   "q": "Quelle écriture constate la dépréciation d'une créance client douteuse à la clôture ?",
+   "answer": "Débit 6817 ; crédit 491",
+   "distractors": [
+    "Débit 491 ; crédit 6817",
+    "Débit 6817 ; crédit 411",
+    "Débit 416 ; crédit 491"
+   ],
+   "explain": "La dotation aux dépréciations des actifs circulants (6817) est une charge ; la dépréciation est inscrite en diminution de l'actif au 491 (dépréciations des comptes clients). La créance elle-même reste au 416.",
+   "ref": "PCG, comptes 491 et 6817",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T028",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "creances",
+   "q": "Un client devient douteux. Quelle écriture de reclassement passe-t-on (montant TTC) ?",
+   "answer": "Débit 416 ; crédit 411",
+   "distractors": [
+    "Débit 411 ; crédit 416",
+    "Débit 491 ; crédit 411",
+    "Débit 654 ; crédit 411"
+   ],
+   "explain": "On isole la créance douteuse au 416 (clients douteux ou litigieux) sans changer son montant TTC. La dépréciation éventuelle fait l'objet d'une écriture distincte.",
+   "ref": "PCG, compte 416",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T029",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "plan-comptes",
+   "q": "Que regroupent les comptes de la classe 2 du plan comptable ?",
+   "answer": "Les immobilisations",
+   "distractors": [
+    "Les stocks",
+    "Les comptes de tiers",
+    "Les charges"
+   ],
+   "explain": "Classe 1 : capitaux ; 2 : immobilisations ; 3 : stocks ; 4 : tiers ; 5 : financiers ; 6 : charges ; 7 : produits.",
+   "ref": "PCG, cadre comptable",
+   "difficulty": 1,
+   "time": 25
+  },
+  {
+   "id": "T030",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "plan-comptes",
+   "q": "À quoi correspond le compte 4091 ?",
+   "answer": "Fournisseurs – avances et acomptes versés sur commandes",
+   "distractors": [
+    "Clients – avances et acomptes reçus sur commandes",
+    "Fournisseurs d'immobilisations",
+    "Fournisseurs – factures non parvenues"
+   ],
+   "explain": "Un acompte versé à un fournisseur est une créance de l'entreprise : il est enregistré au débit du 4091 jusqu'à la réception de la facture. L'acompte reçu d'un client va au 4191.",
+   "ref": "PCG, compte 4091",
+   "difficulty": 1,
+   "time": 25
+  },
+  {
+   "id": "T031",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "plan-comptes",
+   "q": "Un client verse un acompte avant la livraison. Quel compte est crédité ?",
+   "answer": "4191 – Clients, avances et acomptes reçus sur commandes",
+   "distractors": [
+    "411 – Clients",
+    "706 – Prestations de services",
+    "4091 – Fournisseurs, avances versées"
+   ],
+   "explain": "Tant que la vente n'est pas réalisée, l'acompte reçu est une dette envers le client (4191), pas un produit.",
+   "ref": "PCG, compte 4191",
+   "difficulty": 1,
+   "time": 25
+  },
+  {
+   "id": "T032",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "paie",
+   "q": "Dans l'écriture de paie, quel compte est crédité du salaire net à payer ?",
+   "answer": "421 – Personnel, rémunérations dues",
+   "distractors": [
+    "641 – Rémunérations du personnel",
+    "431 – Sécurité sociale",
+    "645 – Charges de sécurité sociale"
+   ],
+   "explain": "Le salaire brut est débité au 641 ; le net à payer est crédité au 421 et les cotisations salariales aux comptes d'organismes sociaux (431, 437…). Les cotisations patronales passent par le 645.",
+   "ref": "PCG, comptes 421 et 641",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T033",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "paie",
+   "q": "Les cotisations patronales de sécurité sociale sont enregistrées en charge au compte :",
+   "answer": "645 – Charges de sécurité sociale et de prévoyance",
+   "distractors": [
+    "641 – Rémunérations du personnel",
+    "421 – Personnel, rémunérations dues",
+    "431 – Sécurité sociale"
+   ],
+   "explain": "La part patronale est une charge (645) dont la contrepartie est la dette envers les organismes sociaux (431, 437…).",
+   "ref": "PCG, compte 645",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T034",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "immobilisations",
+   "q": "Une machine est achetée 50 000 € HT. Transport : 2 000 €. Installation : 3 000 €. Formation du personnel : 1 500 €. Quel est son coût d'entrée ?",
+   "answer": "55 000 €",
+   "distractors": [
+    "56 500 €",
+    "50 000 €",
+    "53 000 €"
+   ],
+   "explain": "Le coût d'acquisition comprend le prix d'achat et les coûts directement attribuables à la mise en état de fonctionnement (transport, installation). Les frais de formation du personnel en sont exclus et vont en charges.",
+   "ref": "PCG (coût d'acquisition des immobilisations corporelles) ; IAS 16, § 16-19",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T035",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "immobilisations",
+   "q": "Une dépense d'entretien courant d'une machine (vidange, petites pièces) doit être :",
+   "answer": "Comptabilisée en charges",
+   "distractors": [
+    "Immobilisée et amortie",
+    "Inscrite en charges constatées d'avance",
+    "Provisionnée"
+   ],
+   "explain": "L'entretien courant maintient l'actif en état sans augmenter ses avantages économiques : c'est une charge (615, entretien et réparations). Seul le remplacement d'un composant identifié est immobilisé.",
+   "ref": "PCG (dépenses ultérieures, approche par composants)",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T036",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "immobilisations",
+   "q": "Un logiciel acquis auprès d'un éditeur et utilisé durablement est enregistré :",
+   "answer": "En immobilisation incorporelle (compte 205)",
+   "distractors": [
+    "En immobilisation corporelle (compte 218)",
+    "En charges externes",
+    "En stock"
+   ],
+   "explain": "Les concessions, brevets, licences et logiciels acquis sont des immobilisations incorporelles (205).",
+   "ref": "PCG, compte 205",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T037",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "immobilisations",
+   "q": "En PCG, les frais de recherche (hors développement) sont :",
+   "answer": "Toujours comptabilisés en charges",
+   "distractors": [
+    "Immobilisés obligatoirement",
+    "Immobilisés au choix de l'entreprise",
+    "Inscrits en charges constatées d'avance"
+   ],
+   "explain": "Les dépenses de recherche sont des charges. Seuls les frais de développement peuvent être immobilisés en PCG (option) lorsque les conditions sont remplies ; en IFRS (IAS 38), leur activation est obligatoire si les critères sont satisfaits.",
+   "ref": "PCG (frais de développement : activation optionnelle) ; IAS 38, § 54-57",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T038",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "bilan",
+   "q": "Total de l'actif : 900 k€. Dettes : 520 k€. Provisions pour risques et charges : 60 k€. Quel est le montant des capitaux propres ?",
+   "answer": "320 k€",
+   "distractors": [
+    "380 k€",
+    "440 k€",
+    "260 k€"
+   ],
+   "explain": "Actif = capitaux propres + provisions + dettes. Capitaux propres = 900 − 520 − 60 = 320 k€.",
+   "ref": "PCG, modèle de bilan",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T039",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "outils",
+   "q": "Que permet le lettrage d'un compte de tiers ?",
+   "answer": "Rapprocher chaque facture des règlements qui la soldent",
+   "distractors": [
+    "Classer les écritures par ordre chronologique",
+    "Calculer la TVA due",
+    "Répartir les charges par service"
+   ],
+   "explain": "Le lettrage associe factures et règlements par une même lettre : les montants non lettrés font apparaître ce qui reste dû, base de la balance âgée et du suivi des relances.",
+   "ref": "Pratique comptable",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T040",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "outils",
+   "q": "À quoi sert principalement une balance âgée clients en audit ?",
+   "answer": "Identifier les créances anciennes susceptibles d'être dépréciées",
+   "distractors": [
+    "Vérifier l'exhaustivité du chiffre d'affaires",
+    "Contrôler les taux de TVA",
+    "Calculer le délai fournisseurs"
+   ],
+   "explain": "La balance âgée ventile les créances par ancienneté. Les retards importants signalent un risque de non-recouvrement : on les rapproche des dépréciations (assertion d'évaluation).",
+   "ref": "Pratique d'audit (assertion d'évaluation)",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T041",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "outils",
+   "q": "Quel document regroupe toutes les écritures compte par compte ?",
+   "answer": "Le grand livre",
+   "distractors": [
+    "Le journal",
+    "La balance",
+    "La liasse fiscale"
+   ],
+   "explain": "Le journal enregistre les écritures dans l'ordre chronologique ; le grand livre les reprend par compte ; la balance récapitule les totaux et soldes de chaque compte.",
+   "ref": "Code de commerce, art. L.123-12 ; PCG (livres comptables)",
+   "difficulty": 1,
+   "time": 25
+  },
+  {
+   "id": "T042",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Un rabais obtenu d'un fournisseur sur une facture d'achat de marchandises déjà comptabilisée, accordé par un avoir séparé, est enregistré :",
+   "answer": "Au crédit du compte 609 (rabais, remises et ristournes obtenus sur achats)",
+   "distractors": [
+    "Au crédit du compte 607",
+    "Au débit du compte 609",
+    "Au crédit du compte 709"
+   ],
+   "explain": "Les réductions obtenues hors facture d'origine vont au crédit du 609, qui vient en diminution des achats. Le 709 concerne les réductions accordées aux clients.",
+   "ref": "PCG, compte 609",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T043",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Paiement d'un fournisseur par virement : quelle écriture ?",
+   "answer": "Débit 401 ; crédit 512",
+   "distractors": [
+    "Débit 512 ; crédit 401",
+    "Débit 607 ; crédit 512",
+    "Débit 401 ; crédit 607"
+   ],
+   "explain": "La dette fournisseur s'éteint (débit 401) et la trésorerie diminue (crédit 512).",
+   "ref": "PCG, comptes 401 et 512",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T044",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "principes",
+   "q": "Une méthode comptable est changée en cours de vie de l'entreprise. Que faut-il faire ?",
+   "answer": "Justifier le changement et en donner l'incidence dans l'annexe",
+   "distractors": [
+    "Rien : l'entreprise est libre de ses méthodes",
+    "Le soumettre à l'administration fiscale pour accord préalable",
+    "Retraiter les comptes des dix derniers exercices"
+   ],
+   "explain": "Un changement de méthode déroge à la permanence des méthodes : il doit être justifié (meilleure information, changement de réglementation) et son incidence doit être expliquée en annexe.",
+   "ref": "Code de commerce, art. L.123-17 ; PCG (changements de méthodes) ; IAS 8",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T045",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "tva",
+   "q": "Pour une prestation de services, la TVA devient en principe exigible :",
+   "answer": "Lors de l'encaissement du prix",
+   "distractors": [
+    "Lors de l'émission de la facture",
+    "Lors de la signature du contrat",
+    "À la fin du trimestre civil"
+   ],
+   "explain": "Pour les prestations de services, l'exigibilité intervient en principe à l'encaissement (sauf option pour les débits). Pour les livraisons de biens, elle intervient à la livraison.",
+   "ref": "CGI, art. 269",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T046",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "tva",
+   "q": "Un prix est affiché 1 440 € TTC avec une TVA à 20 %. Quel est le montant de TVA ?",
+   "answer": "240 €",
+   "distractors": [
+    "288 €",
+    "200 €",
+    "1 200 €"
+   ],
+   "explain": "HT = 1 440 ÷ 1,2 = 1 200 € ; TVA = 1 440 − 1 200 = 240 €. Appliquer 20 % au TTC (288 €) est l'erreur classique.",
+   "ref": "CGI, art. 278 (taux normal de 20 %)",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T047",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "regularisations",
+   "q": "Un loyer trimestriel de 9 000 € couvrant décembre N, janvier et février N+1 a été payé et comptabilisé en charge le 1er décembre N. Clôture au 31/12/N. Charge constatée d'avance ?",
+   "answer": "6 000 €",
+   "distractors": [
+    "3 000 €",
+    "9 000 €",
+    "4 500 €"
+   ],
+   "explain": "Le loyer mensuel est de 3 000 €. Janvier et février N+1 (6 000 €) ne concernent pas N et sont portés en charges constatées d'avance (486).",
+   "ref": "PCG, compte 486",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T048",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "regularisations",
+   "q": "Un contrat de maintenance de 12 mois commençant le 1er novembre N a été facturé 24 000 € HT et comptabilisé en produit. Clôture au 31/12/N. Produit constaté d'avance ?",
+   "answer": "20 000 €",
+   "distractors": [
+    "4 000 €",
+    "24 000 €",
+    "18 000 €"
+   ],
+   "explain": "2 000 € par mois ; seuls novembre et décembre (4 000 €) sont acquis en N. Les 10 mois restants (20 000 €) sont reportés au 487.",
+   "ref": "PCG, compte 487",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T049",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "regularisations",
+   "q": "Un emprunt de 200 000 € au taux de 3 % paie ses intérêts chaque année le 1er juillet. Montant des intérêts courus à comptabiliser au 31 décembre ?",
+   "answer": "3 000 €",
+   "distractors": [
+    "6 000 €",
+    "1 500 €",
+    "0 €"
+   ],
+   "explain": "Du 1er juillet au 31 décembre, 6 mois d'intérêts ont couru : 200 000 × 3 % × 6/12 = 3 000 € (débit 661, crédit 1688).",
+   "ref": "PCG, compte 1688",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T050",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "regularisations",
+   "q": "La facture d'électricité de novembre-décembre N n'arrivera qu'en janvier N+1 (estimée à 3 600 € HT). Que faut-il faire à la clôture ?",
+   "answer": "Constater une charge à payer de 3 600 € HT (fournisseur – facture non parvenue)",
+   "distractors": [
+    "Rien : la facture sera comptabilisée à réception",
+    "Constater une provision pour risques",
+    "Constater une charge constatée d'avance"
+   ],
+   "explain": "La consommation de novembre-décembre est une charge de N : on la rattache par le 408 (et la TVA par le 44586). Ce n'est pas une provision : le montant et l'échéance sont connus avec une précision suffisante.",
+   "ref": "PCG, compte 408 ; principe de séparation des exercices",
+   "difficulty": 2,
+   "time": 40
+  }
+ ]
+}

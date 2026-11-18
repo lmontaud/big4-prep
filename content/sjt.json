@@ -1,0 +1,1756 @@
+{
+ "module": "sjt",
+ "title": "Mises en situation (SJT)",
+ "items": [
+  {
+   "id": "S01",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Vous êtes en intervention chez un client. Depuis une semaine, la responsable comptable ne vous a toujours pas transmis l'échéancier des emprunts, malgré deux relances orales. Votre senior vous a demandé de boucler la section Dettes financières d'ici vendredi.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Envoyer un courriel récapitulant la demande et la date limite, puis prévenir votre senior du retard et de son impact possible.",
+     "score": 4,
+     "why": "La demande est tracée, le client connaît l'échéance et le senior peut agir avant que le délai ne soit compromis."
+    },
+    {
+     "t": "Reconstituer vous-même l'échéancier à partir des relevés bancaires sans en parler.",
+     "score": 2,
+     "why": "C'est une initiative, mais vous contournez le client sans le dire au senior et risquez de travailler sur une base incomplète."
+    },
+    {
+     "t": "Attendre que la responsable comptable revienne vers vous : elle est visiblement débordée.",
+     "score": 1,
+     "why": "La passivité met en péril le délai et personne n'est informé du blocage."
+    },
+    {
+     "t": "Relancer une troisième fois oralement en insistant sur l'urgence.",
+     "score": 3,
+     "why": "Utile, mais sans trace écrite ni information du senior, le risque de retard reste entier."
+    }
+   ],
+   "principle": "Respect des délais et transparence avec le manager",
+   "explain": "Face à un document manquant, il faut à la fois formaliser la demande (trace écrite, date limite) et remonter le blocage tôt à son responsable. Faire le travail du client en silence ou attendre sont les pires réflexes.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S02",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "erreur",
+   "situation": "Vous avez envoyé hier à votre manager votre fichier de tests sur les immobilisations. En le relisant ce matin, vous découvrez une erreur de formule qui fausse le total des dotations testées. Votre manager doit présenter ses conclusions au client demain.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Corriger le fichier et prévenir immédiatement votre manager en expliquant l'erreur et son impact.",
+     "score": 4,
+     "why": "La transparence immédiate permet au manager de présenter des conclusions justes ; l'erreur est corrigée et expliquée."
+    },
+    {
+     "t": "Corriger le fichier en silence et le remplacer dans le dossier en espérant qu'il n'ait pas encore ouvert l'ancien.",
+     "score": 2,
+     "why": "L'erreur est corrigée, mais le manager risque d'avoir déjà utilisé la mauvaise version : la confiance est en jeu."
+    },
+    {
+     "t": "Ne rien dire : l'écart est peut-être sous le seuil de signification.",
+     "score": 1,
+     "why": "Vous décidez seul de l'importance d'une erreur dont le manager doit connaître l'existence. C'est contraire à la qualité et à l'intégrité."
+    },
+    {
+     "t": "Prévenir votre manager de l'erreur et lui demander s'il souhaite que vous corrigiez.",
+     "score": 3,
+     "why": "La transparence est là, mais vous pouviez proposer directement la correction pour lui faire gagner du temps."
+    }
+   ],
+   "principle": "Transparence et qualité",
+   "explain": "Une erreur signalée tôt est un incident ; une erreur cachée devient un problème de confiance. Le bon réflexe est de corriger ET d'informer, en expliquant l'impact.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S03",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "delais",
+   "situation": "Deux missions sur lesquelles vous êtes staffé ont, par un changement de planning, leur clôture la même semaine. Chacun des deux seniors compte sur vous à temps plein. Vous ne pouvez matériellement pas tout faire.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Informer les deux seniors du conflit en même temps, avec votre estimation de charge, et leur demander de s'accorder sur les priorités (avec le manager si besoin).",
+     "score": 4,
+     "why": "Les décideurs ont toute l'information et arbitrent ensemble : c'est leur rôle."
+    },
+    {
+     "t": "Prévenir le senior de la mission la moins prioritaire selon vous que vous serez moins disponible.",
+     "score": 3,
+     "why": "Vous informez, mais vous tranchez seul une priorité qui ne relève pas de vous."
+    },
+    {
+     "t": "Travailler le soir et le week-end pour tenir les deux sans rien dire.",
+     "score": 2,
+     "why": "L'engagement est réel, mais la qualité et votre santé risquent d'en pâtir, et personne n'est au courant du risque."
+    },
+    {
+     "t": "Répartir votre temps à 50/50 sans en parler, en espérant que les deux s'en contentent.",
+     "score": 1,
+     "why": "Aucun senior n'est informé : les deux missions risquent d'être en retard en même temps."
+    }
+   ],
+   "principle": "Respect des délais et communication",
+   "explain": "Un conflit de planning se règle en le rendant visible tôt aux personnes qui peuvent arbitrer. Absorber seul la surcharge ou trancher seul les priorités crée un risque de qualité.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S04",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "integrite",
+   "situation": "Lors d'un test sur les ventes, vous identifiez une facture de 40 000 € comptabilisée sur l'exercice alors que la livraison a eu lieu après la clôture. Le directeur financier vous dit : « Ce n'est pas grand-chose, on ne va pas refaire les comptes pour ça, vous pouvez passer dessus. »",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui répondre poliment que vous devez documenter le point et en parler à votre senior, qui décidera du traitement.",
+     "score": 4,
+     "why": "Vous restez courtois, vous ne prenez pas d'engagement que vous ne pouvez pas tenir et l'anomalie est traitée au bon niveau."
+    },
+    {
+     "t": "Accepter de ne pas le noter puisque le montant semble faible.",
+     "score": 1,
+     "why": "Vous renoncez à votre indépendance sur demande du client : une anomalie, même faible, doit être relevée et cumulée."
+    },
+    {
+     "t": "Lui expliquer en détail les règles de séparation des exercices et exiger une correction immédiate.",
+     "score": 2,
+     "why": "Le fond est juste, mais ce n'est pas à vous de négocier la correction, et le ton peut braquer le client."
+    },
+    {
+     "t": "Noter l'anomalie dans vos papiers de travail sans lui répondre.",
+     "score": 3,
+     "why": "L'anomalie est documentée, mais ne pas répondre au client nuit à la relation et laisse un malentendu."
+    }
+   ],
+   "principle": "Intégrité et indépendance",
+   "explain": "Une demande de « passer sur » une anomalie n'est jamais à accepter. Il faut la documenter, l'escalader, et répondre au client avec tact sans s'engager à sa place.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S05",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "equipe",
+   "situation": "Dans votre équipe, un autre junior rend régulièrement ses sections en retard et incomplètes. Vous avez déjà dû reprendre une partie de son travail la semaine dernière pour tenir le délai. Il semble démotivé.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui en parler directement, en privé et sans jugement, pour comprendre ce qui se passe et voir comment l'aider.",
+     "score": 4,
+     "why": "Une discussion bienveillante peut révéler un problème (charge, compréhension) et le régler à la source."
+    },
+    {
+     "t": "Faire son travail à sa place sans rien dire pour éviter les conflits.",
+     "score": 2,
+     "why": "Le délai est tenu à court terme, mais le problème persiste et le senior a une image fausse de la répartition du travail."
+    },
+    {
+     "t": "Vous plaindre de lui auprès des autres membres de l'équipe.",
+     "score": 1,
+     "why": "Cela dégrade l'ambiance et ne résout rien."
+    },
+    {
+     "t": "Informer le senior que la répartition du travail pose problème, en restant factuel.",
+     "score": 3,
+     "why": "Utile si la situation dure, mais une discussion directe d'abord est plus respectueuse."
+    }
+   ],
+   "principle": "Esprit d'équipe",
+   "explain": "Les problèmes d'équipe se traitent d'abord par le dialogue direct et bienveillant, puis, si nécessaire, de façon factuelle avec le responsable. Les commérages et la compensation silencieuse ne règlent rien.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S06",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "confidentialite",
+   "situation": "Dans le train, vous entendez deux collaborateurs d'un autre service de votre cabinet évoquer à voix haute, en citant son nom, un projet de rachat d'une société cotée, client du cabinet.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Les aborder discrètement pour leur rappeler que la conversation peut être entendue.",
+     "score": 4,
+     "why": "Vous protégez l'information confidentielle sans esclandre, en restant collègue."
+    },
+    {
+     "t": "Ne rien faire : ce n'est pas votre mission.",
+     "score": 2,
+     "why": "La fuite continue ; la confidentialité est l'affaire de tous les collaborateurs du cabinet."
+    },
+    {
+     "t": "Raconter l'anecdote à vos amis en précisant que c'est confidentiel.",
+     "score": 1,
+     "why": "Vous diffusez à votre tour une information privilégiée : c'est une faute grave."
+    },
+    {
+     "t": "Signaler l'incident au responsable déontologie du cabinet sans leur parler.",
+     "score": 3,
+     "why": "C'est légitime si l'information est sensible, mais une intervention immédiate stopperait la fuite tout de suite."
+    }
+   ],
+   "principle": "Confidentialité",
+   "explain": "Une information sur une société cotée peut être une information privilégiée. Le premier réflexe est de faire cesser la fuite ; l'escalade est possible ensuite. Ne jamais la répéter.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S07",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "independance",
+   "situation": "Le directeur administratif d'un client, très satisfait du déroulement de l'audit, vous propose deux places pour la finale d'un grand tournoi de tennis, d'une valeur de plusieurs centaines d'euros.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Le remercier chaleureusement et décliner, en expliquant que les règles d'indépendance du cabinet ne le permettent pas.",
+     "score": 4,
+     "why": "Vous préservez votre indépendance et la relation, avec une explication claire."
+    },
+    {
+     "t": "Accepter, puisque l'audit est presque terminé.",
+     "score": 1,
+     "why": "Un cadeau de valeur crée un risque de familiarité et de perte d'indépendance, quelle que soit la phase de la mission."
+    },
+    {
+     "t": "Demander à votre manager ou au référent indépendance avant de répondre.",
+     "score": 3,
+     "why": "Prudent, mais la réponse est évidente pour un cadeau de cette valeur : mieux vaut décliner directement en restant poli."
+    },
+    {
+     "t": "Accepter mais proposer d'en faire profiter votre senior.",
+     "score": 2,
+     "why": "Le problème d'indépendance demeure et vous impliquez un collègue."
+    }
+   ],
+   "principle": "Indépendance",
+   "explain": "Les cadeaux et invitations d'une valeur significative d'un client audité menacent l'indépendance. On décline poliment, en s'appuyant sur les règles du cabinet.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S08",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "scepticisme",
+   "situation": "Une provision pour retours clients a fortement diminué par rapport à l'an dernier. Le contrôleur de gestion vous explique que les retours ont baissé grâce à un nouveau contrôle qualité, mais il ne vous fournit aucune donnée.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Demander les statistiques de retours mensuelles et les retours enregistrés après la clôture pour corroborer l'explication.",
+     "score": 4,
+     "why": "Vous testez l'explication par des éléments probants : c'est le scepticisme professionnel."
+    },
+    {
+     "t": "Noter l'explication et demander au senior s'il faut aller plus loin.",
+     "score": 3,
+     "why": "Le senior est informé, mais vous pouviez proposer directement la collecte d'éléments probants."
+    },
+    {
+     "t": "Accepter l'explication, le contrôleur de gestion connaissant mieux son activité.",
+     "score": 1,
+     "why": "Une explication orale non corroborée n'est pas un élément probant suffisant."
+    },
+    {
+     "t": "Recalculer la provision avec le taux de l'an dernier sans en parler au client.",
+     "score": 2,
+     "why": "Vous challengez le chiffre, mais en ignorant une information peut-être réelle et sans dialogue."
+    }
+   ],
+   "principle": "Scepticisme professionnel",
+   "explain": "Une explication de la direction doit être corroborée par des éléments probants, surtout quand elle conduit à réduire une provision.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S09",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "qualite",
+   "situation": "Il est 19 h, la revue de votre section est prévue demain matin. Il vous reste un test de détail à finaliser sur un échantillon de 25 factures ; vous n'en avez vérifié que 15. Vous êtes fatigué.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Prévenir votre senior que le test n'est pas terminé, indiquer ce qui reste et proposer de le finir demain à la première heure.",
+     "score": 4,
+     "why": "Vous êtes transparent sur l'avancement et proposez une solution qui préserve la qualité."
+    },
+    {
+     "t": "Conclure sur les 15 factures vérifiées en indiquant que l'échantillon est complet.",
+     "score": 1,
+     "why": "C'est une fausse documentation : une faute professionnelle grave."
+    },
+    {
+     "t": "Terminer les 10 factures restantes ce soir, même si cela prend deux heures.",
+     "score": 3,
+     "why": "L'engagement est louable, mais la fatigue augmente le risque d'erreur et rien n'a été dit au senior."
+    },
+    {
+     "t": "Documenter les 15 factures en indiquant clairement que 10 restent à faire.",
+     "score": 2,
+     "why": "La documentation est honnête, mais le senior découvrira le retard en revue au lieu d'être prévenu."
+    }
+   ],
+   "principle": "Qualité et intégrité",
+   "explain": "Ne jamais documenter un travail non fait. Signaler l'état réel d'avancement et proposer un plan est la meilleure réponse.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S10",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Un client vous demande, en fin de journée, de l'aider à passer les écritures de clôture qu'il n'a pas eu le temps de préparer, « puisque vous connaissez déjà les chiffres ».",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Expliquer avec tact que vous ne pouvez pas tenir sa comptabilité en tant qu'auditeur, et en parler à votre senior pour voir comment l'aider autrement.",
+     "score": 4,
+     "why": "Vous protégez l'indépendance tout en restant dans une posture de service."
+    },
+    {
+     "t": "Accepter pour faire avancer la mission.",
+     "score": 1,
+     "why": "L'auditeur ne peut pas auditer des écritures qu'il a lui-même passées : c'est un risque d'autorévision."
+    },
+    {
+     "t": "Lui proposer d'en parler à son expert-comptable ou à son équipe.",
+     "score": 3,
+     "why": "La réponse est juste sur le fond, mais sans information du senior, qui pourrait ajuster le planning."
+    },
+    {
+     "t": "Refuser sèchement, ce n'est pas votre travail.",
+     "score": 2,
+     "why": "Le refus est fondé, mais la forme nuit à la relation client."
+    }
+   ],
+   "principle": "Indépendance",
+   "explain": "L'auditeur ne peut pas préparer les écritures qu'il contrôle. Le refus doit être expliqué avec tact et accompagné d'une alternative.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S11",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "reseaux",
+   "situation": "Après une journée difficile chez un client, un collègue publie sur un réseau social une photo de l'open space du client avec un commentaire ironique sur « la compta la plus désorganisée de France ». On voit des écrans en arrière-plan.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui demander de retirer immédiatement la publication et lui expliquer les risques.",
+     "score": 4,
+     "why": "La publication expose des informations du client et l'image du cabinet : il faut la faire retirer vite."
+    },
+    {
+     "t": "Aimer la publication par solidarité.",
+     "score": 1,
+     "why": "Vous cautionnez un manquement à la confidentialité et au respect du client."
+    },
+    {
+     "t": "Signaler la publication à votre manager.",
+     "score": 3,
+     "why": "Pertinent si le collègue refuse, mais une demande directe et immédiate est plus rapide."
+    },
+    {
+     "t": "Ne rien dire, ce n'est pas votre compte.",
+     "score": 2,
+     "why": "La publication reste en ligne et le risque pour le client et le cabinet persiste."
+    }
+   ],
+   "principle": "Confidentialité et respect du client",
+   "explain": "Toute information vue chez un client est confidentielle, et le dénigrer publiquement nuit à la réputation du cabinet. Il faut réagir vite.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S12",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "apprentissage",
+   "situation": "Votre senior vous demande de tester les dépréciations de stocks. Vous n'avez jamais réalisé ce type de test et les instructions sont succinctes.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Relire le dossier de l'an dernier et la méthodologie du cabinet, puis poser à votre senior des questions précises.",
+     "score": 4,
+     "why": "Vous faites votre part de recherche et posez des questions ciblées : efficace pour vous et pour lui."
+    },
+    {
+     "t": "Demander immédiatement au senior de vous expliquer tout le test.",
+     "score": 3,
+     "why": "Vous évitez de partir dans la mauvaise direction, mais vous mobilisez son temps sans avoir cherché d'abord."
+    },
+    {
+     "t": "Demander à un autre junior comment il ferait.",
+     "score": 2,
+     "why": "Peut aider, mais il n'en sait peut-être pas plus et vous risquez de propager une erreur."
+    },
+    {
+     "t": "Faire le test comme vous le comprenez, sans rien demander.",
+     "score": 1,
+     "why": "Risque élevé de travail à refaire, voire d'erreur non détectée."
+    }
+   ],
+   "principle": "Qualité et apprentissage",
+   "explain": "Chercher d'abord dans les ressources disponibles, puis poser des questions précises : c'est la façon la plus efficace d'apprendre sans faire perdre de temps à l'équipe.",
+   "difficulty": 1,
+   "time": 120
+  },
+  {
+   "id": "S13",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "integrite",
+   "situation": "Votre manager vous demande de signer électroniquement la revue d'une section dans le logiciel d'audit « pour débloquer le dossier », alors que vous n'avez pas fait cette revue.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui expliquer que vous ne pouvez pas valider un travail que vous n'avez pas fait, et proposer de réaliser la revue rapidement.",
+     "score": 4,
+     "why": "Vous refusez une fausse documentation tout en proposant une solution."
+    },
+    {
+     "t": "Signer, puisque c'est votre manager qui le demande.",
+     "score": 1,
+     "why": "Une signature engage : valider un travail non fait est une fausse documentation, quelle que soit la demande."
+    },
+    {
+     "t": "Signer puis faire la revue dans la foulée.",
+     "score": 2,
+     "why": "Le dossier indique une revue qui n'a pas encore eu lieu au moment de la signature : la traçabilité est faussée."
+    },
+    {
+     "t": "Refuser sans proposer d'alternative.",
+     "score": 3,
+     "why": "Le refus est juste, mais ne pas proposer de solution laisse le manager bloqué."
+    }
+   ],
+   "principle": "Intégrité",
+   "explain": "Une signature dans le dossier atteste d'un travail effectivement réalisé. On ne signe jamais un travail non fait, même sur demande d'un supérieur, mais on propose une solution.",
+   "difficulty": 3,
+   "time": 90
+  },
+  {
+   "id": "S14",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Lors d'une réunion, un client conteste vivement l'un de vos constats devant son équipe et vous accuse de ne pas comprendre son métier.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Rester calme, reconnaître ce qui peut l'être, proposer de revoir ensemble les éléments factuels après la réunion et en informer votre senior.",
+     "score": 4,
+     "why": "Vous désamorcez, restez factuel et faites intervenir le bon niveau si nécessaire."
+    },
+    {
+     "t": "Défendre votre constat point par point devant toute son équipe.",
+     "score": 2,
+     "why": "Vous avez peut-être raison, mais le débat public risque de durcir la situation."
+    },
+    {
+     "t": "Retirer votre constat pour apaiser la situation.",
+     "score": 1,
+     "why": "Vous abandonnez une conclusion fondée sous la pression : perte d'indépendance."
+    },
+    {
+     "t": "Ne rien répondre et en parler à votre senior après la réunion.",
+     "score": 3,
+     "why": "L'escalade est saine, mais le client reste sans réponse sur le moment."
+    }
+   ],
+   "principle": "Professionnalisme et indépendance",
+   "explain": "Face à un désaccord, rester calme et factuel, sans céder sur le fond, et impliquer son responsable.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S15",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "delais",
+   "situation": "À deux jours d'une échéance, vous réalisez que vous avez sous-estimé le travail d'une section : il vous faudrait encore trois jours.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Prévenir immédiatement votre senior avec une estimation réaliste et des options (aide ponctuelle, priorisation, report).",
+     "score": 4,
+     "why": "Le senior peut réorganiser l'équipe à temps."
+    },
+    {
+     "t": "Faire au mieux et prévenir le jour de l'échéance si ce n'est pas fini.",
+     "score": 2,
+     "why": "Le retard est annoncé trop tard pour être compensé."
+    },
+    {
+     "t": "Réduire le nombre de tests sans en parler pour tenir le délai.",
+     "score": 1,
+     "why": "Vous dégradez la qualité de l'audit sans que personne ne valide ce choix."
+    },
+    {
+     "t": "Demander à un collègue de vous aider sur une partie de la section, puis informer votre senior.",
+     "score": 3,
+     "why": "Bonne initiative, mais le senior devrait être informé d'abord : il connaît la charge de chacun."
+    }
+   ],
+   "principle": "Respect des délais et transparence",
+   "explain": "Un risque de retard doit être annoncé dès qu'il est connu, avec des options. Réduire seul l'étendue des travaux est inacceptable.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S16",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "securite",
+   "situation": "Vous travaillez dans un café avant un rendez-vous client. Vous devez vous absenter quelques minutes et votre ordinateur, ouvert sur un dossier client, est sur la table.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Verrouiller l'ordinateur et l'emporter avec vous.",
+     "score": 4,
+     "why": "Aucun risque d'accès ni de vol."
+    },
+    {
+     "t": "Verrouiller l'écran et laisser l'ordinateur sur la table.",
+     "score": 2,
+     "why": "L'accès est protégé, mais le risque de vol subsiste."
+    },
+    {
+     "t": "Demander à votre voisin de table de le surveiller.",
+     "score": 1,
+     "why": "Vous confiez un appareil contenant des données confidentielles à un inconnu, sans même le verrouiller."
+    },
+    {
+     "t": "Fermer le dossier client et laisser l'ordinateur allumé.",
+     "score": 3,
+     "why": "Le dossier n'est plus affiché, mais la session reste ouverte et l'appareil sans surveillance."
+    }
+   ],
+   "principle": "Confidentialité et sécurité de l'information",
+   "explain": "Les données clients sont protégées à tout moment : appareil verrouillé et jamais laissé sans surveillance dans un lieu public.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S17",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "equipe",
+   "situation": "Un nouveau stagiaire arrive dans votre équipe en pleine période chargée. Votre senior n'a pas le temps de le former et le stagiaire reste inoccupé.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Proposer à votre senior de prendre en charge son intégration sur une tâche simple en lien avec votre section.",
+     "score": 4,
+     "why": "Vous aidez l'équipe et le stagiaire, avec l'accord du senior."
+    },
+    {
+     "t": "Lui confier une partie de votre travail sans en parler au senior.",
+     "score": 2,
+     "why": "L'intention est bonne, mais le senior doit savoir qui fait quoi."
+    },
+    {
+     "t": "Ne rien faire : ce n'est pas à vous de le former.",
+     "score": 1,
+     "why": "L'équipe perd une ressource et le stagiaire démarre mal."
+    },
+    {
+     "t": "Lui conseiller de lire la méthodologie du cabinet en attendant.",
+     "score": 3,
+     "why": "C'est utile, mais insuffisant pour l'intégrer réellement."
+    }
+   ],
+   "principle": "Esprit d'équipe",
+   "explain": "Contribuer à l'intégration d'un nouvel arrivant, en accord avec son responsable, renforce l'équipe.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S18",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "scepticisme",
+   "situation": "En testant les notes de frais, vous remarquez que plusieurs factures de restaurant d'un directeur ont des numéros qui se suivent alors qu'elles sont datées de mois différents.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Documenter le constat et en informer rapidement votre senior, sans en parler au directeur.",
+     "score": 4,
+     "why": "L'indice de fraude est escaladé au bon niveau, sans alerter la personne concernée."
+    },
+    {
+     "t": "Élargir votre échantillon aux autres notes de frais de ce directeur avant d'en parler.",
+     "score": 3,
+     "why": "Approfondir peut être utile, mais le senior doit décider de la démarche face à un indice de fraude."
+    },
+    {
+     "t": "Demander au directeur une explication sur ces factures.",
+     "score": 1,
+     "why": "Vous risquez d'alerter l'auteur potentiel d'une fraude et de compromettre l'enquête."
+    },
+    {
+     "t": "Considérer qu'il s'agit d'une coïncidence et poursuivre votre test.",
+     "score": 2,
+     "why": "Vous ignorez un indice sérieux de fausses factures."
+    }
+   ],
+   "principle": "Scepticisme professionnel",
+   "explain": "Un indice de fraude se documente et s'escalade sans alerter la personne concernée. C'est au senior et au manager de décider des suites.",
+   "difficulty": 3,
+   "time": 120
+  },
+  {
+   "id": "S19",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "feedback",
+   "situation": "Lors de la revue de votre section, votre senior vous fait de nombreux commentaires, certains assez durs. Vous trouvez qu'une partie n'est pas justifiée.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Traiter les commentaires, puis demander un moment pour discuter calmement de ceux sur lesquels vous n'êtes pas d'accord, avec vos arguments.",
+     "score": 4,
+     "why": "Vous progressez sur le fond et exprimez votre point de vue de façon constructive."
+    },
+    {
+     "t": "Corriger tout sans rien dire, même ce qui vous semble faux.",
+     "score": 2,
+     "why": "Vous évitez le conflit, mais une éventuelle erreur de revue n'est pas corrigée."
+    },
+    {
+     "t": "Contester chaque commentaire sur le moment.",
+     "score": 1,
+     "why": "La posture défensive empêche d'apprendre et tend la relation."
+    },
+    {
+     "t": "Demander l'avis d'un autre senior sur les commentaires contestés.",
+     "score": 3,
+     "why": "Peut éclairer, mais il est préférable d'en parler d'abord avec la personne concernée."
+    }
+   ],
+   "principle": "Qualité et ouverture au feedback",
+   "explain": "Le feedback se reçoit d'abord pour progresser ; un désaccord se discute ensuite de façon argumentée et directe.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S20",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "independance",
+   "situation": "Vous apprenez que votre frère vient d'acheter des actions d'une société cotée dont vous auditez les comptes.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Informer sans délai le référent indépendance du cabinet et suivre ses instructions.",
+     "score": 4,
+     "why": "La situation est traitée selon les procédures et le cabinet peut prendre les mesures nécessaires."
+    },
+    {
+     "t": "Ne rien dire, ce n'est pas vous qui détenez les actions.",
+     "score": 1,
+     "why": "Les intérêts des proches peuvent créer un conflit d'intérêts : le passer sous silence expose le cabinet."
+    },
+    {
+     "t": "Demander à votre frère de vendre ses actions sans en parler au cabinet.",
+     "score": 2,
+     "why": "Vous agissez seul, sans savoir si c'est la mesure appropriée, et sans trace."
+    },
+    {
+     "t": "En parler à votre senior lors du prochain point d'équipe.",
+     "score": 3,
+     "why": "L'information remonte, mais pas au bon interlocuteur ni assez vite."
+    }
+   ],
+   "principle": "Indépendance",
+   "explain": "Toute situation pouvant affecter l'indépendance, y compris par l'intermédiaire de proches, doit être déclarée rapidement selon les procédures du cabinet.",
+   "difficulty": 3,
+   "time": 90
+  },
+  {
+   "id": "S21",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "client",
+   "situation": "Le client vous demande d'avancer la date de remise de votre rapport d'une semaine pour une réunion avec ses banquiers. Votre planning est déjà serré.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Dire au client que vous transmettez sa demande à votre manager, qui reviendra vers lui rapidement.",
+     "score": 4,
+     "why": "La demande est prise en compte sans engagement que vous ne pouvez pas tenir."
+    },
+    {
+     "t": "Accepter immédiatement pour satisfaire le client.",
+     "score": 1,
+     "why": "Vous engagez l'équipe sans en avoir l'autorité et au risque de la qualité."
+    },
+    {
+     "t": "Refuser en expliquant que le planning ne le permet pas.",
+     "score": 2,
+     "why": "Vous décidez à la place du manager, qui aurait peut-être trouvé une solution."
+    },
+    {
+     "t": "Demander au client quels éléments lui sont strictement nécessaires pour sa réunion, puis en parler au manager.",
+     "score": 3,
+     "why": "Comprendre le besoin est utile, mais il faut avant tout transmettre vite la demande au manager."
+    }
+   ],
+   "principle": "Respect des délais et relation client",
+   "explain": "Les engagements de délai vis-à-vis du client relèvent du manager. Le junior transmet vite et fidèlement la demande.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S22",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "qualite",
+   "situation": "Vous reprenez une section testée l'an dernier par un collègue. Vous constatez que la méthode utilisée l'an dernier ne correspond pas à la méthodologie actuelle du cabinet.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Signaler l'écart à votre senior et proposer d'appliquer la méthodologie actuelle.",
+     "score": 4,
+     "why": "Vous améliorez la qualité et le senior valide le changement."
+    },
+    {
+     "t": "Reprendre la méthode de l'an dernier pour gagner du temps.",
+     "score": 1,
+     "why": "Vous reconduisez sciemment une méthode non conforme."
+    },
+    {
+     "t": "Appliquer la nouvelle méthode sans en parler.",
+     "score": 3,
+     "why": "Le résultat est conforme, mais le senior peut être surpris en revue par un changement non expliqué."
+    },
+    {
+     "t": "Demander à votre collègue pourquoi il avait procédé ainsi avant de décider.",
+     "score": 2,
+     "why": "Instructif, mais le choix de méthode doit être validé par le senior."
+    }
+   ],
+   "principle": "Qualité",
+   "explain": "Ne pas reconduire « parce que c'était comme ça l'an dernier » : appliquer la méthodologie en vigueur et faire valider les changements.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S23",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "equipe",
+   "situation": "Pendant une réunion d'équipe, un collègue s'attribue une idée que vous aviez proposée la veille au senior pour accélérer un test.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Ne pas réagir publiquement, puis en parler calmement au collègue après la réunion.",
+     "score": 4,
+     "why": "Vous préservez l'équipe et clarifiez la situation directement."
+    },
+    {
+     "t": "Le reprendre devant tout le monde.",
+     "score": 2,
+     "why": "Vous avez raison sur le fond, mais l'humiliation publique nuit à l'équipe."
+    },
+    {
+     "t": "Laisser passer : ce qui compte, c'est que l'idée soit appliquée.",
+     "score": 3,
+     "why": "Attitude collective, mais le malentendu peut se répéter."
+    },
+    {
+     "t": "Aller vous plaindre au manager en dénigrant votre collègue.",
+     "score": 1,
+     "why": "Escalade disproportionnée et non factuelle."
+    }
+   ],
+   "principle": "Esprit d'équipe",
+   "explain": "L'essentiel est le résultat collectif ; les désaccords personnels se règlent en direct et en privé.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S24",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "confidentialite",
+   "situation": "Un ami, analyste dans un fonds d'investissement, vous demande « juste par curiosité » comment se porte un client que vous auditez.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Lui répondre que vous ne pouvez pas parler de vos clients, et changer de sujet.",
+     "score": 4,
+     "why": "Réponse claire, ferme et cordiale."
+    },
+    {
+     "t": "Lui répondre de façon vague, sans donner de chiffres.",
+     "score": 2,
+     "why": "Même une impression générale peut constituer une information sensible."
+    },
+    {
+     "t": "Lui donner quelques éléments en lui demandant de garder cela pour lui.",
+     "score": 1,
+     "why": "Violation de la confidentialité et risque de délit d'initié."
+    },
+    {
+     "t": "Lui répondre que vous ne pouvez pas en parler, puis signaler la demande au référent déontologie si elle se répète.",
+     "score": 3,
+     "why": "Prudent ; l'escalade n'est utile qu'en cas d'insistance."
+    }
+   ],
+   "principle": "Confidentialité",
+   "explain": "Aucune information sur un client, même vague, ne doit être partagée. Un refus simple et cordial suffit.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S25",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Le client vous installe dans une petite salle sans accès au réseau. Vous perdez beaucoup de temps à récupérer les fichiers.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Exposer poliment la difficulté à votre interlocuteur chez le client et lui demander si une solution est possible, en prévenant votre senior.",
+     "score": 4,
+     "why": "Vous cherchez une solution avec le client tout en tenant votre senior informé."
+    },
+    {
+     "t": "Ne rien dire et travailler plus tard le soir pour compenser.",
+     "score": 2,
+     "why": "Vous absorbez le problème au lieu de le régler."
+    },
+    {
+     "t": "Vous plaindre auprès de plusieurs salariés du client.",
+     "score": 1,
+     "why": "Comportement peu professionnel qui nuit à la relation."
+    },
+    {
+     "t": "Demander à votre senior de régler le problème avec le client.",
+     "score": 3,
+     "why": "Possible, mais vous pouviez faire la demande vous-même, simplement."
+    }
+   ],
+   "principle": "Relation client et efficacité",
+   "explain": "Les difficultés pratiques se règlent par une demande directe et courtoise, en informant son responsable.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S26",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "securite",
+   "situation": "Pour gagner du temps, un collègue vous suggère de coller le grand livre d'un client dans un outil d'intelligence artificielle grand public afin d'en obtenir une analyse automatique.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Refuser et utiliser uniquement les outils validés par le cabinet, en rappelant à votre collègue la règle de confidentialité.",
+     "score": 4,
+     "why": "Les données client ne doivent jamais sortir des outils autorisés."
+    },
+    {
+     "t": "Le faire en supprimant le nom du client du fichier.",
+     "score": 2,
+     "why": "Les données restent identifiables et sortent du périmètre autorisé."
+    },
+    {
+     "t": "Le faire, puisque l'outil est très utilisé.",
+     "score": 1,
+     "why": "Transmettre des données confidentielles à un service externe non autorisé est une faute grave."
+    },
+    {
+     "t": "Demander au senior si c'est autorisé avant d'agir.",
+     "score": 3,
+     "why": "Prudent, mais la règle est connue : mieux vaut refuser directement et proposer les outils internes."
+    }
+   ],
+   "principle": "Confidentialité et sécurité de l'information",
+   "explain": "Les données clients ne peuvent être traitées que dans des outils validés par le cabinet. Anonymiser grossièrement ne suffit pas.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S27",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Un comptable du client, avec qui vous vous entendez bien, vous demande votre avis sur une offre d'emploi qu'il a reçue d'un concurrent, et vous demande de n'en parler à personne.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "L'écouter avec bienveillance, tout en restant neutre et sans donner de conseil sur son employeur.",
+     "score": 4,
+     "why": "Vous restez humain sans compromettre votre position d'auditeur."
+    },
+    {
+     "t": "Lui conseiller de partir car vous avez constaté des problèmes dans son service.",
+     "score": 1,
+     "why": "Vous utilisez des informations de mission et prenez parti : manquement à la confidentialité et à la neutralité."
+    },
+    {
+     "t": "Lui dire que vous ne pouvez pas parler de cela et couper court.",
+     "score": 3,
+     "why": "Votre neutralité est préservée, mais la réponse est inutilement froide."
+    },
+    {
+     "t": "En informer son directeur financier.",
+     "score": 2,
+     "why": "Vous trahissez une confidence sans nécessité professionnelle."
+    }
+   ],
+   "principle": "Neutralité et confidentialité",
+   "explain": "L'auditeur reste neutre dans les affaires internes du client et n'utilise pas les informations de mission en dehors de leur cadre.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S28",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "qualite",
+   "situation": "Votre senior vous a donné une consigne ambiguë : « teste les achats ». Vous ne savez pas s'il faut tester l'exhaustivité, l'existence ou le cut-off.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Lui poser une question précise en proposant votre interprétation et l'assertion visée.",
+     "score": 4,
+     "why": "Vous clarifiez vite, en montrant votre réflexion."
+    },
+    {
+     "t": "Consulter le plan de mission et le dossier de l'an dernier, puis lui confirmer votre compréhension.",
+     "score": 3,
+     "why": "Bonne démarche, à condition de confirmer rapidement."
+    },
+    {
+     "t": "Choisir l'assertion qui vous paraît la plus logique et commencer.",
+     "score": 2,
+     "why": "Risque de travail inutile si vous vous trompez."
+    },
+    {
+     "t": "Tester toutes les assertions possibles pour être sûr.",
+     "score": 1,
+     "why": "Perte de temps importante pour l'équipe."
+    }
+   ],
+   "principle": "Qualité et efficacité",
+   "explain": "Une consigne ambiguë se clarifie tout de suite, en proposant une interprétation : on évite ainsi un travail inutile.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S29",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "bien-etre",
+   "situation": "Depuis trois semaines, vous travaillez presque tous les soirs jusqu'à 23 h. Vous commencez à faire des erreurs d'inattention.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "En parler à votre senior ou à votre manager, avec des faits sur votre charge, pour trouver une solution.",
+     "score": 4,
+     "why": "La charge est rendue visible et la qualité du travail est protégée."
+    },
+    {
+     "t": "Continuer sans rien dire, la période de forte activité va bientôt finir.",
+     "score": 2,
+     "why": "Vous tenez peut-être, mais le risque d'erreur augmente."
+    },
+    {
+     "t": "Réduire discrètement le nombre de tests pour finir plus tôt.",
+     "score": 1,
+     "why": "Vous dégradez la qualité de l'audit sans validation."
+    },
+    {
+     "t": "Demander conseil à votre mentor ou à votre référent RH.",
+     "score": 3,
+     "why": "Utile, mais l'organisation de la charge se règle d'abord avec l'équipe de mission."
+    }
+   ],
+   "principle": "Qualité et bien-être",
+   "explain": "La fatigue nuit à la qualité. Signaler une surcharge avec des faits permet de la réguler ; réduire le travail en cachette est inacceptable.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S30",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "erreur",
+   "situation": "En reprenant un fichier, vous découvrez que votre senior a commis une erreur de calcul dans le seuil de signification, ce qui a conduit à sous-dimensionner certains échantillons.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui signaler l'erreur en privé, avec le détail du calcul, pour qu'il puisse la corriger.",
+     "score": 4,
+     "why": "Respectueux et efficace : l'erreur est corrigée au bon niveau."
+    },
+    {
+     "t": "Corriger le calcul dans le fichier sans lui en parler.",
+     "score": 2,
+     "why": "Les échantillons déjà réalisés restent sous-dimensionnés et le senior n'est pas au courant."
+    },
+    {
+     "t": "Ne rien dire, ce n'est pas votre rôle de vérifier le travail du senior.",
+     "score": 1,
+     "why": "La qualité de l'audit est en jeu : chacun doit signaler une erreur qu'il constate."
+    },
+    {
+     "t": "En parler directement au manager.",
+     "score": 3,
+     "why": "L'erreur est remontée, mais contourner le senior est inutilement maladroit."
+    }
+   ],
+   "principle": "Qualité et transparence",
+   "explain": "Une erreur, quel que soit son auteur, doit être signalée. On commence par la personne concernée, avec tact et précision.",
+   "difficulty": 3,
+   "time": 90
+  },
+  {
+   "id": "S31",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "confidentialite",
+   "situation": "Vous recevez par erreur un courriel interne du client contenant la liste des salaires de tous les cadres, destiné à la DRH.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Prévenir l'expéditeur de l'erreur, supprimer le message et en informer votre senior.",
+     "score": 4,
+     "why": "Vous limitez la diffusion et tracez l'incident au bon niveau."
+    },
+    {
+     "t": "Le conserver, cela pourra servir pour l'audit des charges de personnel.",
+     "score": 1,
+     "why": "Vous gardez des données personnelles reçues par erreur, sans base légitime."
+    },
+    {
+     "t": "Le supprimer sans rien dire.",
+     "score": 3,
+     "why": "La diffusion s'arrête, mais l'expéditeur ne sait pas que son envoi est parti au mauvais destinataire."
+    },
+    {
+     "t": "Le transférer à votre senior pour avis.",
+     "score": 2,
+     "why": "Vous multipliez la diffusion de données personnelles."
+    }
+   ],
+   "principle": "Confidentialité et protection des données",
+   "explain": "Des données reçues par erreur ne sont ni conservées ni diffusées ; l'expéditeur doit être prévenu.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S32",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "equipe",
+   "situation": "L'équipe est composée de collaborateurs de plusieurs pays et travaille en anglais. Lors des points quotidiens, vous remarquez qu'une collègue étrangère est souvent interrompue et ne parvient pas à finir ses phrases.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Lors du point suivant, lui redonner la parole (« tu voulais ajouter quelque chose ? ») et, si cela persiste, en parler au senior.",
+     "score": 4,
+     "why": "Vous agissez concrètement pour l'inclusion, puis escaladez si besoin."
+    },
+    {
+     "t": "En parler au senior après la réunion.",
+     "score": 3,
+     "why": "Le senior peut agir, mais une action directe en réunion est aussi possible."
+    },
+    {
+     "t": "Ne rien faire : c'est à elle de s'imposer.",
+     "score": 2,
+     "why": "La situation perdure et l'équipe perd sa contribution."
+    },
+    {
+     "t": "Vous moquer gentiment de ceux qui l'interrompent, devant elle.",
+     "score": 1,
+     "why": "Maladroit et susceptible de créer un malaise."
+    }
+   ],
+   "principle": "Esprit d'équipe et inclusion",
+   "explain": "Une équipe efficace donne la parole à chacun. Un geste simple en réunion est souvent le plus efficace.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S33",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "scepticisme",
+   "situation": "Lors de l'inventaire physique d'un client, vous constatez que les compteurs ne suivent pas la procédure prévue : ils comptent avec la liste des quantités théoriques sous les yeux.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Signaler immédiatement le problème au responsable de l'inventaire du client et informer votre senior.",
+     "score": 4,
+     "why": "Le problème est corrigé pendant l'inventaire, ce qui préserve sa fiabilité."
+    },
+    {
+     "t": "Noter le problème dans vos papiers de travail et le mentionner au retour au cabinet.",
+     "score": 2,
+     "why": "Le constat est documenté, mais trop tard pour corriger les comptages."
+    },
+    {
+     "t": "Ne rien dire, les quantités sont probablement justes.",
+     "score": 1,
+     "why": "Des comptages faits à vue sur les quantités théoriques ne sont pas fiables : le risque est ignoré."
+    },
+    {
+     "t": "Faire davantage de comptages tests de votre côté sans rien dire.",
+     "score": 3,
+     "why": "Cela réduit le risque, mais le dispositif du client reste défaillant."
+    }
+   ],
+   "principle": "Scepticisme professionnel et qualité",
+   "explain": "Pendant un inventaire, une faiblesse de procédure se signale sur le moment, quand elle peut encore être corrigée.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S34",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "integrite",
+   "situation": "Un collègue vous propose de réutiliser vos tests de l'an dernier en changeant simplement les dates, car « les procédures du client n'ont pas changé ».",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Refuser et réaliser les tests sur les opérations de l'exercice, en expliquant pourquoi.",
+     "score": 4,
+     "why": "Seuls des tests réellement effectués sur l'exercice fournissent des éléments probants."
+    },
+    {
+     "t": "Accepter pour cette année seulement.",
+     "score": 1,
+     "why": "C'est une falsification de la documentation d'audit."
+    },
+    {
+     "t": "En parler au senior pour savoir si c'est acceptable.",
+     "score": 3,
+     "why": "La réponse ne fait pas de doute, mais l'escalade évite que le collègue le fasse ailleurs."
+    },
+    {
+     "t": "Réutiliser l'an dernier mais tester quelques opérations de l'exercice.",
+     "score": 2,
+     "why": "La documentation reste partiellement fausse."
+    }
+   ],
+   "principle": "Intégrité",
+   "explain": "Les éléments probants portent sur l'exercice audité. Antidater ou recopier des tests est une falsification.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S35",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "client",
+   "situation": "Le directeur financier d'un client vous demande, lors d'un déjeuner, votre avis personnel sur la compétence de sa responsable comptable.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Répondre que vous n'êtes pas en position de juger les personnes, et proposer de lui faire part des constats factuels de l'audit via votre manager.",
+     "score": 4,
+     "why": "Vous restez neutre et redirigez vers le bon cadre."
+    },
+    {
+     "t": "Changer de sujet poliment.",
+     "score": 3,
+     "why": "Neutre, mais vous laissez la question sans réponse."
+    },
+    {
+     "t": "Donner un avis nuancé, positif et négatif.",
+     "score": 2,
+     "why": "Vous sortez de votre rôle d'auditeur et pouvez nuire à la relation avec l'équipe du client."
+    },
+    {
+     "t": "Partager franchement vos critiques.",
+     "score": 1,
+     "why": "Avis personnel inapproprié qui peut avoir des conséquences pour cette personne."
+    }
+   ],
+   "principle": "Neutralité et professionnalisme",
+   "explain": "L'auditeur ne porte pas de jugement sur les personnes ; il communique des constats factuels par les canaux prévus.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S36",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "delais",
+   "situation": "Votre manager et votre senior vous donnent deux priorités contradictoires pour la même journée.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Exposer la situation aux deux, ensemble ou successivement, et leur demander de confirmer la priorité.",
+     "score": 4,
+     "why": "Les décideurs arbitrent en connaissance de cause."
+    },
+    {
+     "t": "Suivre la consigne du manager, puisqu'il est plus haut placé, sans prévenir le senior.",
+     "score": 2,
+     "why": "Logique hiérarchique, mais le senior n'est pas informé et compte sur vous."
+    },
+    {
+     "t": "Faire un peu des deux pour ne mécontenter personne.",
+     "score": 1,
+     "why": "Aucune des deux tâches n'avance suffisamment."
+    },
+    {
+     "t": "Suivre la consigne du manager et prévenir le senior.",
+     "score": 3,
+     "why": "Raisonnable, mais un arbitrage explicite évite les malentendus."
+    }
+   ],
+   "principle": "Communication et respect des délais",
+   "explain": "Face à des consignes contradictoires, faire arbitrer explicitement plutôt que deviner.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S37",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "erreur",
+   "situation": "Lors d'une réunion avec le client, vous donnez un chiffre erroné sur l'avancement des travaux. Vous vous en rendez compte une heure plus tard.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Corriger rapidement l'information auprès du client, après en avoir informé votre senior.",
+     "score": 4,
+     "why": "La correction est rapide et coordonnée."
+    },
+    {
+     "t": "Ne rien dire, le chiffre sera mis à jour au prochain point.",
+     "score": 1,
+     "why": "Le client peut prendre des décisions sur une information fausse."
+    },
+    {
+     "t": "Envoyer directement un courriel correctif au client.",
+     "score": 3,
+     "why": "La correction est rapide, mais le senior doit être informé de ce qui est communiqué au client."
+    },
+    {
+     "t": "En parler au senior et le laisser décider s'il faut corriger.",
+     "score": 2,
+     "why": "Le senior est informé, mais vous pouviez proposer la correction."
+    }
+   ],
+   "principle": "Transparence",
+   "explain": "Une information erronée donnée au client se corrige vite, en coordination avec son responsable.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S38",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "independance",
+   "situation": "Le client invite toute l'équipe d'audit à un déjeuner simple à la cantine de l'entreprise le dernier jour de la mission.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Accepter : l'invitation est modeste et courante.",
+     "score": 4,
+     "why": "Une invitation de faible valeur, dans un cadre professionnel, ne menace pas l'indépendance."
+    },
+    {
+     "t": "Accepter après avoir vérifié la règle du cabinet avec le senior.",
+     "score": 3,
+     "why": "Prudent mais probablement inutile pour un déjeuner modeste."
+    },
+    {
+     "t": "Refuser, par principe, toute invitation d'un client.",
+     "score": 2,
+     "why": "Excès de prudence qui peut froisser le client."
+    },
+    {
+     "t": "Accepter et proposer au client de prolonger en soirée dans un restaurant étoilé à ses frais.",
+     "score": 1,
+     "why": "Vous sollicitez un avantage de valeur, ce qui menace l'indépendance."
+    }
+   ],
+   "principle": "Indépendance et bon sens",
+   "explain": "Toutes les invitations ne posent pas problème : la question est la valeur et le contexte. Un déjeuner modeste à la cantine est acceptable.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S39",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "qualite",
+   "situation": "Le client vous transmet un fichier Excel de calcul de provision. Vous remarquez que certaines cellules contiennent des montants saisis à la main à la place des formules.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Identifier les cellules concernées, demander au client la justification des montants saisis et en informer votre senior.",
+     "score": 4,
+     "why": "Vous traitez le risque de manipulation ou d'erreur avec méthode."
+    },
+    {
+     "t": "Recalculer la provision en remplaçant les saisies par les formules, sans en parler au client.",
+     "score": 2,
+     "why": "Vous corrigez sans comprendre : les saisies avaient peut-être une raison."
+    },
+    {
+     "t": "Ne rien faire si le total semble cohérent avec l'an dernier.",
+     "score": 1,
+     "why": "La cohérence globale ne garantit pas la justesse."
+    },
+    {
+     "t": "Demander au client de vous envoyer une version « propre » du fichier.",
+     "score": 3,
+     "why": "Utile, mais il faut aussi comprendre pourquoi des montants ont été forcés."
+    }
+   ],
+   "principle": "Scepticisme professionnel",
+   "explain": "Des montants saisis à la main dans un calcul sont un signal d'erreur ou de manipulation : il faut les identifier et les faire justifier.",
+   "difficulty": 3,
+   "time": 90
+  },
+  {
+   "id": "S40",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "equipe",
+   "situation": "Un collègue de l'équipe est absent pour maladie la veille d'une échéance. Sa section n'est pas terminée.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Proposer à votre senior de reprendre une partie de sa section en fonction de vos disponibilités.",
+     "score": 4,
+     "why": "Vous aidez l'équipe à tenir le délai, en coordination avec le senior."
+    },
+    {
+     "t": "Appeler votre collègue malade pour qu'il vous explique où il en est.",
+     "score": 2,
+     "why": "Il est malade : cela ne devrait se faire qu'en dernier recours et avec son accord."
+    },
+    {
+     "t": "Attendre les instructions du senior.",
+     "score": 3,
+     "why": "Raisonnable, mais vous pouvez proposer votre aide."
+    },
+    {
+     "t": "Considérer que ce n'est pas votre problème.",
+     "score": 1,
+     "why": "L'équipe risque de manquer l'échéance."
+    }
+   ],
+   "principle": "Esprit d'équipe",
+   "explain": "La solidarité d'équipe passe par une proposition d'aide concrète et coordonnée.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S41",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "integrite",
+   "situation": "Le directeur financier insiste pour que l'équipe signe le rapport avant la fin de la semaine, alors que des éléments probants importants manquent encore. Il évoque « les conséquences pour la relation ».",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Expliquer calmement que le rapport ne peut être émis qu'une fois les éléments obtenus, lister ce qui manque et en référer immédiatement au manager.",
+     "score": 4,
+     "why": "Vous restez ferme sur le fond, factuel et vous escaladez la pression."
+    },
+    {
+     "t": "Transmettre la demande au manager sans répondre au directeur financier.",
+     "score": 3,
+     "why": "L'escalade est juste, mais le client mérite une réponse factuelle sur ce qui manque."
+    },
+    {
+     "t": "Proposer de travailler le week-end pour obtenir les éléments au plus vite.",
+     "score": 2,
+     "why": "Peut aider, mais ne répond pas à la pression exercée et ne garantit pas l'obtention des éléments."
+    },
+    {
+     "t": "Accepter de signer sous réserve de recevoir les éléments plus tard.",
+     "score": 1,
+     "why": "Émettre un rapport sans éléments probants suffisants est une faute professionnelle."
+    }
+   ],
+   "principle": "Intégrité et indépendance",
+   "explain": "Une pression commerciale ne justifie jamais d'émettre une opinion sans éléments probants suffisants. Il faut rester ferme, factuel et escalader.",
+   "difficulty": 3,
+   "time": 120
+  },
+  {
+   "id": "S42",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "confidentialite",
+   "situation": "Un journaliste vous appelle sur votre téléphone professionnel pour vous demander si votre cabinet audite une entreprise qui fait l'objet d'une enquête.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Répondre poliment que vous ne pouvez faire aucun commentaire et l'orienter vers le service communication du cabinet.",
+     "score": 4,
+     "why": "Aucune information n'est donnée et la demande est orientée vers le bon interlocuteur."
+    },
+    {
+     "t": "Confirmer que le cabinet audite l'entreprise, puisque c'est public.",
+     "score": 2,
+     "why": "Même une information publique ne doit pas être commentée par un collaborateur non habilité."
+    },
+    {
+     "t": "Raccrocher sans rien dire.",
+     "score": 3,
+     "why": "Aucune information n'est divulguée, mais le geste est peu professionnel."
+    },
+    {
+     "t": "Donner votre avis personnel sur l'affaire, en précisant que c'est « off ».",
+     "score": 1,
+     "why": "Grave manquement à la confidentialité et à la politique de communication du cabinet."
+    }
+   ],
+   "principle": "Confidentialité",
+   "explain": "Seul le service communication s'exprime auprès des médias. Le collaborateur oriente, sans commenter.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S43",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "apprentissage",
+   "situation": "Une formation interne obligatoire tombe le même jour qu'une échéance client. Vous ne pouvez pas faire les deux.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Prévenir votre senior et le service formation, puis demander à être inscrit à une session ultérieure.",
+     "score": 4,
+     "why": "Vous respectez vos obligations et trouvez une solution."
+    },
+    {
+     "t": "Ne pas aller à la formation sans prévenir.",
+     "score": 1,
+     "why": "L'absence non justifiée à une formation obligatoire est un manquement."
+    },
+    {
+     "t": "Aller à la formation et laisser l'équipe se débrouiller.",
+     "score": 2,
+     "why": "Vous ne prévenez pas l'équipe du risque sur l'échéance."
+    },
+    {
+     "t": "Demander à votre senior lequel des deux est prioritaire.",
+     "score": 3,
+     "why": "L'arbitrage est sain, mais vous pouviez proposer la solution du report."
+    }
+   ],
+   "principle": "Organisation et transparence",
+   "explain": "Les conflits d'agenda se règlent en prévenant les personnes concernées et en proposant une solution.",
+   "difficulty": 1,
+   "time": 90
+  },
+  {
+   "id": "S44",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "scepticisme",
+   "situation": "Le client vous remet une confirmation bancaire qu'il a lui-même reçue de sa banque et vous propose de la scanner pour vous faire gagner du temps.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Le remercier, mais envoyer votre propre demande de confirmation directement à la banque, conformément à la procédure.",
+     "score": 4,
+     "why": "Une confirmation doit être obtenue directement par l'auditeur pour être fiable."
+    },
+    {
+     "t": "Accepter la copie et demander au senior si cela suffit.",
+     "score": 3,
+     "why": "Le senior rappellera la règle, mais vous la connaissez déjà."
+    },
+    {
+     "t": "Accepter la copie, en vérifiant qu'elle porte le logo de la banque.",
+     "score": 2,
+     "why": "Un logo ne prouve rien : le document a transité par le client."
+    },
+    {
+     "t": "Accepter la copie : le client n'a aucune raison de vous tromper.",
+     "score": 1,
+     "why": "Absence de scepticisme : la source et le circuit de l'élément probant comptent."
+    }
+   ],
+   "principle": "Scepticisme professionnel",
+   "explain": "Les confirmations de tiers doivent circuler directement entre le tiers et l'auditeur. Sinon, elles perdent leur valeur probante.",
+   "difficulty": 2,
+   "time": 120
+  },
+  {
+   "id": "S45",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "client",
+   "situation": "Le client vous demande de lui transmettre vos papiers de travail sur les stocks « pour s'en inspirer l'an prochain ».",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Expliquer que les papiers de travail appartiennent au cabinet et ne peuvent pas être communiqués, et proposer de lui faire part de vos recommandations via le senior.",
+     "score": 4,
+     "why": "Vous protégez le dossier tout en restant constructif."
+    },
+    {
+     "t": "Les lui envoyer, ce sont ses propres chiffres.",
+     "score": 1,
+     "why": "Les papiers de travail sont la propriété du cabinet et contiennent votre démarche d'audit."
+    },
+    {
+     "t": "Lui envoyer seulement les tableaux de synthèse.",
+     "score": 2,
+     "why": "Vous communiquez tout de même des éléments du dossier sans autorisation."
+    },
+    {
+     "t": "Lui répondre que vous allez demander à votre senior.",
+     "score": 3,
+     "why": "Prudent, mais la réponse de principe est connue."
+    }
+   ],
+   "principle": "Confidentialité et indépendance",
+   "explain": "Les papiers de travail appartiennent au cabinet. Les recommandations au client passent par les canaux prévus.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S46",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "qualite",
+   "situation": "Vous terminez un test avec un écart non expliqué de 800 €, alors que le seuil des anomalies manifestement insignifiantes de la mission est de 2 000 €.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Documenter l'écart, conclure selon la méthodologie et le mentionner à votre senior lors de la revue.",
+     "score": 4,
+     "why": "Le traitement est conforme et transparent."
+    },
+    {
+     "t": "Modifier le test pour faire disparaître l'écart.",
+     "score": 1,
+     "why": "Falsification de la documentation."
+    },
+    {
+     "t": "Passer une demi-journée à chercher l'origine de l'écart.",
+     "score": 2,
+     "why": "Effort disproportionné au regard du seuil, sauf indice particulier."
+    },
+    {
+     "t": "Documenter l'écart sans en parler au senior.",
+     "score": 3,
+     "why": "La documentation est correcte ; en parler reste préférable pour la revue."
+    }
+   ],
+   "principle": "Qualité et proportionnalité",
+   "explain": "Le seuil des anomalies manifestement insignifiantes guide l'effort. Un écart se documente toujours honnêtement.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S47",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "delais",
+   "situation": "Vous terminez votre section avec une journée d'avance sur le planning.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Prévenir votre senior et proposer votre aide sur une autre section.",
+     "score": 4,
+     "why": "Vous contribuez à l'avancement global de la mission."
+    },
+    {
+     "t": "Relire votre section pour l'améliorer avant de la remettre, puis prévenir votre senior.",
+     "score": 3,
+     "why": "La qualité y gagne, mais l'équipe aurait pu profiter de votre disponibilité plus tôt."
+    },
+    {
+     "t": "Garder la journée pour vous former en ligne sans prévenir.",
+     "score": 2,
+     "why": "Vous vous formez, mais l'équipe ignore votre disponibilité."
+    },
+    {
+     "t": "Ne rien dire et remettre la section à la date prévue.",
+     "score": 1,
+     "why": "L'équipe perd une journée de ressource."
+    }
+   ],
+   "principle": "Esprit d'équipe",
+   "explain": "Une disponibilité se signale : elle permet de rééquilibrer la charge de l'équipe.",
+   "difficulty": 1,
+   "time": 120
+  },
+  {
+   "id": "S48",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "integrite",
+   "situation": "En testant les achats, vous trouvez un paiement de 15 000 € à une société de conseil sans contrat ni facture détaillée, validé par le directeur général.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Documenter le constat, demander les justificatifs par écrit au service comptable et informer votre senior.",
+     "score": 4,
+     "why": "Vous collectez les éléments et escaladez un risque potentiel de fraude ou de corruption."
+    },
+    {
+     "t": "Demander directement au directeur général de justifier ce paiement.",
+     "score": 2,
+     "why": "Vous risquez d'alerter la personne concernée et ce n'est pas votre rôle."
+    },
+    {
+     "t": "Considérer que le directeur général a le pouvoir de valider ce paiement.",
+     "score": 1,
+     "why": "L'absence de justificatifs est un signal d'alerte que vous ignorez."
+    },
+    {
+     "t": "Exclure ce paiement de votre échantillon et en tirer un autre.",
+     "score": 3,
+     "why": "Vous évitez le problème au lieu de le traiter ; le signal est perdu."
+    }
+   ],
+   "principle": "Intégrité et scepticisme",
+   "explain": "Un paiement non justifié validé par un dirigeant est un signal de risque majeur. Il se documente et s'escalade.",
+   "difficulty": 3,
+   "time": 90
+  },
+  {
+   "id": "S49",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "best-worst",
+   "theme": "equipe",
+   "situation": "En télétravail, vous n'avez pas de nouvelles de votre senior depuis deux jours et vous êtes bloqué sur une question technique.",
+   "question": "Quelle est la réponse la plus efficace, et la moins efficace ?",
+   "options": [
+    {
+     "t": "Lui envoyer un message précis expliquant le blocage, puis, sans réponse, solliciter un autre membre de l'équipe ou le manager.",
+     "score": 4,
+     "why": "Vous cherchez activement à débloquer la situation par le bon canal."
+    },
+    {
+     "t": "Attendre qu'il revienne vers vous.",
+     "score": 1,
+     "why": "Le blocage peut durer et retarder la mission."
+    },
+    {
+     "t": "Avancer sur une autre partie de votre travail en attendant.",
+     "score": 3,
+     "why": "Productif, mais le blocage n'est pas traité."
+    },
+    {
+     "t": "Prendre une décision seul sur la question technique.",
+     "score": 2,
+     "why": "Risque d'erreur sur un point que vous ne maîtrisez pas."
+    }
+   ],
+   "principle": "Communication et autonomie",
+   "explain": "À distance, l'autonomie consiste à rendre visible un blocage et à chercher la bonne personne, pas à attendre.",
+   "difficulty": 2,
+   "time": 90
+  },
+  {
+   "id": "S50",
+   "module": "sjt",
+   "lang": "fr",
+   "type": "rank",
+   "theme": "erreur",
+   "situation": "En préparant le dossier de cette année, vous découvrez qu'une erreur significative est passée inaperçue dans les comptes de l'an dernier, que le cabinet a certifiés.",
+   "question": "Classez ces réponses de la plus efficace à la moins efficace.",
+   "options": [
+    {
+     "t": "Documenter précisément le constat et en informer immédiatement le senior et le manager.",
+     "score": 4,
+     "why": "Le sujet est grave et doit être traité au plus haut niveau sans délai."
+    },
+    {
+     "t": "En parler d'abord au senior pour vérifier votre analyse.",
+     "score": 3,
+     "why": "Vérifier est utile, mais l'information doit monter rapidement."
+    },
+    {
+     "t": "Corriger l'erreur dans les comptes de cette année sans rien dire.",
+     "score": 1,
+     "why": "Vous dissimulez un problème qui engage la responsabilité du cabinet."
+    },
+    {
+     "t": "Attendre la revue de fin de mission pour en parler.",
+     "score": 2,
+     "why": "Le délai prive l'équipe du temps nécessaire pour traiter un sujet sensible."
+    }
+   ],
+   "principle": "Transparence et qualité",
+   "explain": "Une erreur dans des comptes déjà certifiés est un sujet majeur : il doit être documenté et remonté sans délai.",
+   "difficulty": 3,
+   "time": 120
+  }
+ ]
+}

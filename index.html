@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Big4 Prep</title>
+  <meta name="description" content="Entraînement aux tests en ligne de recrutement des Big 4 pour l'audit : numérique, verbal, logique, mises en situation, technique. Hors ligne.">
+  <meta name="theme-color" content="#f1f5f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1716" media="(prefers-color-scheme: dark)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Big4 Prep">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+  <main id="main" class="main"></main>
+  <nav id="nav" class="nav" aria-label="Navigation principale"></nav>
+  <div id="sheet-layer"></div>
+  <div id="modal-layer" class="modal-layer" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p style="padding:24px">Big4 Prep a besoin de JavaScript pour fonctionner.</p></noscript>
+
+  <!-- Logique (pure, testée sous Node) -->
+  <script src="js/core/util.js"></script>
+  <script src="js/core/srs.js"></script>
+  <script src="js/core/timer.js"></script>
+  <script src="js/core/calc.js"></script>
+  <script src="js/core/game.js"></script>
+  <script src="js/core/content.js"></script>
+  <script src="js/core/store.js"></script>
+  <script src="js/core/merge.js"></script>
+  <script src="js/core/scoring.js"></script>
+  <script src="js/core/stats.js"></script>
+  <script src="js/core/plan.js"></script>
+  <script src="js/core/reminder.js"></script>
+  <script src="js/core/chart.js"></script>
+  <script src="js/gen/common.js"></script>
+  <script src="js/gen/numeric.js"></script>
+  <script src="js/gen/abstract.js"></script>
+  <!-- Interface -->
+  <script src="js/sync.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

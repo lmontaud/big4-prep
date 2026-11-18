@@ -1,0 +1,906 @@
+{
+ "module": "technique",
+ "title": "Audit (NEP / ISA) et IFRS",
+ "items": [
+  {
+   "id": "T101",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "La circularisation des clients (demande de confirmation directe) répond principalement à quelle assertion ?",
+   "answer": "L'existence (réalité) des créances",
+   "distractors": [
+    "L'exhaustivité des créances",
+    "La présentation des créances",
+    "L'exhaustivité des dettes fournisseurs"
+   ],
+   "explain": "Le client confirme qu'il doit bien la somme : la créance existe. La confirmation est moins efficace pour l'exhaustivité (un client ne signale pas spontanément une dette non enregistrée) ou l'évaluation (il peut confirmer sans pouvoir payer).",
+   "ref": "NEP 505 ; ISA 505",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T102",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "Pour tester l'exhaustivité des dettes fournisseurs, quelle procédure est la plus adaptée ?",
+   "answer": "Examiner les factures reçues et les paiements effectués après la clôture",
+   "distractors": [
+    "Circulariser les fournisseurs ayant les plus gros soldes au bilan",
+    "Vérifier les factures des dettes inscrites au bilan",
+    "Recalculer le total de la balance fournisseurs"
+   ],
+   "explain": "Le risque sur les dettes est la sous-évaluation : il faut partir de sources extérieures au bilan (règlements et factures postérieurs à la clôture) pour repérer des dettes non enregistrées. Partir des soldes inscrits ne détecte pas ce qui manque.",
+   "ref": "NEP 500 ; ISA 500 (assertions) ; ISA 330",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T103",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "Le test des bons de livraison émis quelques jours avant et après la clôture vise surtout l'assertion :",
+   "answer": "Séparation des exercices (cut-off)",
+   "distractors": [
+    "Existence des stocks",
+    "Droits et obligations",
+    "Exactitude des prix"
+   ],
+   "explain": "On vérifie que les ventes livrées avant la clôture sont bien facturées sur l'exercice, et que celles livrées après ne le sont pas. C'est le test de rattachement à la bonne période.",
+   "ref": "ISA 315 (assertions) ; NEP 315",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T104",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "Comparer le coût unitaire des stocks aux prix de vente pratiqués après la clôture permet de tester :",
+   "answer": "L'évaluation des stocks (dépréciation éventuelle)",
+   "distractors": [
+    "L'existence des stocks",
+    "L'exhaustivité des achats",
+    "La présentation des stocks"
+   ],
+   "explain": "Si le prix de vente diminué des frais de vente est inférieur au coût, une dépréciation est nécessaire : c'est l'assertion d'évaluation.",
+   "ref": "IAS 2, § 9 ; ISA 315 (assertions)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T105",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "Quel élément probant répond le mieux à l'assertion « droits et obligations » pour un immeuble inscrit au bilan ?",
+   "answer": "Le titre de propriété (acte notarié)",
+   "distractors": [
+    "Une visite physique de l'immeuble",
+    "Le contrat d'assurance",
+    "Le tableau des amortissements"
+   ],
+   "explain": "La visite prouve l'existence, pas la propriété. L'acte de propriété démontre que l'entité détient les droits sur le bien.",
+   "ref": "ISA 315 (assertions) ; NEP 500",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T106",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "risque",
+   "q": "Si le risque d'anomalies significatives est évalué comme élevé, l'auditeur doit :",
+   "answer": "Réduire le risque de non-détection en renforçant ses procédures de fond",
+   "distractors": [
+    "Augmenter le seuil de signification",
+    "Réduire le nombre de tests pour gagner du temps",
+    "Ne rien changer à son approche"
+   ],
+   "explain": "Risque d'audit = risque d'anomalies significatives (inhérent et lié au contrôle) × risque de non-détection. Pour garder un risque d'audit acceptable, plus le premier est élevé, plus le second doit être faible : tests plus nombreux, plus probants, plus proches de la clôture.",
+   "ref": "NEP 200 et 330 ; ISA 200 et 330",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T107",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "risque",
+   "q": "Qu'est-ce que le risque inhérent ?",
+   "answer": "La possibilité qu'une assertion comporte une anomalie significative, avant prise en compte des contrôles",
+   "distractors": [
+    "Le risque que l'auditeur ne détecte pas une anomalie",
+    "Le risque que le contrôle interne ne prévienne pas une anomalie",
+    "Le risque de perdre le client"
+   ],
+   "explain": "Le risque inhérent tient à la nature du poste (estimations complexes, transactions inhabituelles…) indépendamment des contrôles. Le risque lié au contrôle concerne la défaillance des contrôles ; le risque de non-détection, celle des procédures de l'auditeur.",
+   "ref": "ISA 200, § 13 ; NEP 200",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T108",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Que sont les procédures analytiques ?",
+   "answer": "L'appréciation d'informations financières à partir de leurs corrélations avec d'autres données, financières ou non",
+   "distractors": [
+    "Le contrôle exhaustif de toutes les pièces d'un compte",
+    "La demande de confirmation à des tiers",
+    "L'observation physique des actifs"
+   ],
+   "explain": "Exemples : évolution de la marge brute, ratio charges de personnel / effectif moyen, comparaison au budget. Elles servent à l'évaluation des risques, comme contrôle de substance et en revue finale.",
+   "ref": "NEP 520 ; ISA 520",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T109",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "materialite",
+   "q": "Le seuil de signification correspond :",
+   "answer": "Au montant au-delà duquel une anomalie peut influencer le jugement des utilisateurs des comptes",
+   "distractors": [
+    "Au montant minimal des honoraires d'audit",
+    "Au total des anomalies relevées l'an dernier",
+    "À 10 % du chiffre d'affaires, par convention"
+   ],
+   "explain": "Il est fixé par l'auditeur selon son jugement professionnel (souvent un pourcentage d'un agrégat : résultat, chiffre d'affaires, capitaux propres…). Il sert à planifier les travaux et à évaluer les anomalies.",
+   "ref": "NEP 320 ; ISA 320",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T110",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "Quand le commissaire aux comptes certifie-t-il les comptes sans réserve ?",
+   "answer": "Lorsqu'il a obtenu l'assurance raisonnable que les comptes, pris dans leur ensemble, ne comportent pas d'anomalies significatives",
+   "distractors": [
+    "Lorsqu'il a vérifié toutes les écritures de l'exercice",
+    "Lorsque l'entreprise est bénéficiaire",
+    "Lorsque la direction lui a remis une lettre d'affirmation"
+   ],
+   "explain": "L'audit fournit une assurance raisonnable, non absolue : il ne garantit pas l'absence de toute erreur. La lettre d'affirmation est nécessaire mais ne suffit pas.",
+   "ref": "NEP 700 ; ISA 700",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T111",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "L'auditeur relève une anomalie significative ET diffuse que la direction refuse de corriger. Quelle opinion ?",
+   "answer": "Un refus de certifier (opinion défavorable)",
+   "distractors": [
+    "Une certification avec réserve",
+    "Une impossibilité de certifier",
+    "Une certification sans réserve avec observation"
+   ],
+   "explain": "Désaccord significatif mais non diffus : réserve. Désaccord significatif et diffus : refus de certifier (adverse opinion). L'impossibilité de certifier sanctionne une limitation, pas un désaccord.",
+   "ref": "NEP 700 ; ISA 705",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T112",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "L'auditeur n'a pas pu assister à l'inventaire d'un entrepôt dont le stock est significatif mais non diffus, et aucune procédure alternative n'a abouti. Quelle opinion ?",
+   "answer": "Une certification avec réserve pour limitation",
+   "distractors": [
+    "Un refus de certifier",
+    "Une certification sans réserve",
+    "Une démission du mandat"
+   ],
+   "explain": "Il s'agit d'une limitation de l'étendue des travaux. Si son incidence possible est significative mais non diffuse, l'auditeur certifie avec réserve.",
+   "ref": "NEP 700 ; ISA 705, § 7",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T113",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "Les limitations des travaux sont si nombreuses que l'auditeur ne peut se prononcer sur les comptes pris dans leur ensemble. Quelle opinion ?",
+   "answer": "Une impossibilité de certifier",
+   "distractors": [
+    "Un refus de certifier",
+    "Une certification avec réserve",
+    "Une certification avec observation"
+   ],
+   "explain": "Limitation significative et diffuse : impossibilité de certifier (disclaimer of opinion). Le refus de certifier concerne un désaccord diffus.",
+   "ref": "NEP 700 ; ISA 705, § 9",
+   "difficulty": 3,
+   "time": 45
+  },
+  {
+   "id": "T114",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "À quoi sert une observation (paragraphe d'observation) dans le rapport d'audit ?",
+   "answer": "Attirer l'attention du lecteur sur une information des comptes, sans remettre en cause l'opinion",
+   "distractors": [
+    "Exprimer un désaccord avec la direction",
+    "Signaler une anomalie non corrigée",
+    "Remplacer une réserve"
+   ],
+   "explain": "L'observation renvoie à une information correctement présentée en annexe mais importante pour la compréhension (changement de méthode, litige majeur…). Elle ne modifie pas l'opinion.",
+   "ref": "NEP 700 ; ISA 706",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T115",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "opinion",
+   "q": "Les « points clés de l'audit » (key audit matters) doivent figurer dans le rapport d'audit :",
+   "answer": "Des entités d'intérêt public (sociétés cotées notamment)",
+   "distractors": [
+    "De toutes les sociétés, quelle que soit leur taille",
+    "Uniquement des sociétés en difficulté",
+    "Uniquement des comptes consolidés"
+   ],
+   "explain": "En France, la justification des appréciations prend la forme de points clés de l'audit pour les EIP (risques d'anomalies les plus importants et réponses apportées). En normes internationales, ISA 701 les impose pour les entités cotées.",
+   "ref": "NEP 700 (justification des appréciations) ; ISA 701 ; règlement (UE) 537/2014",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T116",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "cac",
+   "q": "Pour combien d'exercices un commissaire aux comptes est-il nommé ?",
+   "answer": "6 exercices",
+   "distractors": [
+    "3 exercices",
+    "5 exercices",
+    "1 exercice, renouvelable"
+   ],
+   "explain": "Le mandat du commissaire aux comptes couvre six exercices.",
+   "ref": "Code de commerce (mandat du commissaire aux comptes)",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T117",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "cac",
+   "q": "Parmi ces services, lequel est interdit au commissaire aux comptes d'une entité d'intérêt public ?",
+   "answer": "La tenue de sa comptabilité",
+   "distractors": [
+    "L'audit de ses comptes annuels",
+    "Une attestation demandée par une banque sur des informations comptables",
+    "La lecture du rapport de gestion"
+   ],
+   "explain": "La tenue de la comptabilité et la préparation des états financiers figurent parmi les services autres que la certification interdits : l'auditeur se retrouverait à auditer son propre travail (autorévision), ce qui compromet son indépendance.",
+   "ref": "Règlement (UE) 537/2014, art. 5 ; Code de déontologie de la profession",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T118",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "controle-interne",
+   "q": "Quel exemple illustre une bonne séparation des tâches ?",
+   "answer": "La personne qui crée les fournisseurs dans le système n'est pas celle qui valide les paiements",
+   "distractors": [
+    "Le comptable fournisseurs crée les tiers, saisit les factures et lance les virements",
+    "Le directeur financier signe tous les chèques sans justificatif",
+    "Un seul salarié gère la caisse et son rapprochement"
+   ],
+   "explain": "Séparer autorisation, enregistrement, conservation des actifs et contrôle évite qu'une même personne puisse commettre et dissimuler une fraude ou une erreur (par exemple créer un faux fournisseur puis le payer).",
+   "ref": "NEP 315 ; ISA 315 (contrôle interne)",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T119",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "« Vérifier sur un échantillon que les factures de plus de 5 000 € ont été approuvées par le responsable des achats » est :",
+   "answer": "Un test de procédures (test des contrôles)",
+   "distractors": [
+    "Un contrôle de substance sur les soldes",
+    "Une procédure analytique",
+    "Une confirmation de tiers"
+   ],
+   "explain": "On teste l'efficacité de fonctionnement d'un contrôle (l'approbation). Un contrôle de substance porterait directement sur le montant des achats ou des dettes.",
+   "ref": "NEP 330 ; ISA 330, § 8-10",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T120",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Qu'appelle-t-on « sondage » en audit ?",
+   "answer": "L'application de procédures à moins de 100 % des éléments d'une population, de façon que chacun ait une chance d'être sélectionné",
+   "distractors": [
+    "Le contrôle exhaustif d'un compte",
+    "La sélection des seuls éléments les plus importants",
+    "Un questionnaire envoyé au personnel"
+   ],
+   "explain": "Le sondage permet de tirer une conclusion sur toute la population. La sélection des seuls éléments clés (gros montants, opérations inhabituelles) est une autre technique, qui ne permet pas d'extrapoler.",
+   "ref": "NEP 530 ; ISA 530",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T121",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Qu'est-ce que la lettre d'affirmation ?",
+   "answer": "Une déclaration écrite de la direction confirmant notamment qu'elle a fourni toutes les informations nécessaires",
+   "distractors": [
+    "La lettre de mission signée avec le client",
+    "Le rapport de l'auditeur à l'assemblée générale",
+    "Une confirmation reçue d'une banque"
+   ],
+   "explain": "Ces déclarations écrites complètent les éléments probants mais ne les remplacent pas. Leur refus est un signal grave qui peut affecter l'opinion.",
+   "ref": "NEP 580 ; ISA 580",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T122",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "evenements",
+   "q": "Un incendie détruit un entrepôt deux semaines après la clôture. Il n'y avait aucun problème à la clôture. Quel traitement dans les comptes de l'exercice clos ?",
+   "answer": "Pas d'ajustement des comptes ; une information en annexe si l'incidence est significative",
+   "distractors": [
+    "Déprécier l'entrepôt dans les comptes clos",
+    "Constituer une provision pour sinistre dans les comptes clos",
+    "Ignorer l'événement"
+   ],
+   "explain": "L'événement ne révèle pas une situation existant à la clôture : il ne donne pas lieu à ajustement. Il est décrit en annexe s'il est significatif (et peut remettre en cause la continuité d'exploitation).",
+   "ref": "IAS 10, § 10 et 21 ; NEP 560 ; PCG",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T123",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "evenements",
+   "q": "Un client important est mis en liquidation un mois après la clôture ; ses difficultés existaient déjà à la clôture. Quel traitement ?",
+   "answer": "Ajuster la dépréciation de la créance dans les comptes de l'exercice clos",
+   "distractors": [
+    "Mentionner le fait en annexe sans ajustement",
+    "Comptabiliser la perte sur l'exercice suivant",
+    "Ne rien faire, l'événement est postérieur"
+   ],
+   "explain": "L'événement apporte une information sur une situation qui existait à la clôture (insolvabilité) : c'est un événement à ajuster.",
+   "ref": "IAS 10, § 8-9 ; NEP 560",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T124",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "continuite",
+   "q": "Il existe une incertitude significative sur la continuité d'exploitation, correctement décrite en annexe. Que fait le commissaire aux comptes ?",
+   "answer": "Il certifie et inclut une partie « Incertitude significative liée à la continuité d'exploitation » dans son rapport",
+   "distractors": [
+    "Il refuse de certifier",
+    "Il certifie sans aucune mention",
+    "Il démissionne"
+   ],
+   "explain": "Si l'information en annexe est adéquate, l'opinion n'est pas modifiée, mais le rapport comporte une partie spécifique attirant l'attention sur l'incertitude. Une information insuffisante entraînerait une réserve ou un refus.",
+   "ref": "NEP 570 ; ISA 570, § 22",
+   "difficulty": 3,
+   "time": 50
+  },
+  {
+   "id": "T125",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "fraude",
+   "q": "À qui incombe en premier lieu la responsabilité de prévenir et de détecter les fraudes ?",
+   "answer": "À la direction et aux personnes chargées de la gouvernance",
+   "distractors": [
+    "Au commissaire aux comptes",
+    "À l'administration fiscale",
+    "Aux salariés du service comptable"
+   ],
+   "explain": "L'auditeur doit obtenir l'assurance raisonnable que les comptes ne comportent pas d'anomalies significatives, y compris dues à des fraudes, mais la prévention et la détection relèvent d'abord de l'entité.",
+   "ref": "NEP 240 ; ISA 240, § 4",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T126",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ethique",
+   "q": "Que désigne le scepticisme professionnel ?",
+   "answer": "Une attitude d'esprit critique : rester attentif aux éléments qui contredisent les autres et ne pas accepter une explication sans élément probant",
+   "distractors": [
+    "Une méfiance systématique envers toutes les personnes de l'entité",
+    "L'obligation de contrôler 100 % des écritures",
+    "Le refus de toute explication orale"
+   ],
+   "explain": "Le scepticisme suppose de questionner, de rester vigilant aux signaux de fraude ou d'erreur et d'évaluer de façon critique les éléments probants, sans présumer la malhonnêteté de la direction.",
+   "ref": "ISA 200, § 15 ; NEP 200",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T127",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Que permet notamment de vérifier une confirmation bancaire ?",
+   "answer": "Les soldes des comptes, les emprunts et les engagements donnés ou reçus auprès de la banque",
+   "distractors": [
+    "Le chiffre d'affaires de l'exercice",
+    "Le salaire des dirigeants",
+    "Les quantités en stock"
+   ],
+   "explain": "La réponse de la banque, obtenue directement par l'auditeur, couvre l'existence des soldes et l'exhaustivité des dettes et engagements (cautions, garanties, instruments financiers).",
+   "ref": "NEP 505 ; ISA 505",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T128",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Quelle procédure fournit des éléments probants sur l'existence des stocks ?",
+   "answer": "Assister à l'inventaire physique",
+   "distractors": [
+    "Recalculer le coût unitaire moyen",
+    "Analyser l'évolution de la marge",
+    "Lire le procès-verbal d'assemblée"
+   ],
+   "explain": "L'observation de l'inventaire permet de vérifier que les stocks existent, d'apprécier leur état (obsolescence) et de tester les comptages.",
+   "ref": "NEP 501 ; ISA 501",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T129",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Le taux de marge brute est resté identique alors que les prix des matières premières ont fortement augmenté et que les prix de vente n'ont pas bougé. Que doit faire l'auditeur ?",
+   "answer": "Rechercher l'explication et la corroborer par des éléments probants (cut-off, stocks, chiffre d'affaires)",
+   "distractors": [
+    "Conclure que tout est normal puisque la marge est stable",
+    "Demander à la direction de modifier son budget",
+    "Ignorer l'écart s'il est inférieur au seuil de l'an dernier"
+   ],
+   "explain": "Une stabilité incohérente avec l'évolution connue des coûts est un signal : erreur de valorisation des stocks, de séparation des exercices, voire manipulation. L'explication de la direction doit être corroborée.",
+   "ref": "NEP 520 ; ISA 520, § 7",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T130",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "assertions",
+   "q": "Le reclassement de la partie d'un emprunt remboursable à moins d'un an relève de quelle assertion ?",
+   "answer": "La présentation et le classement",
+   "distractors": [
+    "L'existence",
+    "L'exhaustivité",
+    "L'évaluation"
+   ],
+   "explain": "Le montant total est juste, mais il doit être correctement réparti et présenté (part à plus et à moins d'un an en annexe).",
+   "ref": "ISA 315 (assertions de présentation)",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T131",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "L'auditeur utilise les travaux d'un expert immobilier pour valoriser des immeubles. Qui est responsable de l'opinion d'audit ?",
+   "answer": "Le commissaire aux comptes, seul",
+   "distractors": [
+    "L'expert, pour la partie qui le concerne",
+    "L'expert et l'auditeur, solidairement",
+    "La direction de l'entité"
+   ],
+   "explain": "L'auditeur doit apprécier la compétence, l'objectivité et les travaux de l'expert, mais il conserve l'entière responsabilité de son opinion.",
+   "ref": "NEP 620 ; ISA 620, § 3",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T132",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Quel document formalise l'accord entre l'auditeur et l'entité sur les termes de la mission ?",
+   "answer": "La lettre de mission",
+   "distractors": [
+    "La lettre d'affirmation",
+    "Le rapport d'audit",
+    "Le plan de mission"
+   ],
+   "explain": "La lettre de mission précise notamment l'objectif, l'étendue, les responsabilités de chacun et les honoraires.",
+   "ref": "NEP 210 ; ISA 210",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T133",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Selon IFRS 15, quelle est la deuxième des cinq étapes de comptabilisation du revenu ?",
+   "answer": "Identifier les obligations de prestation du contrat",
+   "distractors": [
+    "Déterminer le prix de la transaction",
+    "Comptabiliser le revenu lorsque l'obligation est remplie",
+    "Répartir le prix entre les obligations"
+   ],
+   "explain": "Les cinq étapes : 1) identifier le contrat ; 2) identifier les obligations de prestation ; 3) déterminer le prix ; 4) répartir le prix entre les obligations ; 5) comptabiliser le revenu quand (ou à mesure que) chaque obligation est remplie.",
+   "ref": "IFRS 15, § IN7",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T134",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ifrs",
+   "q": "Un contrat vend un logiciel et un an de maintenance pour 120 €. Prix de vente séparés : logiciel 100 €, maintenance 50 €. Quel revenu affecter au logiciel selon IFRS 15 ?",
+   "answer": "80 €",
+   "distractors": [
+    "100 €",
+    "70 €",
+    "120 €"
+   ],
+   "explain": "Le prix est réparti au prorata des prix de vente spécifiques : 120 × 100 ÷ 150 = 80 € pour le logiciel, 40 € pour la maintenance (reconnus sur l'année).",
+   "ref": "IFRS 15, § 73-80",
+   "difficulty": 3,
+   "time": 75
+  },
+  {
+   "id": "T135",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Selon IFRS 16, quelles locations le preneur peut-il exclure de la comptabilisation au bilan ?",
+   "answer": "Les contrats de courte durée (12 mois au plus) et ceux portant sur des actifs de faible valeur",
+   "distractors": [
+    "Toutes les locations simples",
+    "Les locations immobilières",
+    "Aucune : tous les contrats vont au bilan"
+   ],
+   "explain": "Le preneur inscrit un droit d'utilisation et une dette locative pour tous ses contrats, sauf s'il utilise les exemptions courte durée et faible valeur ; les loyers correspondants vont alors en charges.",
+   "ref": "IFRS 16, § 5-8",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T136",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Après leur comptabilisation initiale, IAS 16 permet d'évaluer les immobilisations corporelles selon :",
+   "answer": "Le modèle du coût ou le modèle de la réévaluation, appliqué par catégorie d'actifs",
+   "distractors": [
+    "Uniquement le modèle du coût",
+    "Uniquement la juste valeur par résultat",
+    "La valeur de marché à chaque clôture, obligatoirement"
+   ],
+   "explain": "Le choix se fait par catégorie. En réévaluation, les écarts positifs vont en capitaux propres (écart de réévaluation), sauf reprise d'une baisse antérieure passée en résultat.",
+   "ref": "IAS 16, § 29-31",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T137",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Selon IAS 36, la valeur recouvrable d'un actif est :",
+   "answer": "La plus élevée entre sa juste valeur diminuée des coûts de sortie et sa valeur d'utilité",
+   "distractors": [
+    "La plus faible entre sa juste valeur et sa valeur d'utilité",
+    "Sa valeur nette comptable",
+    "Son coût de remplacement"
+   ],
+   "explain": "Un actif ne doit pas être inscrit pour plus que ce qu'il permet de récupérer, par la vente ou par l'utilisation : on retient le plus élevé des deux montants.",
+   "ref": "IAS 36, § 18",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T138",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ifrs",
+   "q": "Valeur comptable d'une unité génératrice de trésorerie : 500. Juste valeur diminuée des coûts de sortie : 420. Valeur d'utilité : 460. Dépréciation à comptabiliser ?",
+   "answer": "40",
+   "distractors": [
+    "80",
+    "0",
+    "60"
+   ],
+   "explain": "Valeur recouvrable = max(420 ; 460) = 460. Dépréciation = 500 − 460 = 40. Retenir la plus faible des deux valeurs (80) est l'erreur classique.",
+   "ref": "IAS 36, § 59",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T139",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Pour IAS 37, une sortie de ressources est « probable » lorsqu'elle est :",
+   "answer": "Plus probable qu'improbable",
+   "distractors": [
+    "Certaine",
+    "Possible",
+    "Supérieure à 90 %"
+   ],
+   "explain": "Probable signifie plus probable qu'improbable (probabilité supérieure à 50 %). Une sortie seulement possible relève du passif éventuel, mentionné en annexe.",
+   "ref": "IAS 37, § 23",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T140",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Quand une provision pour restructuration peut-elle être comptabilisée selon IAS 37 ?",
+   "answer": "Quand un plan formalisé et détaillé existe et que l'entité a créé chez les personnes concernées une attente fondée qu'il sera mis en œuvre",
+   "distractors": [
+    "Dès que la direction envisage une restructuration",
+    "Quand le budget de l'année suivante prévoit des économies",
+    "Uniquement après le départ effectif des salariés"
+   ],
+   "explain": "Il faut une obligation implicite : plan détaillé ET début d'exécution ou annonce aux personnes concernées avant la clôture. Une simple décision de la direction ne suffit pas.",
+   "ref": "IAS 37, § 72",
+   "difficulty": 3,
+   "time": 50
+  },
+  {
+   "id": "T141",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Selon IAS 2, les stocks sont évalués :",
+   "answer": "Au plus faible du coût et de la valeur nette de réalisation",
+   "distractors": [
+    "À la juste valeur",
+    "Au prix de vente",
+    "Au coût de remplacement"
+   ],
+   "explain": "La valeur nette de réalisation est le prix de vente estimé dans le cours normal de l'activité, diminué des coûts estimés d'achèvement et de vente.",
+   "ref": "IAS 2, § 9",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T142",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "En IFRS, des frais de développement satisfaisant à tous les critères d'IAS 38 (faisabilité technique, intention, ressources, avantages futurs…) doivent être :",
+   "answer": "Obligatoirement immobilisés",
+   "distractors": [
+    "Obligatoirement comptabilisés en charges",
+    "Immobilisés ou passés en charges, au choix",
+    "Provisionnés"
+   ],
+   "explain": "IAS 38 impose l'activation lorsque les six critères sont démontrés. En PCG, l'activation des frais de développement est une option. Les frais de recherche sont toujours en charges.",
+   "ref": "IAS 38, § 57",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T143",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Pour déprécier ses créances commerciales, IFRS 9 prévoit :",
+   "answer": "Un modèle de pertes de crédit attendues, avec une approche simplifiée possible pour les créances commerciales",
+   "distractors": [
+    "Une dépréciation seulement en cas de faillite du client",
+    "Une dépréciation forfaitaire de 5 %",
+    "Aucune dépréciation : la créance reste au nominal"
+   ],
+   "explain": "IFRS 9 anticipe les pertes attendues (et non plus seulement subies). Pour les créances commerciales, l'approche simplifiée calcule directement les pertes attendues sur la durée de vie, souvent à l'aide d'une matrice par ancienneté.",
+   "ref": "IFRS 9, § 5.5.15",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T144",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Dans le tableau des flux de trésorerie (IAS 7), l'achat d'une machine est classé en flux :",
+   "answer": "D'investissement",
+   "distractors": [
+    "Opérationnels",
+    "De financement",
+    "Non monétaires"
+   ],
+   "explain": "Les acquisitions et cessions d'actifs à long terme sont des flux d'investissement ; les emprunts et dividendes relèvent du financement.",
+   "ref": "IAS 7, § 16",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T145",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Quelle norme remplace IAS 1 (présentation des états financiers) pour les exercices ouverts à compter du 1er janvier 2027 ?",
+   "answer": "IFRS 18",
+   "distractors": [
+    "IFRS 17",
+    "IFRS 16",
+    "IAS 8"
+   ],
+   "explain": "IFRS 18, publiée en 2024, impose notamment de nouveaux sous-totaux au compte de résultat (résultat opérationnel…) et une information sur les indicateurs de performance définis par la direction. IFRS 17 traite des contrats d'assurance.",
+   "ref": "IFRS 18",
+   "difficulty": 3,
+   "time": 40
+  },
+  {
+   "id": "T146",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "Selon IFRS 13, la juste valeur est :",
+   "answer": "Le prix qui serait reçu pour vendre un actif (ou payé pour transférer un passif) lors d'une transaction normale entre participants de marché, à la date d'évaluation",
+   "distractors": [
+    "Le prix payé à l'origine pour l'actif",
+    "La valeur d'utilité de l'actif pour l'entreprise",
+    "Le coût de remplacement à neuf"
+   ],
+   "explain": "C'est un prix de sortie, déterminé du point de vue des participants de marché et non de l'entité.",
+   "ref": "IFRS 13, § 9",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T147",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ifrs",
+   "q": "En IFRS (IAS 21), à la clôture, une créance libellée en devise est :",
+   "answer": "Convertie au cours de clôture, l'écart de change étant comptabilisé en résultat",
+   "distractors": [
+    "Maintenue au cours historique",
+    "Convertie au cours de clôture avec écart en capitaux propres",
+    "Convertie au cours moyen de l'exercice"
+   ],
+   "explain": "Les éléments monétaires sont convertis au cours de clôture et les écarts de change passent en résultat, gains comme pertes. En PCG, seuls les écarts latents défavorables affectent le résultat (via une provision).",
+   "ref": "IAS 21, § 23 et 28",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T148",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "normes",
+   "q": "En France, selon quelles normes le commissaire aux comptes exerce-t-il sa mission de certification ?",
+   "answer": "Les normes d'exercice professionnel (NEP)",
+   "distractors": [
+    "Les normes IFRS",
+    "Les normes IPSAS",
+    "Le plan comptable général"
+   ],
+   "explain": "Les NEP, homologuées par arrêté, s'inspirent largement des normes internationales d'audit (ISA). Les IFRS et le PCG sont des référentiels comptables, pas des normes d'audit.",
+   "ref": "Code de commerce ; NEP",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T149",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "controle-interne",
+   "q": "Lors de la prise de connaissance, l'auditeur constate une faiblesse significative du contrôle interne. Que doit-il faire ?",
+   "answer": "La communiquer par écrit, en temps utile, à la direction et aux personnes chargées de la gouvernance, et en tenir compte dans son approche",
+   "distractors": [
+    "La corriger lui-même dans le système",
+    "N'en parler qu'à l'assemblée générale",
+    "L'ignorer si elle n'a pas encore causé d'anomalie"
+   ],
+   "explain": "L'auditeur informe des faiblesses significatives identifiées et adapte ses procédures (davantage de contrôles de substance, si le contrôle n'est pas fiable). Il n'a pas à concevoir ou modifier les contrôles de l'entité.",
+   "ref": "NEP 265 ; ISA 265",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T150",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "procedures",
+   "q": "Quel élément probant est en principe le plus fiable ?",
+   "answer": "Une confirmation obtenue directement par l'auditeur auprès d'un tiers indépendant",
+   "distractors": [
+    "Une explication orale de la direction",
+    "Une copie de document fournie par l'entité",
+    "Un document interne non signé"
+   ],
+   "explain": "La fiabilité augmente lorsque l'élément vient d'une source indépendante, est obtenu directement par l'auditeur, existe sous forme écrite et en original.",
+   "ref": "NEP 500 ; ISA 500, § A31",
+   "difficulty": 2,
+   "time": 45
+  }
+ ]
+}

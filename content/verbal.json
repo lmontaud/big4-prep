@@ -1,0 +1,1224 @@
+{
+ "module": "verbal",
+ "title": "Raisonnement verbal",
+ "passages": [
+  {
+   "id": "V01",
+   "lang": "fr",
+   "title": "Rotation des commissaires aux comptes",
+   "text": "Pour les entités d'intérêt public, la réglementation européenne limite la durée pendant laquelle un même cabinet peut certifier les comptes d'une société. À l'issue de cette durée, le cabinet doit être remplacé, sauf prolongation lorsque la société organise un appel d'offres ou nomme plusieurs commissaires aux comptes. L'objectif affiché est de préserver l'indépendance de l'auditeur, qu'une relation trop longue avec le même client pourrait fragiliser. Certains dirigeants regrettent toutefois la perte de connaissance de l'entreprise qu'entraîne chaque changement de cabinet, et la charge de travail supplémentaire pour les équipes financières pendant la première année du nouveau mandat.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V01-1",
+     "s": "La rotation obligatoire des cabinets vise à préserver l'indépendance de l'auditeur.",
+     "answer": "vrai",
+     "why": "Le texte indique que « l'objectif affiché est de préserver l'indépendance de l'auditeur »."
+    },
+    {
+     "id": "V01-2",
+     "s": "Aucune prolongation de la durée maximale n'est possible.",
+     "answer": "faux",
+     "why": "Le texte prévoit une prolongation « lorsque la société organise un appel d'offres ou nomme plusieurs commissaires aux comptes »."
+    },
+    {
+     "id": "V01-3",
+     "s": "Le changement de cabinet entraîne une hausse des honoraires d'audit.",
+     "answer": "nsp",
+     "why": "Le texte évoque une perte de connaissance et une charge de travail accrue pour les équipes financières, mais ne dit rien des honoraires."
+    },
+    {
+     "id": "V01-4",
+     "s": "Ces règles s'appliquent à toutes les sociétés commerciales.",
+     "answer": "faux",
+     "why": "Le texte précise qu'elles concernent les entités d'intérêt public, pas toutes les sociétés."
+    }
+   ]
+  },
+  {
+   "id": "V02",
+   "lang": "fr",
+   "title": "Le BFR d'un distributeur",
+   "text": "Le distributeur Kerlis a vu son besoin en fonds de roulement augmenter de 18 % en un an, alors que son chiffre d'affaires n'a progressé que de 6 %. La direction financière attribue cet écart à l'allongement des délais de paiement accordés à deux grands clients, ainsi qu'à la constitution de stocks de sécurité après les ruptures d'approvisionnement du printemps. Pour financer ce besoin, l'entreprise a davantage utilisé sa ligne de crédit à court terme. Le directeur financier estime que les stocks reviendront à leur niveau habituel d'ici la fin de l'exercice prochain, mais n'a pas indiqué si les conditions accordées aux clients seraient renégociées.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V02-1",
+     "s": "Le besoin en fonds de roulement de Kerlis a augmenté plus vite que son chiffre d'affaires.",
+     "answer": "vrai",
+     "why": "+18 % pour le BFR contre +6 % pour le chiffre d'affaires."
+    },
+    {
+     "id": "V02-2",
+     "s": "Les délais de paiement des deux grands clients seront renégociés l'an prochain.",
+     "answer": "nsp",
+     "why": "Le texte dit précisément que le directeur financier « n'a pas indiqué si les conditions accordées aux clients seraient renégociées »."
+    },
+    {
+     "id": "V02-3",
+     "s": "L'entreprise a financé la hausse de son BFR par une augmentation de capital.",
+     "answer": "faux",
+     "why": "Elle a « davantage utilisé sa ligne de crédit à court terme »."
+    },
+    {
+     "id": "V02-4",
+     "s": "Les ruptures d'approvisionnement ont eu lieu au printemps.",
+     "answer": "vrai",
+     "why": "Le texte mentionne « les ruptures d'approvisionnement du printemps »."
+    }
+   ]
+  },
+  {
+   "id": "V03",
+   "lang": "fr",
+   "title": "Le contrôle interne des achats",
+   "text": "Lors de sa mission intermédiaire, l'équipe d'audit a constaté que, dans la filiale de Lyon, une même personne pouvait créer un nouveau fournisseur dans le logiciel et valider son paiement. Aucune anomalie n'a été relevée sur l'échantillon de paiements testés, mais l'équipe considère que cette situation crée un risque de fraude. Elle recommande de confier la création des fournisseurs au service de contrôle de gestion. La direction de la filiale a accepté la recommandation et prévoit de la mettre en place au cours du prochain trimestre. L'équipe d'audit n'a pas encore décidé si elle étendrait ses tests aux autres filiales.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V03-1",
+     "s": "Des paiements frauduleux ont été découverts dans la filiale de Lyon.",
+     "answer": "faux",
+     "why": "Le texte indique qu'« aucune anomalie n'a été relevée sur l'échantillon de paiements testés »."
+    },
+    {
+     "id": "V03-2",
+     "s": "La direction de la filiale a accepté la recommandation de l'équipe d'audit.",
+     "answer": "vrai",
+     "why": "La direction « a accepté la recommandation »."
+    },
+    {
+     "id": "V03-3",
+     "s": "Les mêmes faiblesses existent dans les autres filiales du groupe.",
+     "answer": "nsp",
+     "why": "Le texte ne dit rien de la situation des autres filiales ; l'équipe n'a même pas décidé d'y étendre ses tests."
+    },
+    {
+     "id": "V03-4",
+     "s": "L'équipe recommande de confier la création des fournisseurs au service comptable.",
+     "answer": "faux",
+     "why": "Elle recommande de la confier au service de contrôle de gestion."
+    }
+   ]
+  },
+  {
+   "id": "V04",
+   "lang": "fr",
+   "title": "Les taux d'intérêt et les PME",
+   "text": "Après deux années de hausse, les taux des crédits accordés aux petites et moyennes entreprises se sont stabilisés au cours des six derniers mois. Selon l'enquête trimestrielle d'une fédération professionnelle, près d'un dirigeant sur trois déclare avoir reporté un investissement en raison du coût du financement. Les secteurs de la construction et du commerce de détail sont les plus touchés. L'enquête souligne cependant que la demande de crédits de trésorerie reste soutenue, signe que les entreprises cherchent avant tout à sécuriser leurs liquidités. Les auteurs de l'enquête ne formulent pas de prévision sur l'évolution des taux pour l'année à venir.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V04-1",
+     "s": "Les taux des crédits aux PME ont continué d'augmenter au cours des six derniers mois.",
+     "answer": "faux",
+     "why": "Ils « se sont stabilisés au cours des six derniers mois »."
+    },
+    {
+     "id": "V04-2",
+     "s": "Environ un tiers des dirigeants interrogés ont reporté un investissement à cause du coût du financement.",
+     "answer": "vrai",
+     "why": "« Près d'un dirigeant sur trois » l'a déclaré."
+    },
+    {
+     "id": "V04-3",
+     "s": "Les taux baisseront l'année prochaine.",
+     "answer": "nsp",
+     "why": "Les auteurs « ne formulent pas de prévision sur l'évolution des taux »."
+    }
+   ]
+  },
+  {
+   "id": "V05",
+   "lang": "fr",
+   "title": "Le seuil de signification",
+   "text": "Avant de commencer ses travaux, l'auditeur fixe un seuil de signification, c'est-à-dire le montant à partir duquel une anomalie, seule ou cumulée avec d'autres, pourrait influencer les décisions des utilisateurs des comptes. Ce seuil est généralement calculé à partir d'un indicateur de référence, comme le résultat avant impôt ou le chiffre d'affaires, auquel on applique un pourcentage. Le choix de l'indicateur dépend de ce qui intéresse le plus les lecteurs des comptes. Le seuil n'est pas figé : il peut être révisé en cours de mission si l'auditeur obtient des informations qui l'auraient conduit à retenir un montant différent dès le départ.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V05-1",
+     "s": "Le seuil de signification ne peut plus être modifié une fois la mission commencée.",
+     "answer": "faux",
+     "why": "Le texte dit qu'il « peut être révisé en cours de mission »."
+    },
+    {
+     "id": "V05-2",
+     "s": "Le chiffre d'affaires peut servir d'indicateur de référence pour calculer le seuil.",
+     "answer": "vrai",
+     "why": "Le texte cite le chiffre d'affaires parmi les indicateurs possibles."
+    },
+    {
+     "id": "V05-3",
+     "s": "Le pourcentage appliqué au résultat avant impôt est de 5 %.",
+     "answer": "nsp",
+     "why": "Le texte parle d'« un pourcentage » sans en donner la valeur."
+    },
+    {
+     "id": "V05-4",
+     "s": "Une anomalie inférieure au seuil peut être prise en compte lorsqu'elle se cumule avec d'autres.",
+     "answer": "vrai",
+     "why": "Le seuil vise une anomalie « seule ou cumulée avec d'autres »."
+    }
+   ]
+  },
+  {
+   "id": "V06",
+   "lang": "fr",
+   "title": "La facturation électronique",
+   "text": "La généralisation de la facturation électronique entre entreprises assujetties à la TVA se fait par étapes. Toutes les entreprises devront d'abord être en mesure de recevoir des factures électroniques ; l'obligation d'en émettre sera ensuite étendue selon leur taille, les grandes et moyennes entreprises étant concernées les premières. Les factures transiteront par des plateformes agréées, qui transmettront certaines données à l'administration fiscale. Pour les pouvoirs publics, la réforme doit réduire la fraude à la TVA et accélérer les délais de paiement. Plusieurs éditeurs de logiciels comptables signalent que de nombreuses petites entreprises n'ont pas encore choisi leur plateforme.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V06-1",
+     "s": "Les petites entreprises devront émettre des factures électroniques avant les grandes entreprises.",
+     "answer": "faux",
+     "why": "Les grandes et moyennes entreprises sont « concernées les premières » pour l'émission."
+    },
+    {
+     "id": "V06-2",
+     "s": "Selon les pouvoirs publics, la réforme doit contribuer à réduire la fraude à la TVA.",
+     "answer": "vrai",
+     "why": "C'est l'un des deux objectifs cités."
+    },
+    {
+     "id": "V06-3",
+     "s": "La majorité des petites entreprises n'a pas encore choisi de plateforme.",
+     "answer": "nsp",
+     "why": "Les éditeurs parlent de « nombreuses » petites entreprises, ce qui ne permet pas de conclure à une majorité."
+    },
+    {
+     "id": "V06-4",
+     "s": "Les plateformes agréées transmettront certaines données à l'administration fiscale.",
+     "answer": "vrai",
+     "why": "Le texte l'indique explicitement."
+    }
+   ]
+  },
+  {
+   "id": "V07",
+   "lang": "fr",
+   "title": "Les estimations comptables",
+   "text": "Les estimations comptables, comme les dépréciations de stocks ou les provisions pour litiges, reposent sur des hypothèses formulées par la direction. Elles présentent un risque particulier, car un biais même involontaire peut orienter le résultat dans le sens souhaité. L'auditeur ne se contente donc pas de vérifier les calculs : il apprécie le caractère raisonnable des hypothèses retenues, les compare aux données observées et examine, l'année suivante, comment les estimations passées se sont dénouées. Un écart entre une estimation et son dénouement ne prouve pas à lui seul une erreur, mais des écarts répétés dans le même sens peuvent révéler un biais.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V07-1",
+     "s": "Un écart entre une estimation et son dénouement prouve que la direction a commis une erreur.",
+     "answer": "faux",
+     "why": "Le texte précise qu'un écart « ne prouve pas à lui seul une erreur »."
+    },
+    {
+     "id": "V07-2",
+     "s": "L'auditeur examine la façon dont les estimations des années précédentes se sont dénouées.",
+     "answer": "vrai",
+     "why": "Il « examine, l'année suivante, comment les estimations passées se sont dénouées »."
+    },
+    {
+     "id": "V07-3",
+     "s": "Les provisions pour litiges sont l'estimation comptable la plus risquée.",
+     "answer": "nsp",
+     "why": "Le texte les cite comme exemple, sans les classer par niveau de risque."
+    },
+    {
+     "id": "V07-4",
+     "s": "Selon le texte, un biais dans les estimations est toujours volontaire.",
+     "answer": "faux",
+     "why": "Le texte évoque un biais « même involontaire »."
+    }
+   ]
+  },
+  {
+   "id": "V08",
+   "lang": "fr",
+   "title": "Le télétravail dans les cabinets",
+   "text": "Une étude menée auprès de 1 200 salariés de cabinets d'audit et de conseil montre que 72 % d'entre eux télétravaillent au moins un jour par semaine. Les jeunes collaborateurs sont toutefois plus nombreux que leurs aînés à souhaiter davantage de présence au bureau, qu'ils jugent indispensable pour apprendre au contact des équipes. Les managers interrogés estiment de leur côté que le télétravail n'a pas réduit la productivité, mais qu'il a rendu plus difficile l'intégration des nouveaux arrivants. L'étude ne précise pas comment les cabinets comptent faire évoluer leurs règles.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V08-1",
+     "s": "Plus des deux tiers des salariés interrogés télétravaillent au moins un jour par semaine.",
+     "answer": "vrai",
+     "why": "72 % est supérieur à deux tiers (environ 67 %)."
+    },
+    {
+     "id": "V08-2",
+     "s": "Les managers estiment que le télétravail a réduit la productivité.",
+     "answer": "faux",
+     "why": "Ils « estiment que le télétravail n'a pas réduit la productivité »."
+    },
+    {
+     "id": "V08-3",
+     "s": "Les cabinets vont réduire le nombre de jours de télétravail autorisés.",
+     "answer": "nsp",
+     "why": "L'étude « ne précise pas » comment les cabinets feront évoluer leurs règles."
+    }
+   ]
+  },
+  {
+   "id": "V09",
+   "lang": "fr",
+   "title": "Une acquisition dans l'agroalimentaire",
+   "text": "Le groupe Montavia a annoncé l'acquisition d'un fabricant de biscuits régional pour un montant de 48 millions d'euros, financé pour moitié par endettement et pour moitié par sa trésorerie disponible. La cible a réalisé l'an dernier un chiffre d'affaires de 31 millions d'euros, en progression régulière depuis cinq ans. Montavia espère réaliser des économies d'achats en regroupant les commandes de matières premières des deux entreprises. L'opération doit encore être autorisée par l'autorité de la concurrence. Le dirigeant fondateur de la cible restera à la tête de l'entreprise pendant au moins deux ans.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V09-1",
+     "s": "L'acquisition est financée intégralement par endettement.",
+     "answer": "faux",
+     "why": "Elle est financée « pour moitié par endettement et pour moitié par sa trésorerie disponible »."
+    },
+    {
+     "id": "V09-2",
+     "s": "L'opération a déjà été autorisée par l'autorité de la concurrence.",
+     "answer": "faux",
+     "why": "Elle « doit encore être autorisée »."
+    },
+    {
+     "id": "V09-3",
+     "s": "Le chiffre d'affaires de la cible est en hausse depuis cinq ans.",
+     "answer": "vrai",
+     "why": "Le texte parle d'une « progression régulière depuis cinq ans »."
+    },
+    {
+     "id": "V09-4",
+     "s": "La cible est rentable.",
+     "answer": "nsp",
+     "why": "Le texte donne le chiffre d'affaires mais rien sur le résultat."
+    }
+   ]
+  },
+  {
+   "id": "V10",
+   "lang": "fr",
+   "title": "La continuité d'exploitation",
+   "text": "Les comptes annuels sont normalement établis en supposant que l'entreprise poursuivra son activité pendant au moins les douze mois qui suivent la clôture. Lorsque des événements font peser un doute important sur cette hypothèse, la direction doit l'indiquer dans l'annexe. L'auditeur, de son côté, apprécie si l'hypothèse retenue par la direction est appropriée et si l'information fournie est suffisante. Un doute sur la continuité d'exploitation ne conduit pas automatiquement à un refus de certifier : si l'information donnée dans l'annexe est adéquate, l'auditeur peut certifier les comptes tout en attirant l'attention des lecteurs sur cette incertitude.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V10-1",
+     "s": "Un doute important sur la continuité d'exploitation entraîne toujours un refus de certifier.",
+     "answer": "faux",
+     "why": "Le texte dit précisément que ce n'est pas automatique."
+    },
+    {
+     "id": "V10-2",
+     "s": "C'est d'abord à la direction de signaler dans l'annexe un doute important sur la continuité d'exploitation.",
+     "answer": "vrai",
+     "why": "« La direction doit l'indiquer dans l'annexe »."
+    },
+    {
+     "id": "V10-3",
+     "s": "L'hypothèse de continuité porte sur au moins les douze mois qui suivent la clôture.",
+     "answer": "vrai",
+     "why": "C'est la durée indiquée au début du texte."
+    },
+    {
+     "id": "V10-4",
+     "s": "Les entreprises en difficulté sont de plus en plus nombreuses.",
+     "answer": "nsp",
+     "why": "Le texte ne donne aucune information sur le nombre d'entreprises en difficulté."
+    }
+   ]
+  },
+  {
+   "id": "V11",
+   "lang": "fr",
+   "title": "Les prix de l'énergie",
+   "text": "La hausse des prix de l'énergie a pesé sur les marges des industriels l'an dernier, en particulier dans la chimie et la métallurgie. Certaines entreprises ont pu répercuter cette hausse sur leurs prix de vente grâce à des clauses d'indexation prévues dans leurs contrats. D'autres, liées par des prix fixes sur plusieurs années, ont dû absorber l'intégralité du surcoût. Cette année, les prix de gros de l'électricité ont reculé, mais une partie des entreprises reste engagée dans des contrats d'approvisionnement signés au plus haut du marché, ce qui retarde pour elles le bénéfice de la baisse.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V11-1",
+     "s": "Toutes les entreprises industrielles ont subi une baisse de leurs marges l'an dernier.",
+     "answer": "nsp",
+     "why": "Le texte dit que la hausse « a pesé sur les marges des industriels », mais certaines ont répercuté la hausse : on ne peut pas affirmer que toutes ont vu leurs marges baisser."
+    },
+    {
+     "id": "V11-2",
+     "s": "Les clauses d'indexation ont permis à certaines entreprises de répercuter la hausse sur leurs clients.",
+     "answer": "vrai",
+     "why": "C'est ce qu'indique la deuxième phrase."
+    },
+    {
+     "id": "V11-3",
+     "s": "Les prix de gros de l'électricité ont augmenté cette année.",
+     "answer": "faux",
+     "why": "Ils « ont reculé » cette année."
+    }
+   ]
+  },
+  {
+   "id": "V12",
+   "lang": "fr",
+   "title": "Le contrôle fiscal",
+   "text": "Une entreprise qui reçoit un avis de vérification de comptabilité dispose de garanties. Elle peut se faire assister par un conseil de son choix, et la vérification ne peut en principe pas durer plus de trois mois pour les petites entreprises. À l'issue du contrôle, l'administration adresse une proposition de rectification motivée, à laquelle l'entreprise peut répondre dans un délai déterminé. En cas de désaccord persistant, certaines commissions peuvent être saisies avant tout recours devant le juge. La loi ne fixe toutefois pas de limite de durée à la vérification pour les grandes entreprises.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V12-1",
+     "s": "Une petite entreprise peut se faire assister par un conseil pendant la vérification.",
+     "answer": "vrai",
+     "why": "Toute entreprise vérifiée peut se faire assister « par un conseil de son choix »."
+    },
+    {
+     "id": "V12-2",
+     "s": "La vérification d'une grande entreprise ne peut pas dépasser trois mois.",
+     "answer": "faux",
+     "why": "Le texte dit que la loi ne fixe pas de limite de durée pour les grandes entreprises."
+    },
+    {
+     "id": "V12-3",
+     "s": "La plupart des contrôles fiscaux aboutissent à un redressement.",
+     "answer": "nsp",
+     "why": "Le texte ne donne aucune statistique sur l'issue des contrôles."
+    }
+   ]
+  },
+  {
+   "id": "V13",
+   "lang": "fr",
+   "title": "Les parties liées",
+   "text": "Les transactions avec des parties liées, comme les filiales, les dirigeants ou leurs proches, ne sont pas illégales en soi. Elles exigent cependant une attention particulière, car elles peuvent être conclues à des conditions différentes de celles du marché. Les normes comptables imposent de donner en annexe une information sur ces transactions, afin que les lecteurs des comptes puissent en mesurer l'effet. L'auditeur doit identifier les parties liées et vérifier que les transactions importantes ont été correctement autorisées et présentées. Il s'appuie notamment sur les déclarations de la direction, qu'il confronte à d'autres sources d'information.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V13-1",
+     "s": "Les transactions avec des parties liées sont interdites.",
+     "answer": "faux",
+     "why": "Le texte précise qu'elles « ne sont pas illégales en soi »."
+    },
+    {
+     "id": "V13-2",
+     "s": "Les transactions avec des parties liées sont le plus souvent conclues à des conditions défavorables à l'entreprise.",
+     "answer": "nsp",
+     "why": "Le texte dit seulement qu'elles « peuvent » être conclues à des conditions différentes de celles du marché ; il ne dit pas si c'est fréquent ni dans quel sens."
+    },
+    {
+     "id": "V13-3",
+     "s": "L'auditeur ne se fie pas uniquement aux déclarations de la direction pour identifier les parties liées.",
+     "answer": "vrai",
+     "why": "Il les « confronte à d'autres sources d'information »."
+    },
+    {
+     "id": "V13-4",
+     "s": "Les proches des dirigeants peuvent être des parties liées.",
+     "answer": "vrai",
+     "why": "Ils sont cités parmi les exemples."
+    }
+   ]
+  },
+  {
+   "id": "V14",
+   "lang": "fr",
+   "title": "Le marché de l'emploi des jeunes diplômés",
+   "text": "Selon une enquête d'une association d'écoles, 81 % des diplômés d'un master en finance ont trouvé un emploi moins de six mois après la fin de leurs études. Les cabinets d'audit et les directions financières de grandes entreprises sont les premiers recruteurs. Le salaire médian à l'embauche a progressé de 4 % par rapport à l'année précédente. L'enquête indique également que les diplômés ayant effectué leur cursus en alternance trouvent un emploi plus rapidement que les autres, sans préciser l'écart de salaire entre les deux groupes.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V14-1",
+     "s": "Moins d'un diplômé sur cinq n'avait pas trouvé d'emploi six mois après ses études.",
+     "answer": "vrai",
+     "why": "81 % ont trouvé un emploi, donc 19 % n'en avaient pas, soit moins d'un sur cinq (20 %)."
+    },
+    {
+     "id": "V14-2",
+     "s": "Les diplômés en alternance sont mieux payés que les autres.",
+     "answer": "nsp",
+     "why": "L'enquête ne précise pas l'écart de salaire entre les deux groupes."
+    },
+    {
+     "id": "V14-3",
+     "s": "Le salaire médian à l'embauche a baissé par rapport à l'année précédente.",
+     "answer": "faux",
+     "why": "Il a progressé de 4 %."
+    }
+   ]
+  },
+  {
+   "id": "V15",
+   "lang": "fr",
+   "title": "La lutte contre le blanchiment",
+   "text": "Les professionnels du chiffre, dont les experts-comptables et les commissaires aux comptes, sont soumis à des obligations de lutte contre le blanchiment de capitaux. Ils doivent identifier leurs clients, comprendre la nature de leur activité et exercer une vigilance adaptée au niveau de risque. Lorsqu'ils soupçonnent qu'une opération pourrait provenir d'une infraction, ils doivent effectuer une déclaration auprès de la cellule nationale de renseignement financier. Cette déclaration est confidentielle : le client concerné ne doit pas en être informé. Le niveau de vigilance peut être allégé lorsque le risque est faible.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V15-1",
+     "s": "Un commissaire aux comptes doit prévenir son client lorsqu'il effectue une déclaration de soupçon le concernant.",
+     "answer": "faux",
+     "why": "Le client « ne doit pas en être informé »."
+    },
+    {
+     "id": "V15-2",
+     "s": "Le niveau de vigilance est identique pour tous les clients.",
+     "answer": "faux",
+     "why": "Il est « adapté au niveau de risque » et peut être allégé quand le risque est faible."
+    },
+    {
+     "id": "V15-3",
+     "s": "Les experts-comptables sont soumis aux obligations de lutte contre le blanchiment.",
+     "answer": "vrai",
+     "why": "Ils sont cités explicitement."
+    },
+    {
+     "id": "V15-4",
+     "s": "Les déclarations de soupçon ont augmenté ces dernières années.",
+     "answer": "nsp",
+     "why": "Le texte ne donne aucune donnée sur leur évolution."
+    }
+   ]
+  },
+  {
+   "id": "V16",
+   "lang": "fr",
+   "title": "Les indicateurs de performance",
+   "text": "De nombreuses sociétés cotées publient, en plus de leurs comptes, des indicateurs qu'elles définissent elles-mêmes, comme un « résultat opérationnel ajusté ». Ces indicateurs peuvent aider les investisseurs à comprendre la performance récurrente, en excluant des éléments jugés exceptionnels. Les régulateurs rappellent cependant qu'ils ne doivent pas être présentés de manière plus visible que les indicateurs comptables, et que leur rapprochement avec les comptes doit être fourni. Ils constatent que certaines sociétés excluent chaque année les mêmes charges « exceptionnelles », ce qui interroge sur leur caractère réellement inhabituel.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V16-1",
+     "s": "Les indicateurs ajustés sont définis par les normes comptables.",
+     "answer": "faux",
+     "why": "Les sociétés les définissent « elles-mêmes »."
+    },
+    {
+     "id": "V16-2",
+     "s": "Selon les régulateurs, un rapprochement entre ces indicateurs et les comptes doit être fourni.",
+     "answer": "vrai",
+     "why": "C'est l'une des deux règles rappelées."
+    },
+    {
+     "id": "V16-3",
+     "s": "Toutes les sociétés cotées publient un résultat opérationnel ajusté.",
+     "answer": "nsp",
+     "why": "Le texte parle de « nombreuses » sociétés, et le résultat ajusté n'est qu'un exemple."
+    },
+    {
+     "id": "V16-4",
+     "s": "Les régulateurs doutent du caractère exceptionnel de charges exclues chaque année.",
+     "answer": "vrai",
+     "why": "Cette pratique « interroge sur leur caractère réellement inhabituel »."
+    }
+   ]
+  },
+  {
+   "id": "V17",
+   "lang": "fr",
+   "title": "L'inventaire physique",
+   "text": "Chaque année, l'entrepôt de la société Brévalis est fermé pendant deux jours pour l'inventaire physique des stocks. Les équipes comptent les articles par zones, en binômes, et chaque zone est recomptée par une autre équipe si l'écart avec le stock théorique dépasse 2 %. Les auditeurs assistent à l'opération et effectuent eux-mêmes des comptages par sondage. Cette année, l'écart total constaté entre le stock physique et le stock théorique a été inférieur à celui de l'année précédente.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V17-1",
+     "s": "Toutes les zones de l'entrepôt sont recomptées par une seconde équipe.",
+     "answer": "faux",
+     "why": "Seules les zones dont l'écart dépasse 2 % sont recomptées."
+    },
+    {
+     "id": "V17-2",
+     "s": "Les auditeurs réalisent eux-mêmes certains comptages.",
+     "answer": "vrai",
+     "why": "Ils « effectuent eux-mêmes des comptages par sondage »."
+    },
+    {
+     "id": "V17-3",
+     "s": "L'écart total constaté cette année est inférieur à 2 %.",
+     "answer": "nsp",
+     "why": "Le texte indique seulement qu'il est inférieur à celui de l'an dernier, sans en donner le niveau."
+    }
+   ]
+  },
+  {
+   "id": "V18",
+   "lang": "fr",
+   "title": "Les crédits d'impôt et la présentation des comptes",
+   "text": "Le traitement comptable de certains crédits d'impôt fait débat. Lorsqu'un crédit d'impôt peut être remboursé à l'entreprise même si elle ne paie pas d'impôt, de nombreux praticiens considèrent qu'il s'apparente à une subvention et le présentent en diminution des charges qu'il finance plutôt qu'en réduction de l'impôt sur les sociétés. Ce choix modifie le résultat d'exploitation, mais pas le résultat net. Les entreprises doivent appliquer la même méthode d'un exercice à l'autre et la décrire dans l'annexe.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V18-1",
+     "s": "Le choix de présentation de ces crédits d'impôt modifie le résultat net.",
+     "answer": "faux",
+     "why": "Il modifie le résultat d'exploitation, « mais pas le résultat net »."
+    },
+    {
+     "id": "V18-2",
+     "s": "Tous les praticiens présentent ces crédits d'impôt en diminution des charges.",
+     "answer": "faux",
+     "why": "Le texte parle de « nombreux praticiens » et dit que le traitement « fait débat »."
+    },
+    {
+     "id": "V18-3",
+     "s": "La méthode retenue doit être décrite dans l'annexe.",
+     "answer": "vrai",
+     "why": "Les entreprises doivent « la décrire dans l'annexe »."
+    },
+    {
+     "id": "V18-4",
+     "s": "Les crédits d'impôt remboursables représentent un montant important pour les entreprises françaises.",
+     "answer": "nsp",
+     "why": "Le texte ne donne aucun montant."
+    }
+   ]
+  },
+  {
+   "id": "V19",
+   "lang": "fr",
+   "title": "Le rapport de durabilité",
+   "text": "Les grandes entreprises européennes doivent progressivement publier des informations détaillées sur leurs enjeux environnementaux, sociaux et de gouvernance, selon des normes communes. Ces informations font l'objet d'une vérification par un tiers indépendant, qui peut être un commissaire aux comptes ou un organisme accrédité. Le calendrier d'application a été aménagé à plusieurs reprises, ce qui a reporté les obligations de certaines catégories d'entreprises. Les entreprises déjà concernées soulignent le coût de la collecte des données, notamment auprès de leurs fournisseurs.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V19-1",
+     "s": "Seul un commissaire aux comptes peut vérifier les informations de durabilité.",
+     "answer": "faux",
+     "why": "La vérification peut être faite par un commissaire aux comptes « ou un organisme accrédité »."
+    },
+    {
+     "id": "V19-2",
+     "s": "Le calendrier d'application a été modifié au moins une fois.",
+     "answer": "vrai",
+     "why": "Il « a été aménagé à plusieurs reprises »."
+    },
+    {
+     "id": "V19-3",
+     "s": "Le coût de la collecte des données a dissuadé certaines entreprises de publier.",
+     "answer": "nsp",
+     "why": "Le texte mentionne le coût, mais pas qu'il ait conduit des entreprises à renoncer."
+    }
+   ]
+  },
+  {
+   "id": "V20",
+   "lang": "fr",
+   "title": "Le recouvrement des créances",
+   "text": "Pour réduire ses délais de paiement clients, la société Valcourt a mis en place une procédure de relance en trois étapes : un courriel automatique cinq jours après l'échéance, un appel téléphonique à quinze jours, puis une mise en demeure à trente jours. Depuis son lancement il y a six mois, la part des factures payées en retard est passée de 34 % à 21 %. La direction n'a cependant pas encore mesuré l'effet de la procédure sur la satisfaction des clients. Elle envisage de proposer un escompte pour paiement anticipé.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V20-1",
+     "s": "La part des factures payées en retard a diminué de 13 points.",
+     "answer": "vrai",
+     "why": "Elle est passée de 34 % à 21 %, soit 13 points de moins."
+    },
+    {
+     "id": "V20-2",
+     "s": "La procédure a dégradé la satisfaction des clients.",
+     "answer": "nsp",
+     "why": "La direction « n'a pas encore mesuré » cet effet."
+    },
+    {
+     "id": "V20-3",
+     "s": "Valcourt accorde déjà un escompte pour paiement anticipé.",
+     "answer": "faux",
+     "why": "Elle « envisage de proposer » un escompte : elle ne l'accorde pas encore."
+    },
+    {
+     "id": "V20-4",
+     "s": "La mise en demeure intervient quinze jours après l'échéance.",
+     "answer": "faux",
+     "why": "Elle intervient à trente jours ; l'appel téléphonique a lieu à quinze jours."
+    }
+   ]
+  },
+  {
+   "id": "V21",
+   "lang": "en",
+   "title": "Audit firm graduate intake",
+   "text": "Professional services firms have traditionally relied on large graduate intakes to staff their audit practices. In recent years, however, several firms have reduced the number of graduates they hire, citing the automation of routine testing and slower growth in demand for some services. At the same time, the firms continue to report shortages of experienced staff at senior and manager level. Industry observers note that hiring fewer graduates today may make it harder to fill these more senior roles in five to ten years' time, although the firms have not commented on this risk.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V21-1",
+     "s": "Some firms have cut the number of graduates they recruit.",
+     "answer": "vrai",
+     "why": "The passage says several firms \"have reduced the number of graduates they hire\" (« plusieurs cabinets ont réduit leurs recrutements »)."
+    },
+    {
+     "id": "V21-2",
+     "s": "The firms report a surplus of staff at manager level.",
+     "answer": "faux",
+     "why": "They \"continue to report shortages\" at senior and manager level (pénurie, et non excédent)."
+    },
+    {
+     "id": "V21-3",
+     "s": "The firms have publicly acknowledged that fewer graduate hires could create future staffing problems.",
+     "answer": "faux",
+     "why": "The passage states that \"the firms have not commented on this risk\" (les cabinets ne se sont pas exprimés)."
+    },
+    {
+     "id": "V21-4",
+     "s": "Automation has eliminated all routine testing in audit.",
+     "answer": "nsp",
+     "why": "Automation is cited as a reason for hiring fewer graduates, but nothing says it has eliminated all routine testing (le texte ne permet pas de l'affirmer)."
+    }
+   ]
+  },
+  {
+   "id": "V22",
+   "lang": "en",
+   "title": "Supply chain finance",
+   "text": "Supply chain finance allows a company's suppliers to be paid early by a bank, while the company itself pays the bank at a later date. The arrangement can help suppliers manage their cash flow, but it can also make the buyer's liabilities harder to understand. Because amounts owed under these programmes are often still presented as trade payables, investors may underestimate how much the company effectively owes to banks. New disclosure requirements now oblige companies to provide information about the terms and size of such arrangements. Critics argue that disclosure alone does not address the risk that banks may withdraw the facilities at short notice.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V22-1",
+     "s": "Under supply chain finance, the company pays its suppliers early.",
+     "answer": "faux",
+     "why": "It is the bank that pays the suppliers early; the company pays the bank later (c'est la banque qui paie les fournisseurs)."
+    },
+    {
+     "id": "V22-2",
+     "s": "Companies must now disclose information about these arrangements.",
+     "answer": "vrai",
+     "why": "\"New disclosure requirements now oblige companies to provide information\" (nouvelle obligation d'information)."
+    },
+    {
+     "id": "V22-3",
+     "s": "Banks have recently withdrawn many supply chain finance facilities.",
+     "answer": "nsp",
+     "why": "Critics mention the risk that banks \"may\" withdraw facilities; nothing says this has happened (simple risque évoqué)."
+    }
+   ]
+  },
+  {
+   "id": "V23",
+   "lang": "en",
+   "title": "Inventory write-downs",
+   "text": "Retailer Norvane recorded an inventory write-down of €4.2 million in its latest financial year, compared with €1.1 million the year before. The increase mainly relates to winter clothing that remained unsold after an unusually mild season. Management expects to sell most of the affected stock through discount channels over the coming months. The auditors reviewed post year-end sales prices to assess whether the write-down was sufficient. The company's overall gross margin fell by two percentage points, although management did not specify how much of this decline was due to the write-down.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V23-1",
+     "s": "The inventory write-down was almost four times the previous year's amount.",
+     "answer": "vrai",
+     "why": "€4.2m is about 3.8 times €1.1m (environ 3,8 fois : « presque quatre fois »)."
+    },
+    {
+     "id": "V23-2",
+     "s": "The write-down was the only cause of the fall in gross margin.",
+     "answer": "nsp",
+     "why": "Management \"did not specify how much of this decline was due to the write-down\" (part non précisée)."
+    },
+    {
+     "id": "V23-3",
+     "s": "The auditors examined sales prices achieved after the year end.",
+     "answer": "vrai",
+     "why": "They \"reviewed post year-end sales prices\" (prix de vente postérieurs à la clôture)."
+    },
+    {
+     "id": "V23-4",
+     "s": "Most of the written-down stock has already been sold.",
+     "answer": "faux",
+     "why": "Management \"expects to sell\" it \"over the coming months\": it has not been sold yet (vente à venir)."
+    }
+   ]
+  },
+  {
+   "id": "V24",
+   "lang": "en",
+   "title": "Remote audit procedures",
+   "text": "During periods when travel was restricted, many audit teams had to perform procedures remotely, including observing inventory counts through live video. Some firms found that remote techniques worked well for testing documents that were already digital. However, they also reported that it was harder to assess the condition of physical assets and to pick up informal information from conversations with client staff. Most firms now use a combination of remote and on-site work, deciding case by case which approach is more appropriate.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V24-1",
+     "s": "Some inventory count observations were performed through live video.",
+     "answer": "vrai",
+     "why": "The passage mentions \"observing inventory counts through live video\" (observation à distance des inventaires)."
+    },
+    {
+     "id": "V24-2",
+     "s": "Firms found remote work equally effective for all audit procedures.",
+     "answer": "faux",
+     "why": "They reported it was harder to assess physical assets and gather informal information (moins efficace pour certaines procédures)."
+    },
+    {
+     "id": "V24-3",
+     "s": "Most firms now perform all their audit work on site.",
+     "answer": "faux",
+     "why": "Most firms \"now use a combination of remote and on-site work\" (approche mixte)."
+    }
+   ]
+  },
+  {
+   "id": "V25",
+   "lang": "en",
+   "title": "Goodwill impairment",
+   "text": "Under international accounting standards, goodwill arising from an acquisition is not amortised. Instead, it must be tested for impairment at least annually, and whenever there is an indication that it may be impaired. The test compares the carrying amount of the cash-generating unit to which the goodwill is allocated with its recoverable amount. Because the recoverable amount often depends on forecasts of future cash flows and on the discount rate chosen, the test involves significant judgement. Regulators have repeatedly asked companies to explain more clearly the key assumptions used, particularly when the margin between the recoverable amount and the carrying amount is small.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V25-1",
+     "s": "Goodwill is amortised over its useful life under international standards.",
+     "answer": "faux",
+     "why": "The passage states that goodwill \"is not amortised\" (pas d'amortissement)."
+    },
+    {
+     "id": "V25-2",
+     "s": "An impairment test may be required more than once a year.",
+     "answer": "vrai",
+     "why": "It is required at least annually \"and whenever there is an indication\" of impairment (test supplémentaire possible)."
+    },
+    {
+     "id": "V25-3",
+     "s": "Most companies recognise a goodwill impairment every year.",
+     "answer": "nsp",
+     "why": "Nothing in the passage indicates how often impairments are actually recognised (aucune donnée sur la fréquence)."
+    },
+    {
+     "id": "V25-4",
+     "s": "The choice of discount rate can affect the outcome of the impairment test.",
+     "answer": "vrai",
+     "why": "The recoverable amount depends \"on the discount rate chosen\" (le taux influence le résultat)."
+    }
+   ]
+  },
+  {
+   "id": "V26",
+   "lang": "en",
+   "title": "Late payment rules",
+   "text": "In many European countries, the law caps the payment terms that businesses can impose on each other. Where a payment is late, the creditor is entitled to statutory interest and to a fixed compensation for recovery costs, without having to send a reminder first. Despite these rules, surveys show that many small suppliers do not claim the interest they are owed, fearing that doing so would damage their relationship with large customers. Some governments have responded by publishing the names of companies that repeatedly pay late.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V26-1",
+     "s": "A creditor must send a reminder before claiming statutory interest on a late payment.",
+     "answer": "faux",
+     "why": "The creditor is entitled to it \"without having to send a reminder first\" (aucune relance préalable nécessaire)."
+    },
+    {
+     "id": "V26-2",
+     "s": "Some small suppliers choose not to claim interest owed because of concerns about customer relationships.",
+     "answer": "vrai",
+     "why": "They fear \"damaging their relationship with large customers\" (crainte pour la relation commerciale)."
+    },
+    {
+     "id": "V26-3",
+     "s": "Publishing the names of late payers has reduced late payment.",
+     "answer": "nsp",
+     "why": "The passage reports the measure but not its effect (effet non mesuré dans le texte)."
+    }
+   ]
+  },
+  {
+   "id": "V27",
+   "lang": "en",
+   "title": "A pricing decision",
+   "text": "Sarthel, a manufacturer of industrial pumps, increased its list prices by 6% at the start of the year to offset higher steel costs. Order volumes in the first quarter were 3% lower than a year earlier. The sales director attributes the decline mainly to customers bringing forward purchases into the previous quarter, before the price rise took effect. The finance team has not yet analysed whether any customers switched to competitors. Sarthel's competitors have not announced price changes.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V27-1",
+     "s": "Sarthel's first-quarter order volumes increased compared with a year earlier.",
+     "answer": "faux",
+     "why": "Order volumes were \"3% lower\" (en baisse de 3 %)."
+    },
+    {
+     "id": "V27-2",
+     "s": "Some customers moved to competitors because of the price increase.",
+     "answer": "nsp",
+     "why": "The finance team \"has not yet analysed\" whether customers switched (non analysé)."
+    },
+    {
+     "id": "V27-3",
+     "s": "Sarthel raised its prices partly to compensate for the rising cost of steel.",
+     "answer": "vrai",
+     "why": "The increase was made \"to offset higher steel costs\" (compenser la hausse de l'acier)."
+    },
+    {
+     "id": "V27-4",
+     "s": "Competitors have increased their prices by a similar amount.",
+     "answer": "faux",
+     "why": "Competitors \"have not announced price changes\" (aucune hausse annoncée)."
+    }
+   ]
+  },
+  {
+   "id": "V28",
+   "lang": "en",
+   "title": "Revenue recognition for software",
+   "text": "When a software company sells a licence together with a year of support services, it must decide whether these are separate obligations. If they are, the total price is allocated between them, generally in proportion to their stand-alone selling prices. Licence revenue is then often recognised when the customer gains control of the software, whereas support revenue is recognised over the year as the service is provided. Investors pay close attention to this allocation, because shifting value towards the licence brings revenue forward. The standard does not permit companies to choose an allocation simply because it produces a more favourable result.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V28-1",
+     "s": "Support revenue is usually recognised over the period in which the service is provided.",
+     "answer": "vrai",
+     "why": "Support revenue \"is recognised over the year as the service is provided\" (étalé sur la période)."
+    },
+    {
+     "id": "V28-2",
+     "s": "Allocating more of the price to the licence would delay revenue recognition.",
+     "answer": "faux",
+     "why": "Shifting value towards the licence \"brings revenue forward\" (cela avance le revenu)."
+    },
+    {
+     "id": "V28-3",
+     "s": "Companies may choose the allocation that gives the most favourable result.",
+     "answer": "faux",
+     "why": "The standard \"does not permit\" this (interdit)."
+    },
+    {
+     "id": "V28-4",
+     "s": "Most software companies sell licences together with support services.",
+     "answer": "nsp",
+     "why": "The passage describes the case but gives no information on how common it is (fréquence non indiquée)."
+    }
+   ]
+  },
+  {
+   "id": "V29",
+   "lang": "en",
+   "title": "Office energy savings",
+   "text": "A professional services firm installed smart thermostats and motion-sensitive lighting in its three offices last year. Electricity consumption across the offices fell by 14%, and the firm estimates that the equipment will pay for itself within four years. Staff surveys show mixed reactions: some employees welcomed the changes, while others complained that the lights switched off while they were still at their desks. The firm plans to extend the system to its two remaining offices next year.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V29-1",
+     "s": "The firm has five offices in total.",
+     "answer": "vrai",
+     "why": "Three offices were equipped and \"two remaining offices\" will follow: 3 + 2 = 5 (cinq bureaux au total)."
+    },
+    {
+     "id": "V29-2",
+     "s": "All staff were satisfied with the new lighting system.",
+     "answer": "faux",
+     "why": "Reactions were \"mixed\" and some employees complained (réactions partagées)."
+    },
+    {
+     "id": "V29-3",
+     "s": "The equipment has already paid for itself.",
+     "answer": "faux",
+     "why": "The firm \"estimates that the equipment will pay for itself within four years\": it has not yet done so (amortissement attendu sur quatre ans)."
+    }
+   ]
+  },
+  {
+   "id": "V30",
+   "lang": "en",
+   "title": "Cyber risk and audits",
+   "text": "Cyber attacks can disrupt a company's operations and corrupt the financial data on which its accounts are based. Auditors are therefore paying more attention to IT general controls, such as access management and change management, which help ensure that systems process data reliably. An auditor is not responsible for preventing cyber attacks. However, if an attack occurs during the year, the auditor must consider whether it could have led to material misstatements and whether the company's disclosures are adequate.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V30-1",
+     "s": "Auditors are responsible for preventing cyber attacks at their clients.",
+     "answer": "faux",
+     "why": "The passage states that \"an auditor is not responsible for preventing cyber attacks\" (non responsable)."
+    },
+    {
+     "id": "V30-2",
+     "s": "Access management is an example of an IT general control.",
+     "answer": "vrai",
+     "why": "It is cited as an example (exemple cité)."
+    },
+    {
+     "id": "V30-3",
+     "s": "Cyber attacks on companies have become more frequent.",
+     "answer": "nsp",
+     "why": "The passage does not discuss the frequency of attacks (fréquence non abordée)."
+    }
+   ]
+  },
+  {
+   "id": "V31",
+   "lang": "en",
+   "title": "Interest rate hedging",
+   "text": "Valcourt Group has a €200 million floating-rate loan. To protect itself against rising interest rates, it entered into an interest rate swap covering 75% of the loan, under which it pays a fixed rate and receives a floating rate. As a result, only a quarter of the loan remains exposed to changes in market rates. The treasurer says the group will review whether to extend the hedge when the swap matures in two years. The cost of the swap has not been disclosed.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V31-1",
+     "s": "The swap covers €150 million of the loan.",
+     "answer": "vrai",
+     "why": "75% of €200 million is €150 million (75 % de 200 M€)."
+    },
+    {
+     "id": "V31-2",
+     "s": "Under the swap, Valcourt pays a floating rate.",
+     "answer": "faux",
+     "why": "Valcourt \"pays a fixed rate and receives a floating rate\" (elle paie un taux fixe)."
+    },
+    {
+     "id": "V31-3",
+     "s": "The group has decided to extend the hedge when the swap matures.",
+     "answer": "faux",
+     "why": "It \"will review whether to extend\" it: no decision has been taken (décision non prise)."
+    },
+    {
+     "id": "V31-4",
+     "s": "The swap was cheaper than alternative hedging instruments.",
+     "answer": "nsp",
+     "why": "The cost of the swap \"has not been disclosed\" (coût non communiqué)."
+    }
+   ]
+  },
+  {
+   "id": "V32",
+   "lang": "en",
+   "title": "Expense claims",
+   "text": "A company's internal audit team reviewed a sample of 200 employee expense claims. It found that 12 claims lacked a receipt and 5 had been approved by the claimant's own subordinate rather than by a manager. All the claims without receipts were below €50. The team recommended an automated check in the expense system to block approval by subordinates. Management has agreed to implement the change but has not set a date.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V32-1",
+     "s": "More than 10% of the claims reviewed lacked a receipt.",
+     "answer": "faux",
+     "why": "12 out of 200 is 6% (6 %, donc moins de 10 %)."
+    },
+    {
+     "id": "V32-2",
+     "s": "Some claims were approved by someone more junior than the claimant.",
+     "answer": "vrai",
+     "why": "Five were approved \"by the claimant's own subordinate\" (approuvées par un subordonné)."
+    },
+    {
+     "id": "V32-3",
+     "s": "The automated check will be in place by the end of the year.",
+     "answer": "nsp",
+     "why": "Management \"has not set a date\" (aucune date fixée)."
+    }
+   ]
+  },
+  {
+   "id": "V33",
+   "lang": "en",
+   "title": "Going concern in the hospitality sector",
+   "text": "A hotel group reported a net loss for the third consecutive year and breached one of the covenants on its bank loan at the year end. Before the accounts were approved, the bank agreed to waive the breach for twelve months. Management has prepared cash flow forecasts showing that the group can meet its obligations over that period, assuming occupancy rates return to their pre-crisis level. The auditors considered this assumption optimistic and asked management to describe the uncertainty in the notes to the accounts.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V33-1",
+     "s": "The hotel group has made a loss in each of the last three years.",
+     "answer": "vrai",
+     "why": "It \"reported a net loss for the third consecutive year\" (trois exercices déficitaires de suite)."
+    },
+    {
+     "id": "V33-2",
+     "s": "The bank refused to waive the covenant breach.",
+     "answer": "faux",
+     "why": "The bank \"agreed to waive the breach for twelve months\" (dérogation accordée)."
+    },
+    {
+     "id": "V33-3",
+     "s": "The auditors agreed that management's occupancy assumption was realistic.",
+     "answer": "faux",
+     "why": "They \"considered this assumption optimistic\" (hypothèse jugée optimiste)."
+    },
+    {
+     "id": "V33-4",
+     "s": "The group's occupancy rates have already returned to pre-crisis levels.",
+     "answer": "nsp",
+     "why": "The forecasts assume a return to pre-crisis levels; the passage does not say this has happened (hypothèse, pas un fait constaté)."
+    }
+   ]
+  },
+  {
+   "id": "V34",
+   "lang": "en",
+   "title": "Payroll outsourcing",
+   "text": "Many medium-sized companies outsource payroll processing to specialist providers. Outsourcing can reduce costs and give access to expertise in changing employment rules, but the company remains responsible for the accuracy of its payroll and for the data it sends to the provider. Auditors of a company that uses such a provider often rely on a report from the provider's own auditor describing the controls in place. That report only covers the provider's controls; the company must still operate its own controls, such as reviewing payroll reports before payments are made.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V34-1",
+     "s": "Outsourcing payroll transfers responsibility for payroll accuracy to the provider.",
+     "answer": "faux",
+     "why": "\"The company remains responsible for the accuracy of its payroll\" (la responsabilité reste à l'entreprise)."
+    },
+    {
+     "id": "V34-2",
+     "s": "The report from the provider's auditor covers the client company's own controls.",
+     "answer": "faux",
+     "why": "It \"only covers the provider's controls\" (seulement ceux du prestataire)."
+    },
+    {
+     "id": "V34-3",
+     "s": "Outsourcing payroll always reduces costs.",
+     "answer": "nsp",
+     "why": "The passage says outsourcing \"can\" reduce costs, not that it always does (possibilité, pas certitude)."
+    }
+   ]
+  },
+  {
+   "id": "V35",
+   "lang": "en",
+   "title": "Commodity prices and a food producer",
+   "text": "Cocoa prices rose sharply over the past year. Ortéga Foods, which buys cocoa for its chocolate products, had fixed the price of about 60% of its expected needs through forward contracts signed earlier. The remaining 40% was bought at market prices. The company has announced price increases for its products, which will take effect in three months. Analysts expect its operating margin to fall this year, although the company has not issued formal guidance.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V35-1",
+     "s": "Ortéga Foods bought all of its cocoa at market prices.",
+     "answer": "faux",
+     "why": "About 60% was fixed through forward contracts; only 40% was bought at market prices (60 % sous contrats à terme)."
+    },
+    {
+     "id": "V35-2",
+     "s": "The company's price increases are already in effect.",
+     "answer": "faux",
+     "why": "They \"will take effect in three months\" (entrée en vigueur à venir)."
+    },
+    {
+     "id": "V35-3",
+     "s": "Ortéga Foods expects its operating margin to fall this year.",
+     "answer": "nsp",
+     "why": "It is analysts who expect a fall; the company \"has not issued formal guidance\" (ce sont les analystes qui le prévoient)."
+    }
+   ]
+  },
+  {
+   "id": "V36",
+   "lang": "en",
+   "title": "Materiality judgements",
+   "text": "Materiality is not only a matter of size. A misstatement that is small in amount may still be material because of its nature: for example, if it turns a small profit into a loss, affects compliance with a loan covenant, or involves a related party. Auditors therefore consider both quantitative and qualitative factors when evaluating the misstatements they identify. Uncorrected misstatements are accumulated and assessed together, because several individually small errors can be material in aggregate.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V36-1",
+     "s": "A misstatement can be material even if its amount is small.",
+     "answer": "vrai",
+     "why": "The passage states that a small misstatement \"may still be material because of its nature\" (nature de l'anomalie)."
+    },
+    {
+     "id": "V36-2",
+     "s": "Auditors assess each uncorrected misstatement only on its own.",
+     "answer": "faux",
+     "why": "They are \"accumulated and assessed together\" (évaluation cumulée)."
+    },
+    {
+     "id": "V36-3",
+     "s": "A misstatement involving a related party is always material.",
+     "answer": "nsp",
+     "why": "The passage says such misstatements may be material; it does not say they always are (« peut », pas « toujours »)."
+    },
+    {
+     "id": "V36-4",
+     "s": "Turning a profit into a loss is given as an example of a qualitative factor.",
+     "answer": "vrai",
+     "why": "It is cited as an example of materiality by nature (exemple cité)."
+    }
+   ]
+  },
+  {
+   "id": "V37",
+   "lang": "en",
+   "title": "Graduate training programmes",
+   "text": "New audit associates at a large firm follow a four-week induction programme before joining client teams. The programme covers audit methodology, the firm's software and professional ethics. Associates must then pass a series of professional exams over the following three years while working full time. The firm pays the exam fees and grants study leave before each exam. Associates who fail an exam twice may be asked to leave the firm.",
+   "difficulty": 1,
+   "statements": [
+    {
+     "id": "V37-1",
+     "s": "The induction programme lasts four weeks.",
+     "answer": "vrai",
+     "why": "It is described as \"a four-week induction programme\" (quatre semaines)."
+    },
+    {
+     "id": "V37-2",
+     "s": "Associates pay their own exam fees.",
+     "answer": "faux",
+     "why": "\"The firm pays the exam fees\" (pris en charge par le cabinet)."
+    },
+    {
+     "id": "V37-3",
+     "s": "Most associates pass all their exams at the first attempt.",
+     "answer": "nsp",
+     "why": "The passage gives no pass rates (aucun taux de réussite)."
+    }
+   ]
+  },
+  {
+   "id": "V38",
+   "lang": "en",
+   "title": "Lease accounting changes",
+   "text": "Since the introduction of the current lease standard, most leases are recognised on the lessee's balance sheet as a right-of-use asset and a lease liability. Previously, operating leases appeared only in the notes. As a result, companies with many leased stores or aircraft reported higher assets and liabilities. Their operating profit also tended to increase, because the rent expense was replaced by depreciation and interest, and interest is presented below operating profit. Net profit over the full lease term, however, is unchanged in total.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V38-1",
+     "s": "Under the current standard, most leases appear on the lessee's balance sheet.",
+     "answer": "vrai",
+     "why": "Most leases \"are recognised on the lessee's balance sheet\" (inscription au bilan)."
+    },
+    {
+     "id": "V38-2",
+     "s": "The change reduced the reported liabilities of companies with many leased stores.",
+     "answer": "faux",
+     "why": "They \"reported higher assets and liabilities\" (dettes en hausse)."
+    },
+    {
+     "id": "V38-3",
+     "s": "Interest on lease liabilities is presented within operating profit.",
+     "answer": "faux",
+     "why": "Interest is \"presented below operating profit\" (sous le résultat opérationnel)."
+    },
+    {
+     "id": "V38-4",
+     "s": "Airlines were the companies most affected by the change.",
+     "answer": "nsp",
+     "why": "Aircraft are cited as an example, but no comparison of the most affected sectors is made (pas de classement)."
+    }
+   ]
+  },
+  {
+   "id": "V39",
+   "lang": "en",
+   "title": "Whistleblowing channels",
+   "text": "Large companies are generally required to set up internal channels allowing employees to report suspected wrongdoing. Reports must be handled confidentially, and whistleblowers are protected against retaliation. Employees may also report directly to a competent external authority without first using the internal channel. Companies that operate effective internal channels often detect problems earlier, according to a study by a governance institute, although the study did not measure the effect on financial losses.",
+   "difficulty": 2,
+   "statements": [
+    {
+     "id": "V39-1",
+     "s": "Employees must use the internal channel before contacting an external authority.",
+     "answer": "faux",
+     "why": "They \"may also report directly to a competent external authority without first using the internal channel\" (signalement externe direct possible)."
+    },
+    {
+     "id": "V39-2",
+     "s": "Whistleblowers are protected against retaliation.",
+     "answer": "vrai",
+     "why": "The passage states this explicitly (protection contre les représailles)."
+    },
+    {
+     "id": "V39-3",
+     "s": "Effective internal channels reduce financial losses.",
+     "answer": "nsp",
+     "why": "The study \"did not measure the effect on financial losses\" (effet non mesuré)."
+    }
+   ]
+  },
+  {
+   "id": "V40",
+   "lang": "en",
+   "title": "Share buybacks",
+   "text": "Kerlis Technologies announced a €300 million share buyback programme, to be carried out over eighteen months. The board said the programme reflects confidence in the company's cash generation and will increase earnings per share by reducing the number of shares in issue. Some investors argued that the cash would be better spent on research and development, where Kerlis has reduced its spending for two consecutive years. The company has not said whether the repurchased shares will be cancelled or held in treasury.",
+   "difficulty": 3,
+   "statements": [
+    {
+     "id": "V40-1",
+     "s": "The buyback will be completed within one year.",
+     "answer": "faux",
+     "why": "It is \"to be carried out over eighteen months\" (sur dix-huit mois)."
+    },
+    {
+     "id": "V40-2",
+     "s": "Kerlis's research and development spending has fallen for two years in a row.",
+     "answer": "vrai",
+     "why": "Kerlis \"has reduced its spending for two consecutive years\" (baisse deux années de suite)."
+    },
+    {
+     "id": "V40-3",
+     "s": "The repurchased shares will be cancelled.",
+     "answer": "nsp",
+     "why": "The company \"has not said whether the repurchased shares will be cancelled or held in treasury\" (non précisé)."
+    },
+    {
+     "id": "V40-4",
+     "s": "All investors supported the buyback programme.",
+     "answer": "faux",
+     "why": "\"Some investors argued\" that the cash would be better used elsewhere (critiques de certains investisseurs)."
+    }
+   ]
+  }
+ ]
+}

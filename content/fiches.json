@@ -1,0 +1,190 @@
+{
+ "module": "fiches",
+ "fiches": [
+  {
+   "id": "formats",
+   "icon": "🗂️",
+   "title": "Ce qui vous attend chez chaque cabinet",
+   "intro": "Synthèse des retours de candidats et des sites spécialisés consultés le 17 novembre 2026. Les formats changent d'une année et d'un poste à l'autre : fiez-vous toujours d'abord au courriel d'invitation du cabinet.",
+   "sections": [
+    {
+     "h": "Deloitte",
+     "p": [
+      "Tests en ligne en première étape pour de nombreux postes : aptitudes cognitives (numérique, logique) et mises en situation.",
+      "Des candidats en audit citent aussi un test d'anglais, un test de personnalité et, parfois, un test de connaissances en comptabilité et audit."
+     ]
+    },
+    {
+     "h": "PwC",
+     "p": [
+      "Les évaluations en ligne combinent des tests d'aptitude classiques (numérique, verbal, logique inductive) et une évaluation sous forme de jeux.",
+      "Des candidats auditeurs juniors à Neuilly-sur-Seine (fin 2025) mentionnent un test d'anglais avec un niveau B2 minimum (écrit et oral), un test psychotechnique et un test de comptabilité."
+     ]
+    },
+    {
+     "h": "EY",
+     "p": [
+      "Évaluation en ligne : numérique, verbal et jugement situationnel, parfois sous forme de « job simulation ».",
+      "À Paris, des candidats citent un test d'anglais, de logique et de mise en situation, ou des tests de logique et de personnalité à passer sous 72 heures."
+     ]
+    },
+    {
+     "h": "KPMG",
+     "p": [
+      "Les tests de présélection seraient fournis par Cappfinity : jugement situationnel, numérique, verbal, souvent suivis d'un entretien vidéo.",
+      "Des candidats en France décrivent un appel RH puis des tests en ligne dont un test psychotechnique."
+     ]
+    },
+    {
+     "h": "À retenir",
+     "p": [
+      "Préparez-vous au socle commun : numérique, verbal, logique, mises en situation, anglais. Les connaissances techniques et la personnalité viennent souvent en plus.",
+      "Les éditeurs (SHL, Cappfinity, Aon, Arctic Shores, Saville…) adaptent leurs formats : l'application entraîne les compétences, pas un format exact.",
+      "Passez les tests dans un endroit calme, avec une connexion fiable, une calculatrice et du brouillon si c'est autorisé."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategie",
+   "icon": "⏱️",
+   "title": "Stratégie de temps",
+   "intro": "Les tests d'aptitude sont conçus pour que peu de candidats finissent. La gestion du temps compte autant que la justesse.",
+   "sections": [
+    {
+     "h": "Avant de commencer",
+     "p": [
+      "Lisez les consignes : pénalité ou non pour une mauvaise réponse ? Retour en arrière possible ou non ?",
+      "Sans pénalité, ne laissez jamais une question vide en fin de temps : répondez au mieux.",
+      "Calculez votre budget : durée ÷ nombre de questions (environ 1 min en numérique, 35 à 40 s par affirmation en verbal)."
+     ]
+    },
+    {
+     "h": "Pendant le test numérique",
+     "p": [
+      "Lisez la question AVANT le tableau : vous saurez quelles données chercher.",
+      "Vérifiez l'unité (k€, M€, %) et la période demandées.",
+      "Estimez un ordre de grandeur avant de calculer : vous éliminerez souvent deux ou trois propositions.",
+      "Si une question dépasse 1 min 30, choisissez la réponse la plus plausible et passez : les points suivants valent autant."
+     ]
+    },
+    {
+     "h": "Pendant le test verbal",
+     "p": [
+      "Jugez uniquement d'après le texte, jamais d'après vos connaissances.",
+      "« Vrai » : le texte l'affirme ou l'implique nécessairement. « Faux » : le texte affirme le contraire. « On ne peut pas savoir » : le texte ne permet pas de trancher.",
+      "Méfiez-vous des mots absolus (toujours, tous, uniquement) et des nuances (la plupart, certains, peut)."
+     ]
+    },
+    {
+     "h": "Pendant les mises en situation",
+     "p": [
+      "Il n'y a pas de piège de rapidité : prenez le temps de lire chaque option.",
+      "Cherchez la réponse qui protège la qualité, l'intégrité et le client tout en restant transparente avec le responsable.",
+      "Les pires réponses sont souvent : cacher une erreur, céder à une pression du client, décider seul d'une chose qui ne relève pas de vous."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "personnalite",
+   "icon": "🧭",
+   "title": "Tests de personnalité",
+   "intro": "Ils ne se « réussissent » pas : ils décrivent votre façon habituelle de travailler. Il n'y a pas de quiz ici, et c'est volontaire.",
+   "sections": [
+    {
+     "h": "Ce qu'ils mesurent",
+     "p": [
+      "Des préférences de comportement : organisation, rapport aux règles, travail en équipe, gestion du stress, goût pour l'analyse ou pour le contact.",
+      "Le résultat est comparé à un profil de référence du poste et sert souvent de base à des questions en entretien."
+     ]
+    },
+    {
+     "h": "Pourquoi la cohérence compte",
+     "p": [
+      "Le questionnaire repose les mêmes questions sous des formes différentes. Des réponses contradictoires abaissent l'indice de cohérence et peuvent vous pénaliser davantage qu'un trait « non idéal ».",
+      "Les questions à choix forcé (« lequel vous ressemble le plus / le moins ») rendent difficile toute tentative de manipulation."
+     ]
+    },
+    {
+     "h": "Pourquoi ne pas chercher le « bon » profil",
+     "p": [
+      "Vous ne connaissez pas le profil exact attendu, et un profil trop parfait est souvent repéré.",
+      "Si votre profil est ensuite discuté en entretien, vous devrez défendre des réponses qui ne vous ressemblent pas.",
+      "Un poste qui ne correspond pas à votre fonctionnement réel sera difficile à vivre au quotidien."
+     ]
+    },
+    {
+     "h": "Comment s'y préparer",
+     "p": [
+      "Répondez spontanément, en pensant à votre comportement au travail (stage, alternance), pas en privé.",
+      "Évitez les réponses extrêmes systématiques comme les réponses neutres systématiques.",
+      "Préparez des exemples concrets (rigueur, travail sous pression, désaccord avec un collègue) pour l'entretien qui suit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jeux",
+   "icon": "🎮",
+   "title": "Tests sous forme de jeux",
+   "intro": "Certains cabinets, notamment PwC, utilisent des évaluations sous forme de mini-jeux. Les trois jeux de l'application sont une simple familiarisation : ils ne reproduisent aucun test réel.",
+   "sections": [
+    {
+     "h": "Ce qui est mesuré",
+     "p": [
+      "Des capacités cognitives (mémoire de travail, attention, rapidité de traitement, raisonnement) et des traits de comportement (prise de risque, persévérance, réaction à l'échec).",
+      "Les jeux enregistrent souvent la façon de jouer (temps de réaction, stratégie, régularité), pas seulement le score final."
+     ]
+    },
+    {
+     "h": "Comment bien les aborder",
+     "p": [
+      "Lisez attentivement les consignes et faites les essais proposés.",
+      "Jouez naturellement : il n'existe pas de stratégie unique attendue, et vouloir « jouer le profil » rend le comportement incohérent.",
+      "Faites-les reposé, sans interruption, sur un appareil stable (souvent un ordinateur ou une tablette conseillés)."
+     ]
+    },
+    {
+     "h": "Les jeux de l'application",
+     "p": [
+      "Mémoire de séquence : retenir et reproduire une suite de cases qui s'allument.",
+      "Attention sélective : réagir vite à une cible et ignorer les distracteurs.",
+      "Risque mesuré : accumuler des points en acceptant un risque croissant, et savoir s'arrêter."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verbal",
+   "icon": "📖",
+   "title": "Méthode Vrai / Faux / On ne peut pas savoir",
+   "intro": "L'option « On ne peut pas savoir » est le piège central des tests verbaux.",
+   "sections": [
+    {
+     "h": "La règle d'or",
+     "p": [
+      "Seul le texte compte. Une affirmation peut être vraie dans la réalité et devoir être jugée « On ne peut pas savoir » si le texte n'en dit rien."
+     ]
+    },
+    {
+     "h": "Les pièges fréquents",
+     "p": [
+      "Le texte dit « peut » ou « certains » ; l'affirmation dit « toujours » ou « tous ».",
+      "L'affirmation ajoute une cause, une conséquence ou un chiffre que le texte ne donne pas.",
+      "Une prévision (« devrait », « espère », « envisage ») présentée comme un fait accompli.",
+      "Un acteur substitué : ce sont les analystes qui prévoient, pas l'entreprise."
+     ]
+    },
+    {
+     "h": "Méthode rapide",
+     "p": [
+      "1. Lisez l'affirmation et repérez son mot clé.",
+      "2. Cherchez la phrase du texte qui en parle.",
+      "3. Elle dit la même chose : Vrai. Elle dit le contraire : Faux. Rien de précis : On ne peut pas savoir."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,906 @@
+{
+ "module": "technique",
+ "title": "Calculs : amortissements, provisions, stocks, analyse financière",
+ "items": [
+  {
+   "id": "T051",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Machine acquise et mise en service le 1er janvier pour 60 000 € HT, amortie en linéaire sur 5 ans. Dotation annuelle ?",
+   "answer": "12 000 €",
+   "distractors": [
+    "15 000 €",
+    "6 000 €",
+    "10 000 €"
+   ],
+   "explain": "Annuité linéaire = base amortissable ÷ durée = 60 000 ÷ 5 = 12 000 € (taux 20 %).",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T052",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Matériel de 48 000 € HT mis en service le 1er octobre N, amorti en linéaire sur 4 ans. Exercice clos le 31 décembre. Dotation de l'exercice N ?",
+   "answer": "3 000 €",
+   "distractors": [
+    "12 000 €",
+    "9 000 €",
+    "4 000 €"
+   ],
+   "explain": "Annuité pleine : 48 000 ÷ 4 = 12 000 €. Prorata temporis de 3 mois (octobre à décembre) : 12 000 × 3/12 = 3 000 €. En linéaire, le prorata part de la date de mise en service.",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T053",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Véhicule acquis 30 000 €, valeur résiduelle estimée et significative de 6 000 € au bout de 4 ans d'utilisation. Dotation linéaire annuelle ?",
+   "answer": "6 000 €",
+   "distractors": [
+    "7 500 €",
+    "4 500 €",
+    "9 000 €"
+   ],
+   "explain": "La base amortissable est le coût diminué de la valeur résiduelle (lorsqu'elle est significative et mesurable) : (30 000 − 6 000) ÷ 4 = 6 000 €.",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T054",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Immobilisation de 80 000 € amortie en linéaire sur 8 ans, mise en service un 1er janvier. Valeur nette comptable après 3 ans ?",
+   "answer": "50 000 €",
+   "distractors": [
+    "30 000 €",
+    "60 000 €",
+    "70 000 €"
+   ],
+   "explain": "Annuité : 10 000 €. Amortissements cumulés après 3 ans : 30 000 €. VNC = 80 000 − 30 000 = 50 000 €.",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 1,
+   "time": 45
+  },
+  {
+   "id": "T055",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "amortissements",
+   "q": "Quel coefficient fiscal d'amortissement dégressif s'applique à un bien dont la durée d'utilisation est de 5 ans ?",
+   "answer": "1,75",
+   "distractors": [
+    "1,25",
+    "2,25",
+    "2"
+   ],
+   "explain": "Coefficients : 1,25 pour 3 ou 4 ans ; 1,75 pour 5 ou 6 ans ; 2,25 au-delà de 6 ans.",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 2,
+   "time": 35
+  },
+  {
+   "id": "T056",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Quel est le taux d'amortissement dégressif d'un bien amortissable sur 5 ans ?",
+   "answer": "35 %",
+   "distractors": [
+    "20 %",
+    "40 %",
+    "25 %"
+   ],
+   "explain": "Taux linéaire 20 % × coefficient 1,75 = 35 %.",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T057",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Matériel industriel de 20 000 € acquis le 1er janvier, amorti en dégressif sur 5 ans. Première annuité ?",
+   "answer": "7 000 €",
+   "distractors": [
+    "4 000 €",
+    "8 000 €",
+    "5 000 €"
+   ],
+   "explain": "Taux dégressif = 20 % × 1,75 = 35 %. Première annuité = 20 000 × 35 % = 7 000 € (exercice complet).",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T058",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Bien de 40 000 € acquis le 15 avril N, amorti en dégressif sur 5 ans. Exercice clos le 31 décembre. Dotation de l'exercice N ?",
+   "answer": "10 500 €",
+   "distractors": [
+    "9 917 €",
+    "14 000 €",
+    "8 167 €"
+   ],
+   "explain": "En dégressif, le prorata se calcule en mois entiers à partir du premier jour du mois d'acquisition : 9 mois (avril à décembre). 40 000 × 35 % × 9/12 = 10 500 €. Le calcul au jour près (9 917 €) est celui du linéaire.",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 3,
+   "time": 75
+  },
+  {
+   "id": "T059",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "amortissements",
+   "q": "En amortissement dégressif, à quel moment passe-t-on à l'amortissement linéaire ?",
+   "answer": "Quand l'annuité linéaire calculée sur la durée restante devient supérieure à l'annuité dégressive",
+   "distractors": [
+    "Après la moitié de la durée d'utilisation",
+    "Quand la VNC devient inférieure à la moitié du coût",
+    "Jamais : le mode choisi est conservé jusqu'au bout"
+   ],
+   "explain": "L'annuité dégressive (VNC × taux) diminue chaque année. Dès que la VNC ÷ nombre d'années restantes la dépasse, on bascule en linéaire pour amortir complètement le bien dans la durée prévue.",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 3,
+   "time": 50
+  },
+  {
+   "id": "T060",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "amortissements",
+   "q": "Quel coefficient dégressif s'applique à un bien amortissable sur 3 ans ?",
+   "answer": "1,25",
+   "distractors": [
+    "1,75",
+    "2,25",
+    "1,5"
+   ],
+   "explain": "3 ou 4 ans : 1,25 ; 5 ou 6 ans : 1,75 ; plus de 6 ans : 2,25. Un bien de 3 ans a donc un taux de 33,33 % × 1,25 = 41,67 %.",
+   "ref": "CGI, art. 39 A",
+   "difficulty": 2,
+   "time": 30
+  },
+  {
+   "id": "T061",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "immobilisations",
+   "q": "Une immobilisation de valeur nette comptable 14 000 € est cédée 18 000 €. Quel est le résultat de cession ?",
+   "answer": "Plus-value de 4 000 €",
+   "distractors": [
+    "Moins-value de 4 000 €",
+    "Plus-value de 18 000 €",
+    "Plus-value de 32 000 €"
+   ],
+   "explain": "Résultat de cession = prix de cession − VNC = 18 000 − 14 000 = + 4 000 €.",
+   "ref": "PCG (sortie d'actifs) ; IAS 16, § 68-71",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T062",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Un bâtiment de 900 000 € (hors terrain) comprend une toiture de 150 000 € (durée 25 ans) et une structure de 750 000 € (durée 50 ans). Dotation annuelle linéaire ?",
+   "answer": "21 000 €",
+   "distractors": [
+    "18 000 €",
+    "36 000 €",
+    "15 000 €"
+   ],
+   "explain": "Approche par composants : toiture 150 000 ÷ 25 = 6 000 € ; structure 750 000 ÷ 50 = 15 000 €. Total = 21 000 €. Amortir le tout sur 50 ans donnerait 18 000 €.",
+   "ref": "PCG (approche par composants) ; IAS 16, § 43-47",
+   "difficulty": 3,
+   "time": 70
+  },
+  {
+   "id": "T063",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Un ensemble immobilier est acquis 800 000 € : terrain 200 000 €, construction 600 000 € amortie sur 40 ans. Dotation annuelle ?",
+   "answer": "15 000 €",
+   "distractors": [
+    "20 000 €",
+    "5 000 €",
+    "0 €"
+   ],
+   "explain": "Le terrain n'est pas amortissable (durée d'utilisation illimitée). Dotation = 600 000 ÷ 40 = 15 000 €.",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T064",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "amortissements",
+   "q": "Une machine de 100 000 € est amortie selon les unités d'œuvre (capacité totale 50 000 heures). Elle a fonctionné 8 000 heures sur l'exercice. Dotation ?",
+   "answer": "16 000 €",
+   "distractors": [
+    "20 000 €",
+    "8 000 €",
+    "12 500 €"
+   ],
+   "explain": "Le mode des unités d'œuvre reflète le rythme réel de consommation : 100 000 × 8 000 ÷ 50 000 = 16 000 €.",
+   "ref": "PCG (amortissement des actifs) ; IAS 16, § 50-62",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T065",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "provisions",
+   "q": "Selon l'avocat de la société, une condamnation dans un litige est « possible mais pas probable ». Quel traitement ?",
+   "answer": "Pas de provision, information en annexe si l'enjeu est significatif",
+   "distractors": [
+    "Provision pour la totalité de la demande",
+    "Provision pour la moitié de la demande",
+    "Dépréciation de l'actif concerné"
+   ],
+   "explain": "Une provision exige une sortie de ressources probable. Une sortie seulement possible relève du passif éventuel : pas de provision, mais une information en annexe si elle est significative.",
+   "ref": "PCG (provisions) ; IAS 37, § 14 et 86",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T066",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "provisions",
+   "q": "Une entreprise accorde une garantie de 1 an. Historiquement, les coûts de garantie représentent 1,5 % du chiffre d'affaires. CA de l'exercice : 2 000 000 €. Provision pour garantie ?",
+   "answer": "30 000 €",
+   "distractors": [
+    "20 000 €",
+    "300 000 €",
+    "15 000 €"
+   ],
+   "explain": "Obligation actuelle (garantie donnée), sortie probable et estimable sur la base statistique : 2 000 000 × 1,5 % = 30 000 €.",
+   "ref": "PCG (provisions pour garanties) ; IAS 37",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T067",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "provisions",
+   "q": "Une provision pour litige de 20 000 € avait été constituée. Le litige se règle cette année par le paiement de 12 000 €. Quel est l'impact net sur le résultat de l'exercice ?",
+   "answer": "+ 8 000 €",
+   "distractors": [
+    "− 12 000 €",
+    "+ 20 000 €",
+    "− 32 000 €"
+   ],
+   "explain": "La reprise de la provision (+ 20 000 €) compense la charge réelle (− 12 000 €) : impact net + 8 000 €. La perte avait déjà été anticipée l'an dernier.",
+   "ref": "PCG (reprises de provisions) ; IAS 37, § 59-61",
+   "difficulty": 3,
+   "time": 60
+  },
+  {
+   "id": "T068",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "stocks",
+   "q": "Un stock coûte 50 000 €. Sa valeur nette de réalisation (prix de vente estimé moins frais de vente) est de 42 000 €. Dépréciation ?",
+   "answer": "8 000 €",
+   "distractors": [
+    "0 €",
+    "42 000 €",
+    "50 000 €"
+   ],
+   "explain": "Les stocks sont évalués au plus faible du coût et de la valeur nette de réalisation : 50 000 − 42 000 = 8 000 € de dépréciation.",
+   "ref": "PCG (évaluation des stocks) ; IAS 2, § 9",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T069",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "stocks",
+   "q": "Stock initial : 100 unités à 10 €. Entrée : 300 unités à 12 €. Coût unitaire moyen pondéré après l'entrée ?",
+   "answer": "11,50 €",
+   "distractors": [
+    "11,00 €",
+    "12,00 €",
+    "11,25 €"
+   ],
+   "explain": "CUMP = (100 × 10 + 300 × 12) ÷ 400 = (1 000 + 3 600) ÷ 400 = 11,50 €. La moyenne simple des prix (11 €) ignore les quantités.",
+   "ref": "PCG (méthodes d'évaluation des stocks) ; IAS 2, § 25",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T070",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "stocks",
+   "q": "Stock initial : 100 unités à 10 €. Entrée : 300 unités à 12 €. Sortie : 250 unités. Valeur du stock final selon la méthode PEPS (premier entré, premier sorti) ?",
+   "answer": "1 800 €",
+   "distractors": [
+    "1 725 €",
+    "1 500 €",
+    "2 000 €"
+   ],
+   "explain": "PEPS : les 250 sorties consomment d'abord les 100 unités à 10 €, puis 150 à 12 €. Restent 150 unités à 12 € = 1 800 €. Au CUMP (11,50 €), on obtiendrait 1 725 €.",
+   "ref": "PCG (méthodes d'évaluation des stocks) ; IAS 2, § 25",
+   "difficulty": 2,
+   "time": 60
+  },
+  {
+   "id": "T071",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "stocks",
+   "q": "Quelle méthode d'évaluation des sorties de stock n'est admise ni en PCG ni en IFRS ?",
+   "answer": "DEPS (dernier entré, premier sorti)",
+   "distractors": [
+    "PEPS (premier entré, premier sorti)",
+    "Coût unitaire moyen pondéré",
+    "Identification spécifique pour des biens non interchangeables"
+   ],
+   "explain": "Le DEPS (LIFO) est interdit : il peut sous-évaluer durablement les stocks. Les méthodes admises sont le PEPS et le CUMP (et l'identification spécifique pour les éléments non fongibles).",
+   "ref": "IAS 2, § 23-25 ; PCG",
+   "difficulty": 2,
+   "time": 35
+  },
+  {
+   "id": "T072",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "tva",
+   "q": "Un montant TTC de 3 000 € comprend une TVA à 20 %. Quel est le montant HT ?",
+   "answer": "2 500 €",
+   "distractors": [
+    "2 400 €",
+    "2 600 €",
+    "3 600 €"
+   ],
+   "explain": "HT = TTC ÷ 1,20 = 3 000 ÷ 1,2 = 2 500 €. Retirer 20 % du TTC (2 400 €) est faux car la TVA se calcule sur le HT.",
+   "ref": "CGI, art. 278",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T073",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Stocks : 120 k€. Créances clients : 260 k€. Dettes fournisseurs : 180 k€. Quel est le besoin en fonds de roulement d'exploitation ?",
+   "answer": "200 k€",
+   "distractors": [
+    "560 k€",
+    "380 k€",
+    "80 k€"
+   ],
+   "explain": "BFRE = stocks + créances d'exploitation − dettes d'exploitation = 120 + 260 − 180 = 200 k€.",
+   "ref": "Analyse financière (bilan fonctionnel)",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T074",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Résultat net : 50 k€. Dotations aux amortissements et provisions : 30 k€. Reprises sur provisions : 5 k€. Pas de cession d'actif. Capacité d'autofinancement ?",
+   "answer": "75 k€",
+   "distractors": [
+    "85 k€",
+    "80 k€",
+    "45 k€"
+   ],
+   "explain": "Méthode additive : CAF = résultat net + dotations − reprises (éléments calculés sans effet sur la trésorerie) = 50 + 30 − 5 = 75 k€.",
+   "ref": "Analyse financière (CAF, méthode additive)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T075",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Valeur ajoutée : 500 k€. Subventions d'exploitation : 10 k€. Impôts et taxes : 20 k€. Charges de personnel : 330 k€. Excédent brut d'exploitation ?",
+   "answer": "160 k€",
+   "distractors": [
+    "140 k€",
+    "170 k€",
+    "180 k€"
+   ],
+   "explain": "EBE = valeur ajoutée + subventions d'exploitation − impôts et taxes − charges de personnel = 500 + 10 − 20 − 330 = 160 k€.",
+   "ref": "PCG (soldes intermédiaires de gestion)",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T076",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "EBE : 160 k€. Dotations aux amortissements : 45 k€. Reprises sur provisions d'exploitation : 5 k€. Pas d'autres produits ni charges d'exploitation. Résultat d'exploitation ?",
+   "answer": "120 k€",
+   "distractors": [
+    "110 k€",
+    "200 k€",
+    "115 k€"
+   ],
+   "explain": "Résultat d'exploitation = EBE − dotations + reprises (et autres produits et charges d'exploitation) = 160 − 45 + 5 = 120 k€.",
+   "ref": "PCG (soldes intermédiaires de gestion)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T077",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "fiscalite",
+   "q": "Quel est le taux normal de l'impôt sur les sociétés en France ?",
+   "answer": "25 %",
+   "distractors": [
+    "33,33 %",
+    "28 %",
+    "15 %"
+   ],
+   "explain": "Le taux normal est de 25 % depuis 2022. Les PME éligibles bénéficient d'un taux réduit de 15 % sur une première tranche de bénéfice.",
+   "ref": "CGI, art. 219",
+   "difficulty": 1,
+   "time": 30
+  },
+  {
+   "id": "T078",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "fiscalite",
+   "q": "PME éligible au taux réduit (CA inférieur à 10 M€, capital entièrement libéré et détenu à 75 % au moins par des personnes physiques). Bénéfice imposable : 100 000 €. Impôt sur les sociétés ?",
+   "answer": "20 750 €",
+   "distractors": [
+    "25 000 €",
+    "15 000 €",
+    "18 625 €"
+   ],
+   "explain": "15 % sur les 42 500 premiers euros = 6 375 € ; 25 % sur les 57 500 € restants = 14 375 €. Total = 20 750 €.",
+   "ref": "CGI, art. 219, I-b",
+   "difficulty": 3,
+   "time": 70
+  },
+  {
+   "id": "T079",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "fiscalite",
+   "q": "Comment enregistre-t-on, dans les comptes individuels, l'écart entre un amortissement fiscal dégressif et un amortissement comptable linéaire ?",
+   "answer": "En amortissements dérogatoires (provision réglementée, compte 145)",
+   "distractors": [
+    "En dépréciation de l'immobilisation",
+    "En provision pour risques",
+    "En charge constatée d'avance"
+   ],
+   "explain": "L'excédent d'amortissement fiscal sur l'amortissement économique est une provision réglementée (145) : il permet de bénéficier de l'avantage fiscal sans modifier l'amortissement comptable. Il n'existe pas en IFRS.",
+   "ref": "PCG, compte 145",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T080",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "change",
+   "q": "Créance de 10 000 USD enregistrée au cours de 1 EUR = 1,10 USD. À la clôture, 1 EUR = 1,20 USD. Quelle provision pour perte de change (PCG, pas de couverture) ?",
+   "answer": "758 €",
+   "distractors": [
+    "833 €",
+    "909 €",
+    "0 €"
+   ],
+   "explain": "Valeur d'origine : 10 000 ÷ 1,10 = 9 091 €. Valeur à la clôture : 10 000 ÷ 1,20 = 8 333 €. Perte latente = 758 €, inscrite en écart de conversion actif et couverte par une provision pour risque de change.",
+   "ref": "PCG (opérations en devises, écarts de conversion)",
+   "difficulty": 3,
+   "time": 75
+  },
+  {
+   "id": "T081",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "change",
+   "q": "En comptes individuels (PCG), un gain de change latent sur une créance en devise à la clôture est :",
+   "answer": "Inscrit en écart de conversion passif, sans effet sur le résultat",
+   "distractors": [
+    "Comptabilisé en produit financier",
+    "Ignoré totalement",
+    "Porté en capitaux propres"
+   ],
+   "explain": "Par prudence, le PCG n'enregistre pas les gains latents en résultat : l'écart va au passif (écart de conversion passif). En IFRS (IAS 21), l'écart sur un élément monétaire va en résultat, qu'il soit positif ou négatif.",
+   "ref": "PCG (écarts de conversion) ; IAS 21, § 23 et 28",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T082",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "financement",
+   "q": "Emprunt de 100 000 € remboursable par amortissements constants sur 5 ans, taux 4 %. Montant de la première annuité ?",
+   "answer": "24 000 €",
+   "distractors": [
+    "20 000 €",
+    "22 463 €",
+    "4 000 €"
+   ],
+   "explain": "Amortissement constant du capital : 100 000 ÷ 5 = 20 000 €. Intérêts de la 1re année sur le capital restant dû : 100 000 × 4 % = 4 000 €. Annuité = 24 000 € (les suivantes baissent).",
+   "ref": "Mathématiques financières (emprunt à amortissement constant)",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T083",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "location",
+   "q": "Dans les comptes individuels établis selon le PCG, un contrat de crédit-bail est traité par le preneur :",
+   "answer": "En charges de loyers, avec une information en annexe sur les engagements",
+   "distractors": [
+    "En immobilisation avec une dette financière",
+    "En stock",
+    "En provision pour charges"
+   ],
+   "explain": "Le PCG ne retraite pas le crédit-bail dans les comptes individuels : les redevances sont des charges et les engagements figurent en annexe. En IFRS 16, le preneur inscrit un droit d'utilisation et une dette locative.",
+   "ref": "PCG ; IFRS 16 pour comparaison",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T084",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "location",
+   "q": "IFRS 16 : loyers de 10 000 € payables en fin d'année pendant 3 ans, taux d'actualisation 5 %. Montant initial de la dette locative ?",
+   "answer": "27 232 €",
+   "distractors": [
+    "30 000 €",
+    "28 594 €",
+    "28 500 €"
+   ],
+   "explain": "Valeur actuelle = 10 000 ÷ 1,05 + 10 000 ÷ 1,05² + 10 000 ÷ 1,05³ = 9 524 + 9 070 + 8 638 = 27 232 €. Avec des loyers payés en début d'année, on obtiendrait 28 594 €.",
+   "ref": "IFRS 16, § 26",
+   "difficulty": 3,
+   "time": 80
+  },
+  {
+   "id": "T085",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "subventions",
+   "q": "Une subvention d'investissement de 30 000 € finance un matériel amorti en linéaire sur 5 ans. L'entreprise étale la subvention. Quote-part reprise en résultat chaque année ?",
+   "answer": "6 000 €",
+   "distractors": [
+    "30 000 €",
+    "3 000 €",
+    "10 000 €"
+   ],
+   "explain": "La subvention inscrite en capitaux propres est rapportée au résultat au même rythme que l'amortissement du bien financé : 30 000 ÷ 5 = 6 000 € par an.",
+   "ref": "PCG (subventions d'investissement)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T086",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Capitaux permanents : 800 k€. Actif immobilisé net : 650 k€. Quel est le fonds de roulement net global ?",
+   "answer": "150 k€",
+   "distractors": [
+    "1 450 k€",
+    "−150 k€",
+    "650 k€"
+   ],
+   "explain": "FRNG = ressources stables − emplois stables = 800 − 650 = 150 k€.",
+   "ref": "Analyse financière (bilan fonctionnel)",
+   "difficulty": 1,
+   "time": 40
+  },
+  {
+   "id": "T087",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Fonds de roulement : 150 k€. Besoin en fonds de roulement : 200 k€. Quelle est la trésorerie nette ?",
+   "answer": "−50 k€",
+   "distractors": [
+    "50 k€",
+    "350 k€",
+    "−350 k€"
+   ],
+   "explain": "Trésorerie nette = FR − BFR = 150 − 200 = −50 k€ : le BFR n'est pas entièrement financé par des ressources stables, l'entreprise recourt à des concours bancaires courants.",
+   "ref": "Analyse financière (équilibre fonctionnel)",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T088",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Stock moyen de marchandises : 60 000 €. Coût d'achat des marchandises vendues : 480 000 €. Durée moyenne de stockage (année de 360 jours) ?",
+   "answer": "45 jours",
+   "distractors": [
+    "8 jours",
+    "60 jours",
+    "30 jours"
+   ],
+   "explain": "Durée = stock moyen ÷ coût d'achat des marchandises vendues × 360 = 60 000 ÷ 480 000 × 360 = 45 jours (rotation de 8 fois par an).",
+   "ref": "Analyse financière (ratios de rotation)",
+   "difficulty": 2,
+   "time": 50
+  },
+  {
+   "id": "T089",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "ratios",
+   "q": "Dettes financières nettes : 300 k€. Capitaux propres : 600 k€. Quel est le ratio d'endettement net (gearing) ?",
+   "answer": "0,5",
+   "distractors": [
+    "2",
+    "0,33",
+    "1,5"
+   ],
+   "explain": "Gearing = dettes financières nettes ÷ capitaux propres = 300 ÷ 600 = 0,5.",
+   "ref": "Analyse financière (structure financière)",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T090",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "cdg",
+   "q": "Charges fixes : 240 000 €. Taux de marge sur coût variable : 40 %. Seuil de rentabilité (chiffre d'affaires) ?",
+   "answer": "600 000 €",
+   "distractors": [
+    "96 000 €",
+    "400 000 €",
+    "336 000 €"
+   ],
+   "explain": "Seuil = charges fixes ÷ taux de marge sur coût variable = 240 000 ÷ 0,40 = 600 000 €.",
+   "ref": "Contrôle de gestion (analyse coût-volume-profit)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T091",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "materialite",
+   "q": "Le cabinet retient un seuil de signification égal à 5 % du résultat courant avant impôt, qui s'élève à 6 M€. Quel est le seuil de signification ?",
+   "answer": "300 k€",
+   "distractors": [
+    "600 k€",
+    "30 k€",
+    "3 M€"
+   ],
+   "explain": "6 000 k€ × 5 % = 300 k€. Le choix de la base (résultat, chiffre d'affaires, capitaux propres…) et du pourcentage relève du jugement professionnel.",
+   "ref": "NEP 320 ; ISA 320",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T092",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "materialite",
+   "q": "Seuil de signification : 300 k€. Le seuil de planification (performance materiality) est fixé à 75 %. Montant ?",
+   "answer": "225 k€",
+   "distractors": [
+    "75 k€",
+    "400 k€",
+    "300 k€"
+   ],
+   "explain": "300 × 75 % = 225 k€. Ce seuil, inférieur au seuil de signification, réduit le risque que le cumul d'anomalies non détectées dépasse le seuil de signification.",
+   "ref": "NEP 320 ; ISA 320, § 11",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T093",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "materialite",
+   "q": "Seuil de signification : 300 k€. Le seuil des anomalies manifestement insignifiantes est fixé à 5 % du seuil de signification. Montant ?",
+   "answer": "15 k€",
+   "distractors": [
+    "5 k€",
+    "60 k€",
+    "150 k€"
+   ],
+   "explain": "300 × 5 % = 15 k€. En dessous, les anomalies relevées ne sont pas cumulées (elles sont manifestement sans incidence, seules ou cumulées).",
+   "ref": "NEP 450 ; ISA 450",
+   "difficulty": 2,
+   "time": 40
+  },
+  {
+   "id": "T094",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "rapprochement",
+   "q": "Relevé bancaire : 8 400 € en faveur de l'entreprise. Chèques émis non encore débités : 1 900 €. Remise de chèques déposée non encore créditée : 600 €. Quel solde bancaire rectifié ?",
+   "answer": "7 100 €",
+   "distractors": [
+    "9 700 €",
+    "10 900 €",
+    "5 900 €"
+   ],
+   "explain": "Solde rectifié côté banque = 8 400 − 1 900 + 600 = 7 100 €. Les chèques émis réduiront le solde, la remise l'augmentera.",
+   "ref": "Procédure de rapprochement bancaire",
+   "difficulty": 2,
+   "time": 55
+  },
+  {
+   "id": "T095",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "stocks",
+   "q": "Le coût d'entrée d'un stock de marchandises achetées comprend :",
+   "answer": "Le prix d'achat, les droits de douane et les frais de transport, déduction faite des remises commerciales",
+   "distractors": [
+    "Le prix de vente prévu diminué de la marge",
+    "Le prix d'achat et les frais de stockage après réception",
+    "Le prix d'achat TTC"
+   ],
+   "explain": "Le coût d'acquisition comprend le prix d'achat, les droits de douane, le transport, la manutention et les autres coûts directement attribuables, après déduction des rabais et remises. Les frais de stockage postérieurs et la TVA récupérable en sont exclus.",
+   "ref": "PCG (coût d'acquisition des stocks) ; IAS 2, § 11 et 16",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T096",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "provisions",
+   "q": "Quelles conditions doivent être réunies pour constituer une provision ?",
+   "answer": "Une obligation existant à la clôture, une sortie de ressources probable et un montant estimable de façon fiable",
+   "distractors": [
+    "Une perte possible à long terme",
+    "Une décision de la direction d'économiser pour une dépense future",
+    "Une baisse du résultat prévisionnel"
+   ],
+   "explain": "Une provision est un passif dont l'échéance ou le montant est incertain. Il faut une obligation (légale, contractuelle ou implicite) à la clôture, une sortie de ressources probable sans contrepartie au moins équivalente, et une estimation fiable.",
+   "ref": "PCG (provisions) ; IAS 37, § 14",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T097",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "provisions",
+   "q": "Une entreprise prévoit de gros travaux d'entretien sur son siège dans trois ans, sans obligation légale. En IFRS, peut-elle provisionner ces travaux ?",
+   "answer": "Non : il n'existe aucune obligation actuelle à la clôture",
+   "distractors": [
+    "Oui, pour la totalité du devis",
+    "Oui, pour un tiers du devis par an",
+    "Oui, si le conseil d'administration l'a décidé"
+   ],
+   "explain": "Une intention de dépenser n'est pas une obligation : l'entreprise peut éviter la dépense (vendre le bâtiment, renoncer aux travaux). IAS 37 interdit la provision ; les dépenses seront traitées comme composant ou charge le moment venu.",
+   "ref": "IAS 37, § 19-20",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T098",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "stocks",
+   "q": "À quoi sert l'inventaire physique de fin d'exercice ?",
+   "answer": "Vérifier l'existence et la quantité réelle des stocks à la clôture",
+   "distractors": [
+    "Calculer la marge commerciale prévisionnelle",
+    "Déterminer le prix de vente des produits",
+    "Contrôler les factures fournisseurs"
+   ],
+   "explain": "Le comptage permet de comparer les quantités réelles aux quantités théoriques et de corriger les écarts (casse, vol, erreurs). Pour l'auditeur, y assister fournit des éléments probants sur l'existence et l'état des stocks.",
+   "ref": "Code de commerce, art. L.123-12 (inventaire annuel) ; NEP 501 / ISA 501",
+   "difficulty": 1,
+   "time": 35
+  },
+  {
+   "id": "T099",
+   "module": "technique",
+   "lang": "fr",
+   "type": "qcm",
+   "theme": "ecritures",
+   "q": "Une facture d'achat de 1 000 € HT a été enregistrée deux fois par erreur. Comment corriger ?",
+   "answer": "Passer une écriture inverse (ou en négatif) annulant le doublon, avec une pièce justificative",
+   "distractors": [
+    "Supprimer la ligne dans le journal validé",
+    "Attendre la facture suivante pour compenser",
+    "Passer une provision pour risques"
+   ],
+   "explain": "Une écriture validée ne se supprime pas (principe d'intangibilité) : on la contrepasse par une écriture d'annulation documentée.",
+   "ref": "Code de commerce, art. L.123-12 et s. ; PCG (caractère définitif des enregistrements)",
+   "difficulty": 2,
+   "time": 45
+  },
+  {
+   "id": "T100",
+   "module": "technique",
+   "lang": "fr",
+   "type": "calcul",
+   "theme": "cdg",
+   "q": "Chiffre d'affaires : 1 000 000 €. Seuil de rentabilité : 750 000 €. Quelle est la marge de sécurité, en % du chiffre d'affaires ?",
+   "answer": "25 %",
+   "distractors": [
+    "33 %",
+    "75 %",
+    "250 %"
+   ],
+   "explain": "Marge de sécurité = CA − seuil = 250 000 €, soit 250 000 ÷ 1 000 000 = 25 % du CA (indice de sécurité). Diviser par le seuil (33 %) est l'erreur de base.",
+   "ref": "Contrôle de gestion (analyse coût-volume-profit)",
+   "difficulty": 2,
+   "time": 50
+  }
+ ]
+}
